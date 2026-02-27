@@ -25,6 +25,9 @@ export function Header() {
           <Link href="/compare" className="text-sm font-medium text-gray-600 hover:text-[var(--color-primary)]">
             Compare
           </Link>
+          <Link href="/calculator" className="text-sm font-medium text-gray-600 hover:text-[var(--color-primary)]">
+            Calculator
+          </Link>
           <Link href="/categories/travel" className="text-sm font-medium text-gray-600 hover:text-[var(--color-primary)]">
             Travel
           </Link>
@@ -62,6 +65,9 @@ export function Header() {
             </Link>
             <Link href="/compare" className="text-sm font-medium text-gray-600" onClick={() => setMobileOpen(false)}>
               Compare
+            </Link>
+            <Link href="/calculator" className="text-sm font-medium text-gray-600" onClick={() => setMobileOpen(false)}>
+              Rewards Calculator
             </Link>
             <Link href="/categories/travel" className="text-sm font-medium text-gray-600" onClick={() => setMobileOpen(false)}>
               Travel Cards

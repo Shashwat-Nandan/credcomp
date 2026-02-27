@@ -4,6 +4,8 @@ import { SITE_URL } from "@/lib/constants";
 import categoriesData from "@/data/categories.json";
 import issuersData from "@/data/issuers.json";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const cardSlugs = getCardSlugs();
 
@@ -11,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: SITE_URL, lastModified: new Date(), changeFrequency: "weekly" as const, priority: 1 },
     { url: `${SITE_URL}/cards`, lastModified: new Date(), changeFrequency: "weekly" as const, priority: 0.9 },
     { url: `${SITE_URL}/compare`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${SITE_URL}/calculator`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.8 },
   ];
 
   const cardPages = cardSlugs.map((slug) => ({
