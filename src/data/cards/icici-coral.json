@@ -1,0 +1,120 @@
+{
+  "slug": "icici-coral",
+  "name": "ICICI Coral Credit Card",
+  "issuer": "icici",
+  "network": "visa",
+  "tier": "mid",
+  "categories": ["entertainment", "rewards", "dining"],
+  "imageUrl": "/images/cards/icici-coral.webp",
+  "fees": {
+    "joining": 500,
+    "annual": 500,
+    "renewal": 500,
+    "waiverCondition": "Annual fee waived on spending ₹1,50,000 in the previous year",
+    "waiverSpendThreshold": 150000
+  },
+  "rewards": {
+    "pointName": "PAYBACK Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.25,
+    "categoryRates": [
+      {
+        "category": "Dining",
+        "rate": 4,
+        "description": "4 PAYBACK Points per ₹100 spent on dining"
+      },
+      {
+        "category": "All other spends",
+        "rate": 2,
+        "description": "2 PAYBACK Points per ₹100 spent on all other retail purchases"
+      }
+    ],
+    "cappedCategories": [],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments",
+      "Insurance premiums",
+      "EMI transactions"
+    ],
+    "redemptionOptions": [
+      "PAYBACK catalogue redemption",
+      "Gift vouchers (Amazon, Flipkart, etc.)",
+      "Statement credit",
+      "Air miles conversion"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "BookMyShow vouchers worth ₹500",
+      "value": 500,
+      "condition": "On payment of joining fee and first transaction"
+    }
+  ],
+  "milestoneBenefits": [],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 4,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 0,
+      "visitPeriod": "annual"
+    },
+    "provider": "Dreamfolks / Visa Lounge Program"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "BookMyShow Buy 1 Get 1 on movie tickets (1 free ticket per month)",
+    "Dining privileges at partner restaurants",
+    "Contactless payment enabled",
+    "Interest-free credit period up to 48 days"
+  ],
+  "eligibility": {
+    "minIncome": 400000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.7,
+  "pros": [
+    "BookMyShow Buy 1 Get 1 saves up to ₹250-400 per month on movies",
+    "4 complimentary domestic lounge visits per year",
+    "Double reward points on dining spends",
+    "Reasonable annual fee of ₹500 with achievable waiver",
+    "Good stepping stone to ICICI premium cards"
+  ],
+  "cons": [
+    "Base reward rate of 0.50% is below average",
+    "No international lounge access",
+    "High foreign currency markup at 3.5%",
+    "BMS offer limited to 1 ticket per month"
+  ],
+  "idealFor": [
+    "Movie enthusiasts who watch films regularly in theatres",
+    "Those who dine out frequently and want bonus rewards on dining",
+    "Users seeking a mid-range card with lounge access and entertainment perks"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How does the BookMyShow Buy 1 Get 1 offer work?",
+      "answer": "You can book 2 movie tickets on BookMyShow and get the second one free, up to a maximum discount of ₹250. This offer is valid once per month and applies to all movie screenings."
+    },
+    {
+      "question": "How many lounge visits do I get with the ICICI Coral?",
+      "answer": "You get 4 complimentary domestic airport lounge visits per year through Dreamfolks or Visa Lounge Program. International lounge access is not included with this card."
+    },
+    {
+      "question": "How can I waive the annual fee?",
+      "answer": "The annual fee of ₹500 is waived when you spend ₹1,50,000 or more in the previous anniversary year. This works out to roughly ₹12,500 per month in spending."
+    },
+    {
+      "question": "Can I upgrade from ICICI Coral to a higher card?",
+      "answer": "Yes, ICICI Bank allows upgrades from Coral to Rubyx or Sapphiro based on your spending patterns, credit score, and income. You can request an upgrade through iMobile or by contacting customer care."
+    }
+  ]
+}

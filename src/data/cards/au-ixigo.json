@@ -1,0 +1,145 @@
+{
+  "slug": "au-ixigo",
+  "name": "AU ixigo Credit Card",
+  "issuer": "au",
+  "network": "visa",
+  "tier": "mid",
+  "categories": ["travel", "rewards"],
+  "imageUrl": "/images/cards/au-ixigo.webp",
+  "fees": {
+    "joining": 499,
+    "annual": 499,
+    "renewal": 499,
+    "waiverCondition": "Annual fee waived on spending ₹1,50,000 or more in the previous year",
+    "waiverSpendThreshold": 150000
+  },
+  "rewards": {
+    "pointName": "ixigo money",
+    "baseEarnRate": 1,
+    "pointValue": 1,
+    "maxPointValue": 1,
+    "categoryRates": [
+      {
+        "category": "ixigo bookings (flights, trains, buses)",
+        "rate": 5,
+        "description": "5% ixigo money on all bookings made on ixigo platform"
+      },
+      {
+        "category": "Other travel spends",
+        "rate": 2,
+        "description": "2% ixigo money on non-ixigo travel transactions"
+      },
+      {
+        "category": "All other spends",
+        "rate": 1,
+        "description": "1% ixigo money on all other purchases"
+      }
+    ],
+    "cappedCategories": [
+      {
+        "category": "ixigo bookings (5%)",
+        "maxPointsPerMonth": 1000,
+        "description": "5% ixigo money on ixigo capped at ₹1,000 per month"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments",
+      "EMI transactions"
+    ],
+    "redemptionOptions": [
+      "ixigo money for flight bookings",
+      "ixigo money for train bookings",
+      "ixigo money for bus bookings",
+      "ixigo money for hotel bookings"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "₹500 ixigo credit on card activation",
+      "value": 500,
+      "condition": "On payment of joining fee and first transaction"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 100000,
+      "period": "annual",
+      "benefit": "₹500 ixigo credit bonus",
+      "value": 500
+    },
+    {
+      "spendThreshold": 150000,
+      "period": "annual",
+      "benefit": "Annual fee waiver for next year",
+      "value": 499
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 4,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 0,
+      "visitPeriod": "annual"
+    },
+    "provider": "Dreamfolks / Visa Lounges"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 200
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "5% rewards on ixigo platform - flights, trains, buses, and hotels",
+    "4 complimentary domestic lounge visits per year",
+    "ixigo money never expires as long as card is active",
+    "Easy integration with ixigo app for seamless bookings",
+    "1% fuel surcharge waiver"
+  ],
+  "eligibility": {
+    "minIncome": 350000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.5,
+  "pros": [
+    "Excellent 5% return on ixigo bookings for frequent travellers",
+    "Low annual fee of ₹499 with easy ₹1.5L waiver threshold",
+    "Welcome benefit of ₹500 ixigo credit covers the joining fee",
+    "Good 2% return on all travel spends beyond ixigo",
+    "4 domestic lounge visits at a budget-friendly price point"
+  ],
+  "cons": [
+    "Rewards are locked into ixigo ecosystem for redemption",
+    "Only 1% return on non-travel spends",
+    "No international lounge access",
+    "3.5% forex markup makes it poor for international use"
+  ],
+  "idealFor": [
+    "Frequent domestic travellers who book via ixigo",
+    "Budget travellers looking for rewards on trains, buses, and flights",
+    "Users who want a low-cost travel rewards card"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "What is ixigo money and how can I use it?",
+      "answer": "ixigo money is the reward currency that can be used for bookings on the ixigo platform including flights, trains, buses, and hotels. It works like a wallet balance within the ixigo app."
+    },
+    {
+      "question": "Does the 5% reward apply to all ixigo bookings?",
+      "answer": "Yes, the 5% ixigo money reward applies to all bookings made on the ixigo platform including flights, trains, buses, and hotels. However, it is capped at ₹1,000 per month."
+    },
+    {
+      "question": "Can I redeem rewards outside of ixigo?",
+      "answer": "No, ixigo money earned through this card can only be redeemed on the ixigo platform for travel bookings. It cannot be converted to cash or used at other merchants."
+    },
+    {
+      "question": "Is the ₹499 fee worth it?",
+      "answer": "The ₹500 welcome ixigo credit more than covers the joining fee. The annual fee is waived at ₹1.5L spend. If you book travel on ixigo even a few times a year, the 5% return easily justifies the cost."
+    }
+  ]
+}

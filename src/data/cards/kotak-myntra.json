@@ -1,0 +1,126 @@
+{
+  "slug": "kotak-myntra",
+  "name": "Kotak Myntra Credit Card",
+  "issuer": "kotak",
+  "network": "visa",
+  "tier": "entry",
+  "categories": ["shopping", "cashback"],
+  "imageUrl": "/images/cards/kotak-myntra.webp",
+  "fees": {
+    "joining": 0,
+    "annual": 0,
+    "renewal": 499,
+    "waiverCondition": "Spend ₹1,00,000 or more in the previous year",
+    "waiverSpendThreshold": 100000
+  },
+  "rewards": {
+    "pointName": "Cashback",
+    "baseEarnRate": 1,
+    "pointValue": 1,
+    "maxPointValue": 1,
+    "categoryRates": [
+      {
+        "category": "Myntra",
+        "rate": 7.5,
+        "description": "7.5% cashback on all Myntra purchases (capped at ₹750/month)"
+      },
+      {
+        "category": "Online shopping",
+        "rate": 5,
+        "description": "5% cashback on all other online shopping"
+      },
+      {
+        "category": "All other spends",
+        "rate": 1,
+        "description": "1% cashback on all other transactions"
+      }
+    ],
+    "cappedCategories": [
+      {
+        "category": "Myntra",
+        "maxPointsPerMonth": 750
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI transactions",
+      "Rent payments"
+    ],
+    "redemptionOptions": [
+      "Automatic cashback credited to statement",
+      "Myntra credit for Myntra cashback"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "₹500 Myntra voucher on card activation",
+      "value": 500,
+      "condition": "On card activation and first transaction"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 100000,
+      "period": "annual",
+      "benefit": "Renewal fee waiver for the next year",
+      "value": 499
+    }
+  ],
+  "loungeAccess": null,
+  "insurance": null,
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 200
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "Zero joining fee — first year completely free",
+    "7.5% cashback on Myntra is among the highest co-brand rates",
+    "5% on all online shopping beyond Myntra",
+    "Exclusive Myntra insider benefits and early sale access"
+  ],
+  "eligibility": {
+    "minIncome": 250000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.5,
+  "pros": [
+    "Zero joining fee with free first year makes it risk-free to try",
+    "7.5% cashback on Myntra is one of the highest co-brand rates available",
+    "5% cashback on all online shopping is competitive beyond just Myntra",
+    "₹500 Myntra welcome voucher offsets the renewal fee",
+    "Low renewal fee of ₹499 with achievable ₹1 lakh waiver threshold"
+  ],
+  "cons": [
+    "Myntra cashback capped at ₹750 per month limits high spenders",
+    "No airport lounge access of any kind",
+    "Only 1% cashback on offline transactions is below average",
+    "3.5% foreign currency markup is standard but not competitive"
+  ],
+  "idealFor": [
+    "Frequent Myntra shoppers looking to maximize savings on fashion and lifestyle purchases",
+    "Online shoppers who want a solid 5% cashback across e-commerce platforms",
+    "Budget-conscious users who want a no-joining-fee card with good online rewards"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "Is the first year free for the Kotak Myntra card?",
+      "answer": "Yes, the joining fee is ₹0 and the first year annual fee is also ₹0. The renewal fee of ₹499 applies from the second year onwards, which can be waived by spending ₹1,00,000 in the previous year."
+    },
+    {
+      "question": "How does the 7.5% Myntra cashback work?",
+      "answer": "You earn 7.5% cashback on all purchases made on Myntra, capped at ₹750 per month. This means spends up to ₹10,000 per month on Myntra are rewarded at the full 7.5% rate."
+    },
+    {
+      "question": "Does the 5% online cashback apply to all e-commerce sites?",
+      "answer": "Yes, the 5% cashback applies to all online merchants beyond Myntra, including Amazon, Flipkart, and other e-commerce platforms. Wallet loading and rent payments are excluded."
+    },
+    {
+      "question": "Can I use this card for Myntra sales like EORS?",
+      "answer": "Yes, the 7.5% cashback applies during Myntra sales events as well, subject to the ₹750 monthly cap. You may also get exclusive early access to certain Myntra sales."
+    }
+  ]
+}

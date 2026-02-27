@@ -1,0 +1,138 @@
+{
+  "slug": "sbi-cashback",
+  "name": "SBI Cashback Credit Card",
+  "issuer": "sbi",
+  "network": "visa",
+  "tier": "mid",
+  "categories": ["cashback", "rewards"],
+  "imageUrl": "/images/cards/sbi-cashback.webp",
+  "fees": {
+    "joining": 999,
+    "annual": 999,
+    "renewal": 999,
+    "waiverCondition": "Spend ₹2,00,000 or more in the previous year",
+    "waiverSpendThreshold": 200000
+  },
+  "rewards": {
+    "pointName": "Cashback",
+    "baseEarnRate": 1,
+    "pointValue": 1,
+    "maxPointValue": 1,
+    "categoryRates": [
+      {
+        "category": "Online spends",
+        "rate": 5,
+        "description": "5% cashback on all online transactions"
+      },
+      {
+        "category": "Offline spends",
+        "rate": 1,
+        "description": "1% cashback on all offline/POS transactions"
+      }
+    ],
+    "cappedCategories": [
+      {
+        "category": "Online spends",
+        "maxPointsPerMonth": 5000
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments",
+      "EMI transactions",
+      "Government/tax payments"
+    ],
+    "redemptionOptions": [
+      "Automatic cashback credit to statement",
+      "Cashback adjusted against outstanding balance"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "₹500 Amazon voucher",
+      "value": 500,
+      "condition": "On card activation and first transaction"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 100000,
+      "period": "annual",
+      "benefit": "₹500 cashback bonus",
+      "value": 500
+    },
+    {
+      "spendThreshold": 200000,
+      "period": "annual",
+      "benefit": "Annual fee reversal",
+      "value": 999
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 4,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 0,
+      "visitPeriod": "annual"
+    },
+    "provider": "Visa"
+  },
+  "insurance": null,
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "Real-time cashback credited to statement",
+    "No reward point tracking or redemption hassle",
+    "Works on all online merchants without category restrictions",
+    "EMI conversion facility available"
+  ],
+  "eligibility": {
+    "minIncome": 400000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 4.0,
+  "pros": [
+    "Flat 5% cashback on all online spends is among the best in the segment",
+    "Cashback is auto-credited — no manual redemption needed",
+    "Reasonable annual fee with achievable waiver threshold of ₹2 lakh",
+    "4 complimentary domestic lounge visits per year",
+    "Welcome voucher partially offsets first-year fee"
+  ],
+  "cons": [
+    "Online cashback capped at ₹5,000 per month",
+    "Only 1% cashback on offline transactions",
+    "No international lounge access",
+    "3.5% foreign currency markup is on the higher side"
+  ],
+  "idealFor": [
+    "Heavy online shoppers who prefer straightforward cashback over reward points",
+    "Users who want a simple, no-hassle cashback card without category tracking",
+    "Those looking for a mid-range card with strong online rewards"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "Is the 5% cashback applicable on all online transactions?",
+      "answer": "Yes, the 5% cashback applies on all online spends including e-commerce, bill payments, and subscription services. However, wallet loading, rent payments, and EMI transactions are excluded."
+    },
+    {
+      "question": "How is the cashback credited?",
+      "answer": "Cashback is automatically credited to your card statement. There is no need to manually redeem points or vouchers."
+    },
+    {
+      "question": "What is the maximum cashback I can earn per month?",
+      "answer": "The 5% online cashback is capped at ₹5,000 per month, which means you can earn maximum cashback on online spends up to ₹1,00,000 per month. The 1% offline cashback has no specified cap."
+    },
+    {
+      "question": "How can I get the annual fee waived?",
+      "answer": "The annual fee of ₹999 is waived if your total spends in the previous year exceed ₹2,00,000."
+    }
+  ]
+}

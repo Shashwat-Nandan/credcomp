@@ -1,0 +1,154 @@
+{
+  "slug": "au-zenith-plus",
+  "name": "AU Zenith+ Credit Card",
+  "issuer": "au",
+  "network": "visa",
+  "tier": "super-premium",
+  "categories": ["travel", "premium", "lounge", "rewards"],
+  "imageUrl": "/images/cards/au-zenith-plus.webp",
+  "fees": {
+    "joining": 7999,
+    "annual": 7999,
+    "renewal": 7999,
+    "waiverCondition": "Annual fee waived on spending ₹8,00,000 or more in the previous year",
+    "waiverSpendThreshold": 800000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 3,
+    "pointValue": 0.50,
+    "maxPointValue": 0.50,
+    "categoryRates": [
+      {
+        "category": "All spends (base)",
+        "rate": 3,
+        "description": "3 Reward Points per ₹100 spent on all purchases"
+      },
+      {
+        "category": "AU Travel Portal",
+        "rate": 30,
+        "description": "10X Reward Points (30 RP per ₹100) on AU travel portal bookings"
+      },
+      {
+        "category": "International spends",
+        "rate": 15,
+        "description": "5X Reward Points (15 RP per ₹100) on all international transactions"
+      }
+    ],
+    "cappedCategories": [
+      {
+        "category": "AU Travel Portal (10X)",
+        "maxPointsPerMonth": 15000,
+        "description": "10X rewards on travel portal capped at 15,000 bonus RP per month"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments",
+      "Government/tax payments",
+      "Insurance premium payments"
+    ],
+    "redemptionOptions": [
+      "Cashback to statement (1 RP = ₹0.50)",
+      "Gift vouchers (Amazon, Flipkart, Tanishq, etc.)",
+      "Travel bookings via AU portal",
+      "Product catalogue redemption",
+      "Airline mile conversions"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "10,000 bonus Reward Points on card activation",
+      "value": 5000,
+      "condition": "On payment of joining fee and first transaction"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 400000,
+      "period": "annual",
+      "benefit": "5,000 bonus Reward Points",
+      "value": 2500
+    },
+    {
+      "spendThreshold": 800000,
+      "period": "annual",
+      "benefit": "Annual fee waiver + 10,000 bonus Reward Points",
+      "value": 12999
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": -1,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 8,
+      "visitPeriod": "annual"
+    },
+    "provider": "Dreamfolks / Visa Infinite / Priority Pass"
+  },
+  "insurance": {
+    "airAccident": "₹1,00,00,000",
+    "travelInsurance": "Up to ₹50,00,000 comprehensive travel insurance"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 500
+  },
+  "foreignCurrencyMarkup": 2,
+  "additionalBenefits": [
+    "Unlimited domestic airport lounge access",
+    "8 international lounge visits per year via Priority Pass",
+    "10X rewards on AU travel portal bookings",
+    "5X rewards on all international transactions",
+    "₹1 Crore air accident insurance coverage",
+    "₹50 Lakh travel insurance coverage",
+    "Low 2% foreign currency markup",
+    "Complimentary golf sessions and concierge services"
+  ],
+  "eligibility": {
+    "minIncome": 1500000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 4.1,
+  "pros": [
+    "Unlimited domestic lounge access for frequent flyers",
+    "Excellent 10X rewards on travel portal (5% effective return)",
+    "Strong 5X rewards on international spends (2.5% return)",
+    "Higher point value of ₹0.50 compared to lower-tier AU cards",
+    "Comprehensive travel and air accident insurance"
+  ],
+  "cons": [
+    "High joining/annual fee of ₹7,999",
+    "₹8L annual spend required for fee waiver is steep",
+    "AU Bank's travel portal may have limited inventory",
+    "Limited brand recognition compared to HDFC/Amex super-premium cards"
+  ],
+  "idealFor": [
+    "Frequent international and domestic travellers",
+    "High spenders who can hit the ₹8L waiver threshold",
+    "Users seeking premium travel benefits from a smaller bank at lower fees"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "What does unlimited domestic lounge access mean?",
+      "answer": "You can access domestic airport lounges as many times as you want throughout the year without any cap. This applies at all Dreamfolks and Visa-partnered lounges across Indian airports."
+    },
+    {
+      "question": "How does the 10X travel portal reward work?",
+      "answer": "Bookings made through AU Bank's dedicated travel portal earn 30 RP per ₹100 (10X the base rate of 3 RP). At ₹0.50 per point, this gives you an effective 15% return, capped at 15,000 bonus RP per month."
+    },
+    {
+      "question": "Is the 2% forex markup competitive?",
+      "answer": "Yes, 2% is very competitive for the Indian market. Most premium cards charge 2.5-3.5%. Only the Amex Platinum Charge (0%) and a few other super-premium cards offer lower rates."
+    },
+    {
+      "question": "How does the ₹1 Crore air accident insurance work?",
+      "answer": "If you book your flight ticket using the AU Zenith+ card, you are covered for up to ₹1 Crore in case of accidental death or permanent disability during air travel. Terms and conditions apply as per the insurance policy."
+    }
+  ]
+}

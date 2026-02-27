@@ -1,0 +1,157 @@
+{
+  "slug": "sbi-bpcl-octane",
+  "name": "SBI BPCL Octane Credit Card",
+  "issuer": "sbi",
+  "network": "visa",
+  "tier": "mid",
+  "categories": ["fuel", "cashback", "rewards"],
+  "imageUrl": "/images/cards/sbi-bpcl-octane.webp",
+  "fees": {
+    "joining": 1499,
+    "annual": 1499,
+    "renewal": 1499,
+    "waiverCondition": "Spend ₹4,00,000 or more in the previous year",
+    "waiverSpendThreshold": 400000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 1,
+    "pointValue": 0.25,
+    "maxPointValue": 0.25,
+    "categoryRates": [
+      {
+        "category": "BPCL fuel",
+        "rate": 25,
+        "description": "25X Reward Points on BPCL fuel station purchases (25 RP per ₹100)"
+      },
+      {
+        "category": "Dining",
+        "rate": 10,
+        "description": "10X Reward Points on dining transactions (10 RP per ₹100)"
+      },
+      {
+        "category": "Grocery",
+        "rate": 10,
+        "description": "10X Reward Points on grocery store purchases (10 RP per ₹100)"
+      },
+      {
+        "category": "Movies",
+        "rate": 10,
+        "description": "10X Reward Points on movie ticket purchases (10 RP per ₹100)"
+      },
+      {
+        "category": "All other spends",
+        "rate": 1,
+        "description": "1 Reward Point per ₹100 on all other transactions"
+      }
+    ],
+    "cappedCategories": [],
+    "exclusions": [
+      "Wallet loading",
+      "Rent payments",
+      "EMI transactions",
+      "Government/tax payments",
+      "Insurance premium payments"
+    ],
+    "redemptionOptions": [
+      "Statement credit (1 RP = ₹0.25)",
+      "BPCL fuel purchase redemption",
+      "Gift vouchers from SBI Card catalogue",
+      "Amazon Pay balance"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "2,000 bonus Reward Points",
+      "value": 500,
+      "condition": "On spending ₹2,000 within 30 days of card issuance"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 100000,
+      "period": "annual",
+      "benefit": "2,000 bonus Reward Points",
+      "value": 500
+    },
+    {
+      "spendThreshold": 200000,
+      "period": "annual",
+      "benefit": "Additional 3,000 bonus Reward Points",
+      "value": 750
+    },
+    {
+      "spendThreshold": 400000,
+      "period": "annual",
+      "benefit": "Annual fee waiver + 5,000 bonus Reward Points",
+      "value": 2749
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 4,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 0,
+      "visitPeriod": "annual"
+    },
+    "provider": "Visa"
+  },
+  "insurance": null,
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "25X rewards on BPCL fuel — one of the highest fuel reward rates",
+    "Fuel surcharge waiver saves additional money at the pump",
+    "4 complimentary domestic lounge visits per year",
+    "EMI conversion facility on large purchases",
+    "Contactless payment enabled"
+  ],
+  "eligibility": {
+    "minIncome": 500000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.8,
+  "pros": [
+    "25X rewards on BPCL fuel gives an effective 6.25% return — best in class for fuel",
+    "10X rewards on dining, grocery, and movies cover everyday categories well",
+    "4 domestic lounge visits add travel value",
+    "Welcome benefit of 2,000 RP partially offsets the joining fee",
+    "Good milestone benefit structure"
+  ],
+  "cons": [
+    "₹1,499 annual fee with ₹4 lakh waiver threshold is steep for a mid-tier card",
+    "Fuel rewards only applicable at BPCL stations, not all fuel pumps",
+    "Base earn rate of 1 RP/₹100 is poor on non-bonus categories",
+    "No international lounge access"
+  ],
+  "idealFor": [
+    "Users who fuel up regularly at BPCL stations and want maximum fuel rewards",
+    "Drivers with high monthly fuel spends looking for a dedicated fuel card",
+    "Those who want combined fuel + dining + grocery rewards in one card"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How much can I save on fuel with this card?",
+      "answer": "With 25X Reward Points on BPCL fuel (worth 6.25% back) plus the 1% fuel surcharge waiver, you can effectively save over 7% on every BPCL fuel purchase."
+    },
+    {
+      "question": "Do I earn rewards at non-BPCL fuel stations?",
+      "answer": "The 25X accelerated rate is exclusive to BPCL fuel stations. Non-BPCL fuel stations earn the base rate of 1 RP per ₹100, and fuel surcharge waiver applies across all fuel stations."
+    },
+    {
+      "question": "What is the annual fee waiver condition?",
+      "answer": "The ₹1,499 annual fee is waived if your total annual spends exceed ₹4,00,000 in the previous year."
+    },
+    {
+      "question": "Can I redeem Reward Points for fuel purchases?",
+      "answer": "Yes, you can redeem accumulated Reward Points for BPCL fuel purchases, statement credits, gift vouchers, or Amazon Pay balance."
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "slug": "indusind-duo",
+  "name": "IndusInd Duo Credit Card",
+  "issuer": "indusind",
+  "network": "mastercard",
+  "tier": "mid",
+  "categories": ["cashback", "rewards"],
+  "imageUrl": "/images/cards/indusind-duo.webp",
+  "fees": {
+    "joining": 599,
+    "annual": 599,
+    "renewal": 599,
+    "waiverCondition": "Spend ₹1,00,000 or more in the previous year",
+    "waiverSpendThreshold": 100000
+  },
+  "rewards": {
+    "pointName": "Reward Points / Cashback",
+    "baseEarnRate": 1.5,
+    "pointValue": 0.50,
+    "maxPointValue": 0.50,
+    "categoryRates": [
+      {
+        "category": "Cashback Mode - All spends",
+        "rate": 1.5,
+        "description": "1.5% cashback on all spends when in cashback mode"
+      },
+      {
+        "category": "Rewards Mode - Select categories",
+        "rate": 3,
+        "description": "3X reward points on select categories when in rewards mode"
+      },
+      {
+        "category": "Rewards Mode - All other spends",
+        "rate": 1,
+        "description": "1 Reward Point per ₹100 on all other spends in rewards mode"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI transactions"
+    ],
+    "redemptionOptions": [
+      "Direct cashback to account (in cashback mode)",
+      "Statement credit",
+      "Gift vouchers",
+      "Catalogue redemption"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "₹500 gift voucher on card activation",
+      "value": 500,
+      "condition": "On payment of joining fee"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 100000,
+      "period": "annual",
+      "benefit": "Bonus 500 Reward Points or ₹250 cashback",
+      "value": 250
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 2,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 0,
+      "visitPeriod": "annual"
+    },
+    "provider": "Mastercard Lounge Program"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 200
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "Dual mode switching between cashback and rewards",
+    "Fuel surcharge waiver up to ₹200 per month",
+    "Complimentary domestic lounge access (2 per year)",
+    "Instant EMI conversion on purchases above ₹2,500"
+  ],
+  "eligibility": {
+    "minIncome": 350000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.5,
+  "pros": [
+    "Unique dual mode lets you switch between cashback and reward points",
+    "Flat 1.5% cashback in cashback mode is straightforward",
+    "Low annual fee with easy waiver at ₹1L spend",
+    "3X rewards on select categories in rewards mode",
+    "Good flexibility for changing spending patterns"
+  ],
+  "cons": [
+    "Only 2 domestic lounge visits per year",
+    "No international lounge access",
+    "High foreign currency markup of 3.5%",
+    "Mode switching may not be instant"
+  ],
+  "idealFor": [
+    "Users who want flexibility to switch between cashback and rewards",
+    "Moderate spenders looking for a simple cashback card",
+    "Those who prefer straightforward flat-rate cashback on all spends"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How does the dual mode work on the IndusInd Duo card?",
+      "answer": "The Duo card lets you switch between two modes: Cashback mode gives you a flat 1.5% cashback on all spends, while Rewards mode gives you 3X reward points on select categories. You can switch modes through the IndusInd Bank app or net banking."
+    },
+    {
+      "question": "Can I switch modes frequently?",
+      "answer": "Yes, you can switch between cashback and rewards mode. However, the switch may take up to 24-48 hours to reflect on your card. Plan your mode switches around your upcoming spending."
+    },
+    {
+      "question": "Is the annual fee waivable?",
+      "answer": "Yes, the ₹599 annual fee is waived if you spend ₹1,00,000 or more in the previous anniversary year."
+    },
+    {
+      "question": "What categories earn 3X rewards in Rewards mode?",
+      "answer": "In Rewards mode, select partner categories such as shopping, dining, and entertainment earn 3X reward points. The exact list of categories may be updated periodically by IndusInd Bank."
+    }
+  ]
+}

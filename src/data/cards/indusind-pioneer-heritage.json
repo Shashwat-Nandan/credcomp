@@ -1,0 +1,150 @@
+{
+  "slug": "indusind-pioneer-heritage",
+  "name": "IndusInd Pioneer Heritage Metal Credit Card",
+  "issuer": "indusind",
+  "network": "visa",
+  "tier": "super-premium",
+  "categories": ["travel", "premium", "lounge", "rewards"],
+  "imageUrl": "/images/cards/indusind-pioneer-heritage.webp",
+  "fees": {
+    "joining": 25000,
+    "annual": 25000,
+    "renewal": 25000,
+    "waiverCondition": "Spend ₹15,00,000 or more in the previous year",
+    "waiverSpendThreshold": 1500000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.75,
+    "maxPointValue": 0.75,
+    "categoryRates": [
+      {
+        "category": "Travel & International spends",
+        "rate": 8,
+        "description": "8 Reward Points per ₹100 spent on travel and international transactions"
+      },
+      {
+        "category": "Dining",
+        "rate": 4,
+        "description": "4 Reward Points per ₹100 spent on dining"
+      },
+      {
+        "category": "All other spends",
+        "rate": 2,
+        "description": "2 Reward Points per ₹100 spent on all other purchases"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI transactions",
+      "Insurance premium payments"
+    ],
+    "redemptionOptions": [
+      "Airmiles conversion (premium ratio)",
+      "Statement credit",
+      "Luxury gift vouchers",
+      "Catalogue redemption",
+      "Travel bookings via IndusInd portal"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "25,000 bonus Reward Points",
+      "value": 18750,
+      "condition": "On payment of joining fee"
+    },
+    {
+      "description": "Premium metal card with bespoke design",
+      "condition": "On card issuance"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 800000,
+      "period": "annual",
+      "benefit": "Bonus Reward Points worth ₹10,000",
+      "value": 10000
+    },
+    {
+      "spendThreshold": 1500000,
+      "period": "annual",
+      "benefit": "Additional bonus Reward Points worth ₹20,000 + annual fee reversal",
+      "value": 45000
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": "unlimited",
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": "unlimited",
+      "visitPeriod": "annual"
+    },
+    "provider": "Priority Pass"
+  },
+  "insurance": {
+    "airAccident": "₹3,00,00,000",
+    "travelInsurance": "Up to ₹1,00,00,000 emergency medical cover overseas",
+    "purchaseProtection": "Up to ₹5,00,000 for 90 days from purchase"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 500
+  },
+  "foreignCurrencyMarkup": 1.5,
+  "additionalBenefits": [
+    "Premium metal card construction with bespoke design",
+    "Unlimited domestic and international lounge access including guest",
+    "Dedicated relationship manager and priority customer service",
+    "Global concierge service 24/7",
+    "Complimentary golf rounds at select courses",
+    "Luxury hotel stay benefits and upgrades with partner properties",
+    "Complimentary airport transfers"
+  ],
+  "eligibility": {
+    "minIncome": 4000000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 4.5,
+  "pros": [
+    "Exceptional 8X rewards on travel and international spends with ₹0.75 point value",
+    "Unlimited lounge access including guest access",
+    "Lowest foreign currency markup at 1.5% among IndusInd cards",
+    "Premium metal card with bespoke design",
+    "Comprehensive insurance with ₹3Cr air accident and ₹1Cr travel cover"
+  ],
+  "cons": [
+    "Very high joining and annual fee of ₹25,000",
+    "Requires ₹40 LPA+ income - very exclusive",
+    "₹15L spend required for fee waiver is steep",
+    "Fuel transactions excluded from rewards"
+  ],
+  "idealFor": [
+    "Ultra-high net worth individuals seeking a premium metal card experience",
+    "Frequent international travellers who can maximize 8X travel rewards",
+    "High spenders with ₹15L+ annual card spend who can unlock fee waiver and milestones"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How do I apply for the Pioneer Heritage card?",
+      "answer": "The Pioneer Heritage is largely invite-only or available to IndusInd Bank's high-value customers. You may request an upgrade from existing premium IndusInd cards or apply with proof of ₹40 LPA+ income."
+    },
+    {
+      "question": "Does the lounge access include guest visits?",
+      "answer": "Yes, the Pioneer Heritage card offers unlimited domestic and international lounge access via Priority Pass, and this includes guest access so companions can join you at the lounge."
+    },
+    {
+      "question": "Is the annual fee waivable?",
+      "answer": "Yes, the ₹25,000 annual fee is waived if you spend ₹15,00,000 or more in the previous anniversary year. The ₹15L milestone benefit also includes fee reversal."
+    },
+    {
+      "question": "What is the effective reward rate on travel spends?",
+      "answer": "With 8 RP per ₹100 at a point value of ₹0.75, the effective reward rate on travel and international spends is 6% - one of the highest available on any Indian credit card."
+    }
+  ]
+}

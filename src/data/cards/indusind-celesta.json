@@ -1,0 +1,137 @@
+{
+  "slug": "indusind-celesta",
+  "name": "IndusInd Celesta Credit Card",
+  "issuer": "indusind",
+  "network": "mastercard",
+  "tier": "premium",
+  "categories": ["travel", "lounge", "rewards"],
+  "imageUrl": "/images/cards/indusind-celesta.webp",
+  "fees": {
+    "joining": 3000,
+    "annual": 3000,
+    "renewal": 3000,
+    "waiverCondition": "Spend ₹3,00,000 or more in the previous year",
+    "waiverSpendThreshold": 300000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 1,
+    "pointValue": 0.50,
+    "maxPointValue": 0.50,
+    "categoryRates": [
+      {
+        "category": "International spends",
+        "rate": 5,
+        "description": "5X Reward Points on all international transactions"
+      },
+      {
+        "category": "Travel & Dining",
+        "rate": 3,
+        "description": "3X Reward Points on travel and dining spends"
+      },
+      {
+        "category": "All other spends",
+        "rate": 1,
+        "description": "1 Reward Point per ₹100 spent on all other purchases"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI transactions"
+    ],
+    "redemptionOptions": [
+      "Airmiles conversion",
+      "Statement credit",
+      "Gift vouchers",
+      "Catalogue redemption"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "3,000 bonus Reward Points on card activation",
+      "value": 1500,
+      "condition": "On payment of joining fee"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 200000,
+      "period": "annual",
+      "benefit": "2,000 bonus Reward Points",
+      "value": 1000
+    },
+    {
+      "spendThreshold": 500000,
+      "period": "annual",
+      "benefit": "5,000 bonus Reward Points + lounge access renewal",
+      "value": 2500
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 8,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 4,
+      "visitPeriod": "annual"
+    },
+    "provider": "Priority Pass"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 300
+  },
+  "foreignCurrencyMarkup": 2.5,
+  "additionalBenefits": [
+    "8 domestic + 4 international lounge visits per year",
+    "Priority Pass membership included",
+    "Fuel surcharge waiver up to ₹300 per month",
+    "Concierge services for travel bookings",
+    "Exclusive partner merchant offers"
+  ],
+  "eligibility": {
+    "minIncome": 800000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.9,
+  "pros": [
+    "Strong 5X rewards on international spends",
+    "Good lounge access with 8 domestic + 4 international visits",
+    "Lower foreign currency markup of 2.5% compared to mid-tier cards",
+    "3X rewards on travel and dining is competitive",
+    "Annual fee waiver at ₹3L spend is reasonable"
+  ],
+  "cons": [
+    "Base earn rate of 1 RP/₹100 is average",
+    "Point value of ₹0.50 is not the best in this segment",
+    "Welcome benefit of 3,000 RP is modest for a ₹3,000 fee",
+    "Limited to 4 international lounge visits per year"
+  ],
+  "idealFor": [
+    "Frequent international travellers who can leverage 5X international rewards",
+    "Users seeking a balanced travel card with decent lounge access",
+    "Moderate to high spenders in the ₹3-5L annual spend range"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How many lounge visits does the Celesta card offer?",
+      "answer": "The IndusInd Celesta card offers 8 complimentary domestic lounge visits and 4 international lounge visits per year via Priority Pass."
+    },
+    {
+      "question": "Is the annual fee waivable?",
+      "answer": "Yes, the ₹3,000 annual fee is waived if you spend ₹3,00,000 or more in the previous anniversary year."
+    },
+    {
+      "question": "How do international spending rewards work?",
+      "answer": "All international transactions earn 5X Reward Points (5 RP per ₹100 equivalent). Note that a 2.5% foreign currency markup is also applicable on international transactions."
+    },
+    {
+      "question": "Can I convert reward points to airline miles?",
+      "answer": "Yes, Celesta Reward Points can be converted to airline miles with partner airlines. Check the IndusInd rewards portal for available airlines and conversion ratios."
+    }
+  ]
+}

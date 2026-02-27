@@ -1,0 +1,122 @@
+{
+  "slug": "hdfc-6e-rewards",
+  "name": "HDFC 6E Rewards Credit Card",
+  "issuer": "hdfc",
+  "network": "visa",
+  "tier": "mid",
+  "categories": ["travel", "rewards"],
+  "imageUrl": "/images/cards/hdfc-6e-rewards.webp",
+  "fees": {
+    "joining": 1500,
+    "annual": 1500,
+    "renewal": 1500,
+    "waiverCondition": "Spend ₹3,00,000 or more in the previous year",
+    "waiverSpendThreshold": 300000
+  },
+  "rewards": {
+    "pointName": "6E Rewards",
+    "baseEarnRate": 1,
+    "pointValue": 1,
+    "categoryRates": [
+      {
+        "category": "IndiGo bookings",
+        "rate": 3,
+        "description": "3% 6E Rewards on all IndiGo flight bookings"
+      },
+      {
+        "category": "Dining & Entertainment",
+        "rate": 1.5,
+        "description": "1.5% 6E Rewards on dining and entertainment spends"
+      },
+      {
+        "category": "All other spends",
+        "rate": 1,
+        "description": "1% 6E Rewards on all other retail purchases"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI transactions",
+      "Rent payments"
+    ],
+    "redemptionOptions": [
+      "IndiGo flight bookings (1 point = ₹1 on IndiGo)",
+      "6E Add-ons (seat selection, meals, baggage)",
+      "IndiGo holiday packages"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "IndiGo flight voucher worth ₹1,500 on card activation",
+      "value": 1500,
+      "condition": "On payment of joining fee and first transaction"
+    }
+  ],
+  "milestoneBenefits": [],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 4,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 0,
+      "visitPeriod": "annual"
+    },
+    "provider": "Visa Lounge Program"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "3% back on IndiGo bookings including flights and add-ons",
+    "4 complimentary domestic airport lounge visits per year",
+    "Priority check-in and boarding on IndiGo flights",
+    "Exclusive IndiGo sale access and priority waitlist clearance"
+  ],
+  "eligibility": {
+    "minIncome": 400000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.6,
+  "pros": [
+    "Welcome voucher of ₹1,500 covers the entire joining fee",
+    "3% return on IndiGo bookings is strong for frequent flyers",
+    "Points redeemable at ₹1 value on IndiGo flights",
+    "4 domestic lounge visits per year add good value",
+    "Priority boarding and check-in perks on IndiGo"
+  ],
+  "cons": [
+    "Reward points only redeemable on IndiGo, not transferable to other airlines",
+    "No international lounge access",
+    "3.5% forex markup makes it poor for international travel spending",
+    "₹3L fee waiver threshold is relatively high for a mid-tier card"
+  ],
+  "idealFor": [
+    "Frequent IndiGo flyers who take 4+ domestic flights per year",
+    "Travelers who want to accumulate points for free IndiGo flights",
+    "Users looking for a travel-focused card with domestic lounge access"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "Can I use 6E Rewards on airlines other than IndiGo?",
+      "answer": "No, 6E Rewards are exclusively redeemable on IndiGo flights, add-ons (meals, seats, baggage) and holiday packages. They cannot be transferred to other airline loyalty programs."
+    },
+    {
+      "question": "Does the 3% earn rate apply to IndiGo bookings through third-party sites?",
+      "answer": "The 3% accelerated earn rate is applicable only on bookings made directly through IndiGo's website, app, or counters. Third-party bookings (MakeMyTrip, Yatra, etc.) earn at the standard 1% rate."
+    },
+    {
+      "question": "How many lounge visits do I get?",
+      "answer": "You get 4 complimentary domestic airport lounge visits per year through the Visa Lounge Program. International lounge access is not included with this card."
+    },
+    {
+      "question": "Is the welcome voucher worth it?",
+      "answer": "Yes, the ₹1,500 IndiGo welcome voucher fully covers the joining fee, effectively making the first year free if you use IndiGo flights."
+    }
+  ]
+}

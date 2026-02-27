@@ -1,0 +1,141 @@
+{
+  "slug": "axis-reserve",
+  "name": "Axis Reserve Credit Card",
+  "issuer": "axis",
+  "network": "visa",
+  "tier": "super-premium",
+  "categories": ["travel", "premium", "lounge", "rewards"],
+  "imageUrl": "/images/cards/axis-reserve.webp",
+  "fees": {
+    "joining": 50000,
+    "annual": 50000,
+    "renewal": 50000,
+    "waiverCondition": "No full fee waiver; partial offset via milestone benefits at ₹25,00,000 annual spend"
+  },
+  "rewards": {
+    "pointName": "EDGE Reward Points",
+    "baseEarnRate": 5,
+    "pointValue": 0.50,
+    "maxPointValue": 1.50,
+    "categoryRates": [
+      {
+        "category": "All spends",
+        "rate": 5,
+        "description": "5 EDGE Reward Points per ₹200 spent on all purchases (2.5% base)"
+      },
+      {
+        "category": "Axis Travel EDGE portal",
+        "rate": 15,
+        "description": "15X EDGE Reward Points (15 per ₹200) on Axis Travel EDGE portal bookings"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI conversions",
+      "Rent payments",
+      "Government/tax payments",
+      "Insurance premiums"
+    ],
+    "redemptionOptions": [
+      "Flights and hotels via Axis Travel EDGE portal (1 point = up to ₹1.50)",
+      "Transfer to airline partners (InterMiles, Singapore KrisFlyer, Etihad Guest, British Airways, etc.)",
+      "Statement credit (1 point = ₹0.50)",
+      "Gift vouchers and product catalogue"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "50,000 EDGE Reward Points on card activation",
+      "value": 25000,
+      "condition": "Credited on first transaction within 45 days"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 1500000,
+      "period": "annual",
+      "benefit": "35,000 bonus EDGE Reward Points",
+      "value": 17500
+    },
+    {
+      "spendThreshold": 2500000,
+      "period": "annual",
+      "benefit": "Additional 50,000 bonus EDGE Reward Points",
+      "value": 25000
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": -1,
+      "visitPeriod": "unlimited"
+    },
+    "international": {
+      "complimentaryVisits": -1,
+      "visitPeriod": "unlimited"
+    },
+    "provider": "Priority Pass / Dreamfolks"
+  },
+  "insurance": {
+    "airAccident": "₹3,00,00,000",
+    "travelInsurance": "Up to ₹1,00,00,000 overseas medical insurance"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 500
+  },
+  "foreignCurrencyMarkup": 0,
+  "additionalBenefits": [
+    "Zero foreign currency markup - best in class for international spends",
+    "Unlimited domestic and international lounge access with guest access",
+    "15X rewards on Axis Travel EDGE portal bookings",
+    "5 points per ₹200 base earn rate (2.5%) on all spends",
+    "Transferable points to 16+ airline loyalty programs",
+    "Priority Pass with unlimited visits including companion access",
+    "Air accident cover of ₹3 crore and travel insurance of ₹1 crore",
+    "Concierge services available 24/7"
+  ],
+  "eligibility": {
+    "minIncome": 5000000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 4.6,
+  "pros": [
+    "Zero foreign currency markup is unmatched - massive savings on international spends",
+    "2.5% base reward rate on all spends is among the highest in India",
+    "Unlimited lounge access with guest access for both domestic and international",
+    "15X rewards on travel portal gives exceptional value for frequent travellers",
+    "Milestone benefits can yield up to 85,000 bonus points annually"
+  ],
+  "cons": [
+    "₹50,000 annual fee is the highest among Indian credit cards",
+    "No full fee waiver option even at very high spend levels",
+    "Requires minimum income of ₹50 lakh, limiting accessibility",
+    "Point value varies significantly based on redemption method"
+  ],
+  "idealFor": [
+    "Ultra high net-worth individuals who spend heavily on international transactions",
+    "Frequent international travellers who want zero FX markup and unlimited lounge access",
+    "High spenders looking for the best base reward rate and premium travel benefits"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "Is the Axis Reserve card really zero foreign currency markup?",
+      "answer": "Yes, the Axis Reserve Credit Card charges 0% foreign currency markup on all international transactions. This is the only major Indian credit card to offer true zero markup, saving 2-3.5% compared to most other cards."
+    },
+    {
+      "question": "How valuable are EDGE Reward Points on the Reserve card?",
+      "answer": "Points are worth ₹0.50 each as statement credit, but can be valued up to ₹1.50 per point when redeemed strategically on the Axis Travel EDGE portal for premium flights and hotels."
+    },
+    {
+      "question": "Does the guest also get free lounge access?",
+      "answer": "Yes, the Axis Reserve card includes complimentary lounge access for a guest accompanying the primary cardholder, both for domestic and international lounges."
+    },
+    {
+      "question": "Is the ₹50,000 annual fee worth it?",
+      "answer": "For high spenders (₹25L+/year), the 2.5% base rewards, milestone benefits (up to 85,000 bonus points), zero FX markup, and unlimited lounge access can deliver value well exceeding the fee. The welcome benefit of 50,000 points alone is worth ₹25,000."
+    }
+  ]
+}

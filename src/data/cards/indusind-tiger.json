@@ -1,0 +1,119 @@
+{
+  "slug": "indusind-tiger",
+  "name": "IndusInd Tiger Credit Card",
+  "issuer": "indusind",
+  "network": "mastercard",
+  "tier": "mid",
+  "categories": ["rewards", "lifestyle"],
+  "imageUrl": "/images/cards/indusind-tiger.webp",
+  "fees": {
+    "joining": 599,
+    "annual": 599,
+    "renewal": 599,
+    "waiverCondition": "Spend ₹1,50,000 or more in the previous year",
+    "waiverSpendThreshold": 150000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.25,
+    "maxPointValue": 0.25,
+    "categoryRates": [
+      {
+        "category": "Weekend spends",
+        "rate": 4,
+        "description": "Extra reward points on weekend spending (Saturday & Sunday)"
+      },
+      {
+        "category": "All spends",
+        "rate": 2,
+        "description": "2 Reward Points per ₹100 spent on all purchases"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI transactions"
+    ],
+    "redemptionOptions": [
+      "Statement credit",
+      "Gift vouchers",
+      "Catalogue redemption"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "500 Reward Points on card activation",
+      "value": 125,
+      "condition": "On payment of joining fee"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 100000,
+      "period": "annual",
+      "benefit": "1,000 bonus Reward Points",
+      "value": 250
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 2,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 0,
+      "visitPeriod": "annual"
+    },
+    "provider": "Mastercard Lounge Program"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 200
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "Extra rewards on weekend spending",
+    "Fuel surcharge waiver up to ₹200 per month",
+    "2 complimentary domestic lounge visits per year",
+    "Easy EMI conversion on large purchases"
+  ],
+  "eligibility": {
+    "minIncome": 350000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.3,
+  "pros": [
+    "Low annual fee of ₹599 with easy waiver at ₹1.5L spend",
+    "Good base earn rate of 2 RP/₹100 for a mid-tier card",
+    "Extra rewards on weekends for lifestyle spending",
+    "Fuel surcharge waiver included"
+  ],
+  "cons": [
+    "Low point value of ₹0.25 per point reduces effective reward rate",
+    "Only 2 domestic lounge visits per year",
+    "No international lounge access",
+    "High foreign currency markup of 3.5%"
+  ],
+  "idealFor": [
+    "Weekend shoppers who want extra rewards on Saturday and Sunday spends",
+    "Budget-conscious users seeking an affordable mid-tier card",
+    "Users looking for a basic Mastercard with lounge access"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How does the weekend reward bonus work?",
+      "answer": "All purchases made on Saturday and Sunday earn additional bonus reward points on top of the base 2 RP/₹100 rate. This makes weekend shopping and entertainment more rewarding."
+    },
+    {
+      "question": "Is the annual fee waivable?",
+      "answer": "Yes, the ₹599 annual fee is waived if you spend ₹1,50,000 or more in the previous anniversary year."
+    },
+    {
+      "question": "What lounge access does the Tiger card offer?",
+      "answer": "The Tiger card offers 2 complimentary domestic lounge visits per year via the Mastercard Lounge Program. International lounge access is not included."
+    }
+  ]
+}

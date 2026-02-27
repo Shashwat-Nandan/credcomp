@@ -1,0 +1,103 @@
+{
+  "slug": "au-instapay",
+  "name": "AU InstaPay Credit Card",
+  "issuer": "au",
+  "network": "rupay",
+  "tier": "entry",
+  "categories": ["cashback", "no-annual-fee"],
+  "imageUrl": "/images/cards/au-instapay.webp",
+  "fees": {
+    "joining": 0,
+    "annual": 0,
+    "renewal": 0,
+    "waiverCondition": "Lifetime free secured credit card issued against Fixed Deposit"
+  },
+  "rewards": {
+    "pointName": "Cashback",
+    "baseEarnRate": 0.5,
+    "pointValue": 1,
+    "maxPointValue": 1,
+    "categoryRates": [
+      {
+        "category": "UPI and online spends",
+        "rate": 1,
+        "description": "1% cashback on all UPI and online transactions"
+      },
+      {
+        "category": "Offline spends",
+        "rate": 0.5,
+        "description": "0.5% cashback on all offline POS transactions"
+      }
+    ],
+    "cappedCategories": [
+      {
+        "category": "All cashback",
+        "maxPointsPerMonth": 500,
+        "description": "Total cashback capped at ₹500 per month"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments",
+      "EMI transactions"
+    ],
+    "redemptionOptions": [
+      "Automatic cashback to statement",
+      "Direct credit to card account"
+    ]
+  },
+  "welcomeBenefits": [],
+  "milestoneBenefits": [],
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "Secured card issued against Fixed Deposit - easy approval",
+    "Lifetime free with zero annual or renewal fees",
+    "UPI-enabled RuPay card for seamless payments",
+    "Helps build credit history for first-time users",
+    "Instant issuance via AU 0101 app"
+  ],
+  "eligibility": {
+    "minIncome": 0,
+    "salariedOnly": false,
+    "minAge": 18
+  },
+  "rating": 3.2,
+  "pros": [
+    "Lifetime free with absolutely zero fees",
+    "Easy approval as it is a secured card against FD",
+    "Decent 1% cashback on UPI and online transactions",
+    "Great for building credit history from scratch",
+    "RuPay network ensures wide domestic acceptance and UPI support"
+  ],
+  "cons": [
+    "Low 0.5% cashback on offline transactions",
+    "No lounge access",
+    "Requires a Fixed Deposit to get the card",
+    "Monthly cashback cap of ₹500 limits rewards for higher spenders"
+  ],
+  "idealFor": [
+    "First-time credit card users who want to build credit history",
+    "Users who prefer UPI-based payments and want cashback on them",
+    "Those who cannot get unsecured credit cards due to limited credit history"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How does the AU InstaPay secured card work?",
+      "answer": "You need to place a Fixed Deposit with AU Small Finance Bank, and the card is issued against it. Your credit limit is typically 80-90% of the FD amount. The FD continues to earn interest while you use the card."
+    },
+    {
+      "question": "Is there any minimum FD amount required?",
+      "answer": "Yes, typically a minimum FD of ₹15,000-₹25,000 is required to get the AU InstaPay card. The exact amount may vary based on AU Bank's current policies."
+    },
+    {
+      "question": "Can I use this card for UPI payments?",
+      "answer": "Yes, since this is a RuPay card, it supports UPI payments via apps like Google Pay, PhonePe, and BHIM. You earn 1% cashback on all UPI transactions."
+    },
+    {
+      "question": "Will this card help me build my credit score?",
+      "answer": "Yes, AU Bank reports your card usage to credit bureaus. Timely payments and responsible usage will help you build a positive credit history, making it easier to get unsecured cards in the future."
+    }
+  ]
+}

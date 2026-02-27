@@ -1,0 +1,123 @@
+{
+  "slug": "kotak-pvr",
+  "name": "Kotak PVR Credit Card",
+  "issuer": "kotak",
+  "network": "visa",
+  "tier": "entry",
+  "categories": ["entertainment", "cashback"],
+  "imageUrl": "/images/cards/kotak-pvr.webp",
+  "fees": {
+    "joining": 299,
+    "annual": 299,
+    "renewal": 299,
+    "waiverCondition": "Spend ₹75,000 or more in the previous year",
+    "waiverSpendThreshold": 75000
+  },
+  "rewards": {
+    "pointName": "PVR Points",
+    "baseEarnRate": 1,
+    "pointValue": 1,
+    "maxPointValue": 1,
+    "categoryRates": [
+      {
+        "category": "PVR Cinemas",
+        "rate": 0,
+        "description": "Buy 1 Get 1 free PVR movie ticket (once per month)"
+      },
+      {
+        "category": "Dining",
+        "rate": 2,
+        "description": "2% cashback on dining transactions"
+      },
+      {
+        "category": "All other spends",
+        "rate": 1,
+        "description": "1% cashback on all other transactions"
+      }
+    ],
+    "cappedCategories": [
+      {
+        "category": "PVR Buy 1 Get 1",
+        "maxPointsPerMonth": 1
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI transactions",
+      "Rent payments"
+    ],
+    "redemptionOptions": [
+      "PVR movie ticket redemption",
+      "Automatic cashback credited to statement",
+      "PVR food and beverage vouchers"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "2 complimentary PVR movie tickets on card activation",
+      "value": 500,
+      "condition": "On card activation and first transaction"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 75000,
+      "period": "annual",
+      "benefit": "Annual fee waiver for the next year",
+      "value": 299
+    }
+  ],
+  "loungeAccess": null,
+  "insurance": null,
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 200
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "Buy 1 Get 1 free PVR movie ticket every month",
+    "Exclusive discounts on PVR food and beverages",
+    "Priority booking access for new movie releases at PVR",
+    "2% cashback on dining complements the entertainment theme"
+  ],
+  "eligibility": {
+    "minIncome": 250000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.3,
+  "pros": [
+    "Buy 1 Get 1 PVR ticket every month can save ₹250-400 monthly for regular moviegoers",
+    "Welcome gift of 2 PVR tickets more than covers the joining fee",
+    "Very low annual fee of ₹299 with easy ₹75K waiver threshold",
+    "2% cashback on dining pairs well with the entertainment focus",
+    "Low income requirement makes it accessible"
+  ],
+  "cons": [
+    "BOGO benefit limited to only 1 redemption per month",
+    "No airport lounge access",
+    "Only 1% cashback on non-dining spends is below average",
+    "Niche card with limited value for non-PVR moviegoers"
+  ],
+  "idealFor": [
+    "Regular PVR moviegoers who watch at least 1-2 movies per month",
+    "Entertainment enthusiasts who also dine out frequently",
+    "Budget-conscious users looking for a low-fee card with tangible entertainment perks"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How does the Buy 1 Get 1 PVR ticket offer work?",
+      "answer": "You can book 2 PVR movie tickets and get 1 free (up to ₹250 off) once per month. The offer is applicable through the PVR website or app using your Kotak PVR card."
+    },
+    {
+      "question": "Are the welcome PVR tickets sent physically or digitally?",
+      "answer": "The 2 welcome PVR tickets are provided as e-vouchers sent to your registered email address upon card activation and completion of the first transaction."
+    },
+    {
+      "question": "Does the BOGO offer work at all PVR formats including PVR INOX?",
+      "answer": "Yes, following the PVR-INOX merger, the Buy 1 Get 1 offer is valid across PVR INOX cinemas nationwide, subject to the monthly limit of 1 redemption."
+    }
+  ]
+}

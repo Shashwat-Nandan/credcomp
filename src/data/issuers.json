@@ -5,5 +5,12 @@
   { "slug": "axis", "name": "Axis Bank", "shortName": "Axis" },
   { "slug": "amex", "name": "American Express", "shortName": "Amex" },
   { "slug": "idfc", "name": "IDFC FIRST Bank", "shortName": "IDFC" },
-  { "slug": "au", "name": "AU Small Finance Bank", "shortName": "AU" }
+  { "slug": "au", "name": "AU Small Finance Bank", "shortName": "AU" },
+  { "slug": "kotak", "name": "Kotak Mahindra Bank", "shortName": "Kotak" },
+  { "slug": "indusind", "name": "IndusInd Bank", "shortName": "IndusInd" },
+  { "slug": "rbl", "name": "RBL Bank", "shortName": "RBL" },
+  { "slug": "hsbc", "name": "HSBC India", "shortName": "HSBC" },
+  { "slug": "yes", "name": "Yes Bank", "shortName": "Yes" },
+  { "slug": "federal", "name": "Federal Bank", "shortName": "Federal" },
+  { "slug": "sc", "name": "Standard Chartered", "shortName": "StanC" }
 ]

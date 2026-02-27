@@ -1,0 +1,143 @@
+{
+  "slug": "indusind-eazydiner",
+  "name": "IndusInd EazyDiner Platinum Credit Card",
+  "issuer": "indusind",
+  "network": "visa",
+  "tier": "mid",
+  "categories": ["dining", "rewards"],
+  "imageUrl": "/images/cards/indusind-eazydiner.webp",
+  "fees": {
+    "joining": 2499,
+    "annual": 2499,
+    "renewal": 2499,
+    "waiverCondition": "Spend ₹3,00,000 or more in the previous year",
+    "waiverSpendThreshold": 300000
+  },
+  "rewards": {
+    "pointName": "EazyPoints",
+    "baseEarnRate": 1,
+    "pointValue": 0.50,
+    "maxPointValue": 0.50,
+    "categoryRates": [
+      {
+        "category": "EazyDiner bookings",
+        "rate": 10,
+        "description": "10X EazyPoints on all transactions via EazyDiner platform"
+      },
+      {
+        "category": "Dining",
+        "rate": 3,
+        "description": "3X EazyPoints on dining spends at any restaurant"
+      },
+      {
+        "category": "All other spends",
+        "rate": 1,
+        "description": "1 EazyPoint per ₹100 spent on all other purchases"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI transactions",
+      "Insurance premium payments"
+    ],
+    "redemptionOptions": [
+      "EazyDiner dining vouchers",
+      "Statement credit",
+      "Gift vouchers",
+      "Catalogue redemption"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "Complimentary EazyDiner Prime membership (worth ₹1,999)",
+      "value": 1999,
+      "condition": "On payment of joining fee"
+    },
+    {
+      "description": "₹2,000 worth of dining vouchers",
+      "value": 2000,
+      "condition": "On payment of joining fee"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 200000,
+      "period": "annual",
+      "benefit": "₹2,000 EazyDiner dining vouchers",
+      "value": 2000
+    },
+    {
+      "spendThreshold": 400000,
+      "period": "annual",
+      "benefit": "EazyDiner Prime membership renewal + ₹3,000 vouchers",
+      "value": 5000
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 4,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 0,
+      "visitPeriod": "annual"
+    },
+    "provider": "Visa Lounge Program"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "Complimentary EazyDiner Prime membership with up to 50% off at premium restaurants",
+    "Priority reservations at top restaurants via EazyDiner",
+    "Fuel surcharge waiver up to ₹250 per month",
+    "4 complimentary domestic lounge visits per year",
+    "Exclusive dining offers and events"
+  ],
+  "eligibility": {
+    "minIncome": 600000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.8,
+  "pros": [
+    "Excellent 10X rewards on EazyDiner bookings for food enthusiasts",
+    "Complimentary EazyDiner Prime membership worth ₹1,999",
+    "3X rewards on all dining spends beyond EazyDiner",
+    "₹2,000 dining vouchers as welcome benefit",
+    "Good milestone benefits tied to dining experiences"
+  ],
+  "cons": [
+    "Rewards are heavily skewed towards dining, limited value for non-diners",
+    "High annual fee of ₹2,499 for a mid-tier card",
+    "No international lounge access",
+    "High foreign currency markup of 3.5%"
+  ],
+  "idealFor": [
+    "Food enthusiasts who frequently dine out at premium restaurants",
+    "Regular EazyDiner users who can maximize the 10X rewards",
+    "Users who value curated dining experiences and restaurant discounts"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "What is EazyDiner Prime membership and how does it work?",
+      "answer": "EazyDiner Prime is a premium dining membership that offers up to 50% off at 5,000+ premium restaurants across India. As an IndusInd EazyDiner cardholder, you get this membership complimentary on paying the joining fee."
+    },
+    {
+      "question": "How do EazyPoints work?",
+      "answer": "EazyPoints are earned on every purchase. You earn 10X on EazyDiner transactions, 3X on dining, and 1 point per ₹100 on other spends. Points can be redeemed for dining vouchers, statement credit, or gift vouchers."
+    },
+    {
+      "question": "Is the annual fee waivable?",
+      "answer": "Yes, the ₹2,499 annual fee is waived if you spend ₹3,00,000 or more in the previous anniversary year."
+    },
+    {
+      "question": "Can I use dining benefits outside India?",
+      "answer": "The EazyDiner Prime membership and dining discounts are primarily for restaurants in India listed on the EazyDiner platform. For international dining, you earn the base reward rate."
+    }
+  ]
+}

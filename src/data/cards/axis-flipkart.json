@@ -1,0 +1,122 @@
+{
+  "slug": "axis-flipkart",
+  "name": "Axis Flipkart Credit Card",
+  "issuer": "axis",
+  "network": "visa",
+  "tier": "mid",
+  "categories": ["shopping", "cashback"],
+  "imageUrl": "/images/cards/axis-flipkart.webp",
+  "fees": {
+    "joining": 500,
+    "annual": 500,
+    "renewal": 500,
+    "waiverCondition": "Annual fee waived on spending ₹2,00,000 in the previous year",
+    "waiverSpendThreshold": 200000
+  },
+  "rewards": {
+    "pointName": "Cashback",
+    "baseEarnRate": 1.5,
+    "pointValue": 1,
+    "categoryRates": [
+      {
+        "category": "All other spends",
+        "rate": 1.5,
+        "description": "1.5% cashback on all other purchases"
+      },
+      {
+        "category": "Flipkart",
+        "rate": 5,
+        "description": "5% unlimited cashback on Flipkart purchases"
+      },
+      {
+        "category": "Myntra & 2GUD",
+        "rate": 4,
+        "description": "4% cashback on Myntra and 2GUD purchases"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI conversions",
+      "Rent payments"
+    ],
+    "redemptionOptions": [
+      "Automatic cashback credited as Flipkart SuperCoins or statement credit",
+      "No manual redemption required"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "₹500 Flipkart gift voucher on card activation",
+      "value": 500,
+      "condition": "Credited within 30 days of first transaction"
+    }
+  ],
+  "milestoneBenefits": [],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 4,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 0,
+      "visitPeriod": "annual"
+    },
+    "provider": "Dreamfolks"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 200
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "5% unlimited cashback on Flipkart - no monthly cap",
+    "4% cashback on Myntra and 2GUD for fashion shopping",
+    "₹500 Flipkart voucher as welcome benefit",
+    "4 complimentary domestic lounge visits per year",
+    "1.5% base cashback on all other spends"
+  ],
+  "eligibility": {
+    "minIncome": 300000,
+    "salariedOnly": false,
+    "minAge": 18
+  },
+  "rating": 3.9,
+  "pros": [
+    "5% unlimited cashback on Flipkart is best-in-class for Flipkart shoppers",
+    "4% cashback on Myntra adds value for fashion buyers",
+    "1.5% base cashback on all other spends is above average",
+    "₹500 Flipkart voucher offsets the joining fee entirely",
+    "4 domestic lounge visits per year"
+  ],
+  "cons": [
+    "Cashback is most valuable only for Flipkart ecosystem users",
+    "No international lounge access",
+    "3.5% foreign currency markup is high",
+    "No milestone or annual spend bonus benefits"
+  ],
+  "idealFor": [
+    "Heavy Flipkart shoppers who want maximum cashback on purchases",
+    "Myntra and fashion enthusiasts looking for shopping rewards",
+    "Users seeking a solid 1.5% base cashback card with e-commerce bonuses"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "Is the 5% Flipkart cashback really unlimited?",
+      "answer": "Yes, the 5% cashback on Flipkart purchases has no monthly or annual cap. Every rupee spent on Flipkart earns 5% cashback without any limit."
+    },
+    {
+      "question": "How is the cashback credited?",
+      "answer": "Cashback is typically credited as Flipkart SuperCoins or as a direct statement credit within 1-2 billing cycles of the transaction."
+    },
+    {
+      "question": "Does the 5% cashback work on Flipkart sale events?",
+      "answer": "Yes, the 5% cashback applies on all Flipkart purchases including Big Billion Days, Republic Day sales, and other Flipkart sale events."
+    },
+    {
+      "question": "How do I get the annual fee waived?",
+      "answer": "Spend ₹2,00,000 or more in the previous year and the ₹500 annual fee is waived for the following year."
+    }
+  ]
+}

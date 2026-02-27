@@ -1,0 +1,105 @@
+{
+  "slug": "axis-myzone",
+  "name": "Axis MY Zone Credit Card",
+  "issuer": "axis",
+  "network": "visa",
+  "tier": "entry",
+  "categories": ["dining", "entertainment", "cashback"],
+  "imageUrl": "/images/cards/axis-myzone.webp",
+  "fees": {
+    "joining": 500,
+    "annual": 500,
+    "renewal": 500,
+    "waiverCondition": "Annual fee waived on spending ₹50,000 in the previous year",
+    "waiverSpendThreshold": 50000
+  },
+  "rewards": {
+    "pointName": "EDGE Points",
+    "baseEarnRate": 1,
+    "pointValue": 0.40,
+    "categoryRates": [
+      {
+        "category": "All spends",
+        "rate": 1,
+        "description": "1 EDGE Point per ₹200 spent on all purchases"
+      },
+      {
+        "category": "Dining & entertainment",
+        "rate": 5,
+        "description": "5X EDGE Points (5 per ₹200) on dining and entertainment spends"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI conversions"
+    ],
+    "redemptionOptions": [
+      "Statement credit (1 EDGE Point = ₹0.40)",
+      "Gift vouchers from partner brands",
+      "Product catalogue redemption"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "500 EDGE Points on card activation",
+      "value": 200,
+      "condition": "Credited on first transaction"
+    }
+  ],
+  "milestoneBenefits": [],
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 200
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "5X rewards on dining and entertainment - great for foodies",
+    "Easy annual fee waiver with ₹50,000 spend",
+    "Axis Bank Dining Delights programme with restaurant discounts",
+    "Contactless tap-and-pay enabled"
+  ],
+  "eligibility": {
+    "minIncome": 300000,
+    "salariedOnly": false,
+    "minAge": 18
+  },
+  "rating": 3.4,
+  "pros": [
+    "5X rewards on dining and entertainment is among the best in entry-tier",
+    "Reasonable annual fee of ₹500 with easy waiver at ₹50K spend",
+    "Good card for people who eat out frequently",
+    "Axis Dining Delights adds extra restaurant discounts",
+    "Fuel surcharge waiver on petrol pump transactions"
+  ],
+  "cons": [
+    "Low base earn rate of 1 point per ₹200 outside dining/entertainment",
+    "No lounge access benefit",
+    "EDGE Point value is only ₹0.40 per point",
+    "Limited accelerated categories beyond dining and entertainment"
+  ],
+  "idealFor": [
+    "Frequent diners and people who spend heavily on food delivery and restaurants",
+    "Entertainment enthusiasts who spend on movies, OTT platforms, and events",
+    "Entry-level cardholders looking for strong category-specific rewards"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "What counts as dining and entertainment for 5X rewards?",
+      "answer": "Transactions at restaurants, cafes, food delivery apps (Swiggy, Zomato), movie theatres, OTT subscriptions, and entertainment venues typically qualify for the 5X EDGE Points multiplier."
+    },
+    {
+      "question": "How can I waive the annual fee on the Axis MY Zone card?",
+      "answer": "Spend ₹50,000 or more in the previous year and the ₹500 annual fee is waived for the next year."
+    },
+    {
+      "question": "Does this card offer lounge access?",
+      "answer": "No, the Axis MY Zone Credit Card does not include any complimentary lounge access."
+    },
+    {
+      "question": "Can I use this card for online food ordering and get 5X points?",
+      "answer": "Yes, orders on Swiggy, Zomato, and similar food delivery platforms are classified under dining and earn 5X EDGE Points."
+    }
+  ]
+}

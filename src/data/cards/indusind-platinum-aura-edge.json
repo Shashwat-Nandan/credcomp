@@ -1,0 +1,119 @@
+{
+  "slug": "indusind-platinum-aura-edge",
+  "name": "IndusInd Platinum Aura Edge Credit Card",
+  "issuer": "indusind",
+  "network": "visa",
+  "tier": "mid",
+  "categories": ["rewards", "lifestyle"],
+  "imageUrl": "/images/cards/indusind-platinum-aura-edge.webp",
+  "fees": {
+    "joining": 700,
+    "annual": 700,
+    "renewal": 700,
+    "waiverCondition": "Spend ₹1,50,000 or more in the previous year",
+    "waiverSpendThreshold": 150000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 1,
+    "pointValue": 0.25,
+    "maxPointValue": 0.25,
+    "categoryRates": [
+      {
+        "category": "Weekend spends",
+        "rate": 3,
+        "description": "3 Reward Points per ₹100 spent on weekends (Saturday & Sunday)"
+      },
+      {
+        "category": "All other spends",
+        "rate": 1,
+        "description": "1 Reward Point per ₹100 spent on all other purchases"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI transactions"
+    ],
+    "redemptionOptions": [
+      "Statement credit",
+      "Gift vouchers",
+      "Catalogue redemption"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "500 Reward Points on card activation",
+      "value": 125,
+      "condition": "On payment of joining fee"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 100000,
+      "period": "annual",
+      "benefit": "Bonus 1000 Reward Points",
+      "value": 250
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 4,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 0,
+      "visitPeriod": "annual"
+    },
+    "provider": "Visa Lounge Program"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "3X rewards on weekend spending",
+    "Fuel surcharge waiver up to ₹250 per month",
+    "Complimentary domestic lounge access (4 per year)",
+    "Easy EMI conversion on purchases"
+  ],
+  "eligibility": {
+    "minIncome": 400000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.4,
+  "pros": [
+    "Low annual fee of ₹700 with easy waiver at ₹1.5L spend",
+    "3X reward points on weekend spends is good for lifestyle users",
+    "4 complimentary domestic lounge visits per year",
+    "Fuel surcharge waiver included"
+  ],
+  "cons": [
+    "Low point value of ₹0.25 per point",
+    "No international lounge access",
+    "High foreign currency markup of 3.5%",
+    "Limited milestone benefits"
+  ],
+  "idealFor": [
+    "Weekend shoppers who spend more on Saturdays and Sundays",
+    "Budget-conscious users looking for a low-fee card with lounge access",
+    "First-time credit card users seeking a mid-tier card"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How does the weekend rewards work on the Aura Edge card?",
+      "answer": "All purchases made on Saturday and Sunday earn 3X reward points (3 RP per ₹100) instead of the standard 1 RP per ₹100 on weekdays."
+    },
+    {
+      "question": "Is the annual fee waivable?",
+      "answer": "Yes, the ₹700 annual fee is waived if you spend ₹1,50,000 or more in the previous anniversary year."
+    },
+    {
+      "question": "Does this card offer international lounge access?",
+      "answer": "No, the Platinum Aura Edge card only offers domestic lounge access (4 visits per year). For international lounge access, consider upgrading to a premium IndusInd card."
+    }
+  ]
+}

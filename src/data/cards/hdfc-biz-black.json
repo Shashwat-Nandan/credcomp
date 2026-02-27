@@ -1,0 +1,134 @@
+{
+  "slug": "hdfc-biz-black",
+  "name": "HDFC Diners Club BizBlack Credit Card",
+  "issuer": "hdfc",
+  "network": "dinersclub",
+  "tier": "super-premium",
+  "categories": ["travel", "premium", "lounge", "rewards"],
+  "imageUrl": "/images/cards/hdfc-biz-black.webp",
+  "fees": {
+    "joining": 10000,
+    "annual": 10000,
+    "renewal": 10000,
+    "waiverCondition": "Spend ₹5,00,000 or more in the previous year",
+    "waiverSpendThreshold": 500000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 5,
+    "pointValue": 1,
+    "maxPointValue": 1,
+    "categoryRates": [
+      {
+        "category": "All spends",
+        "rate": 5,
+        "description": "5 Reward Points per ₹150 on all retail and business purchases (3.33% reward rate)"
+      },
+      {
+        "category": "SmartBuy 10X",
+        "rate": 50,
+        "description": "10X Reward Points via SmartBuy portal (~33% reward rate on flights, hotels, Amazon, Flipkart)"
+      }
+    ],
+    "cappedCategories": [
+      {
+        "category": "SmartBuy 10X",
+        "maxPointsPerMonth": 25000
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI transactions",
+      "Rent payments"
+    ],
+    "redemptionOptions": [
+      "Airmiles (1 RP = 1 Airmile for InterMiles, KrisFlyer, Singapore Airlines)",
+      "SmartBuy vouchers and products at ₹1/point",
+      "Statement credit",
+      "Catalogue redemption"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "Welcome vouchers worth ₹10,000 via SmartBuy",
+      "value": 10000,
+      "condition": "On payment of joining fee"
+    }
+  ],
+  "milestoneBenefits": [],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": -1,
+      "visitPeriod": "unlimited"
+    },
+    "international": {
+      "complimentaryVisits": -1,
+      "visitPeriod": "unlimited"
+    },
+    "provider": "Priority Pass & Diners Club Lounge Network"
+  },
+  "insurance": {
+    "airAccident": "₹1,00,00,000",
+    "travelInsurance": "Up to ₹50,00,000 emergency medical cover overseas",
+    "purchaseProtection": "Up to ₹5,00,000 for 90 days from purchase"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 500
+  },
+  "foreignCurrencyMarkup": 1.99,
+  "additionalBenefits": [
+    "Unlimited domestic and international airport lounge access",
+    "Complimentary Priority Pass membership for primary and add-on cardholders",
+    "Designed for business expenses with higher credit limits",
+    "Complimentary Club Marriott membership",
+    "Detailed expense categorization for business accounting",
+    "Golf privileges at select courses across India",
+    "Concierge services available 24/7",
+    "Supplementary cards for employees at no extra cost"
+  ],
+  "eligibility": {
+    "minIncome": 1800000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 4.5,
+  "pros": [
+    "33% reward rate via SmartBuy 10X is identical to the personal Diners Club Black",
+    "Unlimited lounge access worldwide for business travelers",
+    "Business expense tracking and detailed statements for accounting",
+    "Welcome vouchers of ₹10,000 fully offset the joining fee",
+    "1.99% forex markup is among the lowest for business credit cards"
+  ],
+  "cons": [
+    "Diners Club network acceptance is limited compared to Visa/Mastercard",
+    "Higher income requirement of ₹18L than personal Diners Black",
+    "No milestone benefits unlike the personal Diners Club Black card",
+    "10X SmartBuy cap of 25,000 points/month applies same as personal variant"
+  ],
+  "idealFor": [
+    "Business owners and self-employed professionals with high monthly spends",
+    "Frequent business travelers who need unlimited lounge access",
+    "Entrepreneurs who want top-tier rewards on business expenses"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How is BizBlack different from the regular Diners Club Black?",
+      "answer": "The BizBlack offers the same core reward structure (5 RP/₹150 base, 10X SmartBuy) but is designed for business use. It provides detailed expense categorization, higher credit limits, and supplementary cards for employees. However, it does not include the milestone benefits (₹15,000 annually) that the personal Diners Black offers."
+    },
+    {
+      "question": "Can I use this card for personal expenses too?",
+      "answer": "While the card is designed for business spending, there is no restriction on using it for personal expenses. All spends earn Reward Points at the same rates regardless of the expense category."
+    },
+    {
+      "question": "Is the 10X SmartBuy reward available on the BizBlack?",
+      "answer": "Yes, the 10X SmartBuy portal works identically to the personal Diners Club Black. You earn 50 RP per ₹150 on SmartBuy bookings (flights, hotels, Amazon, Flipkart), capped at 25,000 bonus points per month."
+    },
+    {
+      "question": "Do I need to be a business owner to apply?",
+      "answer": "No, while the card is targeted at business professionals, self-employed individuals, freelancers, and salaried professionals with a minimum annual income of ₹18,00,000 can also apply."
+    }
+  ]
+}

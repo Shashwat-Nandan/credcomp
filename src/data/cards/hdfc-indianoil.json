@@ -1,0 +1,101 @@
+{
+  "slug": "hdfc-indianoil",
+  "name": "HDFC IndianOil Credit Card",
+  "issuer": "hdfc",
+  "network": "visa",
+  "tier": "entry",
+  "categories": ["fuel", "cashback", "no-annual-fee"],
+  "imageUrl": "/images/cards/hdfc-indianoil.webp",
+  "fees": {
+    "joining": 500,
+    "annual": 500,
+    "renewal": 500,
+    "waiverCondition": "Spend ₹50,000 or more in the previous year",
+    "waiverSpendThreshold": 50000
+  },
+  "rewards": {
+    "pointName": "FuelPoints",
+    "baseEarnRate": 5,
+    "pointValue": 0.15,
+    "categoryRates": [
+      {
+        "category": "IndianOil outlets",
+        "rate": 50,
+        "description": "50 FuelPoints per ₹150 at IOCL fuel stations and outlets (~5% value)"
+      },
+      {
+        "category": "All other spends",
+        "rate": 5,
+        "description": "5 FuelPoints per ₹150 on all other retail purchases"
+      }
+    ],
+    "exclusions": [
+      "Wallet loading",
+      "EMI transactions",
+      "Rent payments"
+    ],
+    "redemptionOptions": [
+      "Redeem for IndianOil fuel purchases",
+      "IndianOil XTRAREWARDS loyalty points conversion",
+      "Statement credit (at lower value)"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "250 FuelPoints on card activation",
+      "value": 37,
+      "condition": "On payment of joining fee"
+    }
+  ],
+  "milestoneBenefits": [],
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "5% effective reward rate at IndianOil fuel stations",
+    "Fuel surcharge waiver of 1% up to ₹250/month",
+    "Integration with IndianOil XTRAREWARDS program",
+    "Easy EMI conversion on purchases"
+  ],
+  "eligibility": {
+    "minIncome": 200000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.5,
+  "pros": [
+    "Excellent 5% effective return on fuel at IndianOil outlets",
+    "1% fuel surcharge waiver stacks with FuelPoints rewards",
+    "Very low annual fee of ₹500 with easy ₹50K waiver",
+    "Best-in-class fuel rewards for IOCL customers",
+    "Low income requirement of ₹2L makes it widely accessible"
+  ],
+  "cons": [
+    "Rewards are only valuable if you fuel at IndianOil stations",
+    "No lounge access of any kind",
+    "Non-fuel reward rate is very low at 0.5%",
+    "3.5% forex markup and no travel benefits"
+  ],
+  "idealFor": [
+    "Frequent drivers who refuel at IndianOil stations",
+    "Users looking for a dedicated fuel savings card with low fees",
+    "Car or bike owners who want to maximize fuel savings"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How much can I save on fuel with this card?",
+      "answer": "You earn ~5% back in FuelPoints at IndianOil outlets plus a 1% fuel surcharge waiver. On a monthly fuel spend of ₹5,000, you can save approximately ₹300 per month."
+    },
+    {
+      "question": "Can I earn FuelPoints at other fuel stations?",
+      "answer": "The accelerated 50 FuelPoints per ₹150 rate applies only at IndianOil (IOCL) outlets. At other stations, you earn the base rate of 5 FuelPoints per ₹150."
+    },
+    {
+      "question": "How do I redeem FuelPoints?",
+      "answer": "FuelPoints can be redeemed for fuel purchases at IndianOil outlets or converted to XTRAREWARDS loyalty points. Statement credit redemption is also available but at a lower value."
+    }
+  ]
+}

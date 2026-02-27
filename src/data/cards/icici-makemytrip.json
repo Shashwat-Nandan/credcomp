@@ -1,0 +1,126 @@
+{
+  "slug": "icici-makemytrip",
+  "name": "ICICI MakeMyTrip Credit Card",
+  "issuer": "icici",
+  "network": "visa",
+  "tier": "mid",
+  "categories": ["travel", "rewards"],
+  "imageUrl": "/images/cards/icici-makemytrip.webp",
+  "fees": {
+    "joining": 500,
+    "annual": 500,
+    "renewal": 500,
+    "waiverCondition": "Annual fee waived on spending ₹1,50,000 in the previous year",
+    "waiverSpendThreshold": 150000
+  },
+  "rewards": {
+    "pointName": "myBizPoints",
+    "baseEarnRate": 2,
+    "pointValue": 0.25,
+    "maxPointValue": 0.50,
+    "categoryRates": [
+      {
+        "category": "MakeMyTrip bookings",
+        "rate": 10,
+        "description": "10X myBizPoints on MakeMyTrip bookings (flights, hotels, holidays)"
+      },
+      {
+        "category": "Dining",
+        "rate": 4,
+        "description": "4X myBizPoints per ₹100 spent on dining"
+      },
+      {
+        "category": "All other spends",
+        "rate": 2,
+        "description": "2X myBizPoints per ₹100 spent on all other retail purchases"
+      }
+    ],
+    "cappedCategories": [],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments",
+      "Insurance premiums",
+      "EMI transactions"
+    ],
+    "redemptionOptions": [
+      "MakeMyTrip vouchers (best value at ~₹0.50 per point)",
+      "PAYBACK catalogue redemption",
+      "Gift vouchers",
+      "Statement credit"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "₹1,000 MakeMyTrip voucher",
+      "value": 1000,
+      "condition": "On payment of joining fee and first transaction"
+    }
+  ],
+  "milestoneBenefits": [],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 4,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 0,
+      "visitPeriod": "annual"
+    },
+    "provider": "Dreamfolks / Visa Lounge Program"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "10X accelerated rewards on MakeMyTrip bookings",
+    "Higher point value when redeemed as MMT vouchers (~₹0.50)",
+    "4 complimentary domestic airport lounge visits per year",
+    "Contactless payment enabled"
+  ],
+  "eligibility": {
+    "minIncome": 400000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.6,
+  "pros": [
+    "10X rewards on MakeMyTrip bookings is excellent for frequent travellers",
+    "Higher point value when redeemed on MMT (up to ₹0.50 per point)",
+    "₹1,000 MMT welcome voucher covers joining fee twice over",
+    "4 domestic lounge visits per year",
+    "4X rewards on dining is a solid bonus category"
+  ],
+  "cons": [
+    "Best value locked to MakeMyTrip platform only",
+    "Base reward rate of 0.50% on general spends is average",
+    "No international lounge access",
+    "High foreign currency markup at 3.5% despite being a travel card"
+  ],
+  "idealFor": [
+    "Frequent travellers who regularly book through MakeMyTrip",
+    "Users who want travel-focused rewards with domestic lounge access",
+    "Those who prefer a low-fee co-branded travel card"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How do the 10X rewards on MakeMyTrip work?",
+      "answer": "When you make any booking on MakeMyTrip (flights, hotels, holiday packages) using this card, you earn 10 myBizPoints per ₹100 instead of the standard 2. These points can be redeemed on MMT at a higher value of approximately ₹0.50 per point, giving an effective return of about 5%."
+    },
+    {
+      "question": "Can I redeem myBizPoints outside MakeMyTrip?",
+      "answer": "Yes, myBizPoints can be redeemed through the PAYBACK catalogue, as gift vouchers, or as statement credit. However, the best value (~₹0.50 per point) is achieved when redeeming as MakeMyTrip vouchers. Other redemptions give approximately ₹0.25 per point."
+    },
+    {
+      "question": "Is this card good for international travel?",
+      "answer": "While the 10X MMT rewards work for international flight and hotel bookings, the 3.5% foreign currency markup makes it poor for actual international spending. Consider pairing it with a low-forex card for overseas transactions."
+    },
+    {
+      "question": "How does the welcome voucher work?",
+      "answer": "You receive a ₹1,000 MakeMyTrip voucher after paying the joining fee and making your first transaction. The voucher can be applied to any booking on MakeMyTrip with minimum booking conditions as specified by MMT."
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "hdfc-marriott-bonvoy",
+  "name": "HDFC Marriott Bonvoy Credit Card",
+  "issuer": "hdfc",
+  "network": "visa",
+  "tier": "premium",
+  "categories": ["travel", "premium", "lounge", "rewards"],
+  "imageUrl": "/images/cards/hdfc-marriott-bonvoy.webp",
+  "fees": {
+    "joining": 3000,
+    "annual": 3000,
+    "renewal": 3000,
+    "waiverCondition": "Spend ₹5,00,000 or more in the previous year",
+    "waiverSpendThreshold": 500000
+  },
+  "rewards": {
+    "pointName": "Marriott Bonvoy Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.50,
+    "categoryRates": [
+      {
+        "category": "Marriott hotels",
+        "rate": 8,
+        "description": "8 Bonvoy Points per ₹150 spent on Marriott hotel stays worldwide"
+      },
+      {
+        "category": "Dining & International spends",
+        "rate": 4,
+        "description": "4 Bonvoy Points per ₹150 on dining and international transactions"
+      },
+      {
+        "category": "All other spends",
+        "rate": 2,
+        "description": "2 Bonvoy Points per ₹150 on all other retail purchases"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI transactions",
+      "Rent payments"
+    ],
+    "redemptionOptions": [
+      "Free nights at Marriott hotels worldwide",
+      "Transfer to 40+ airline partners",
+      "Marriott Bonvoy Moments experiences",
+      "Shop with Points on Marriott website"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "5,000 Marriott Bonvoy Points on card activation",
+      "value": 2500,
+      "condition": "On payment of joining fee and first transaction"
+    }
+  ],
+  "milestoneBenefits": [],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 8,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 2,
+      "visitPeriod": "annual"
+    },
+    "provider": "Visa Lounge Program"
+  },
+  "insurance": {
+    "airAccident": "₹50,00,000",
+    "travelInsurance": "Up to ₹10,00,000 emergency medical cover overseas"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 500
+  },
+  "foreignCurrencyMarkup": 2,
+  "additionalBenefits": [
+    "Automatic Marriott Bonvoy Silver Elite status",
+    "8 domestic + 2 international lounge visits per year",
+    "Lower forex markup of 2% compared to most HDFC cards",
+    "Transfer Bonvoy Points to 40+ airline frequent flyer programs",
+    "Complimentary night certificate on spending milestones"
+  ],
+  "eligibility": {
+    "minIncome": 600000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 4.1,
+  "pros": [
+    "8 Bonvoy Points per ₹150 on Marriott stays is excellent for hotel loyalists",
+    "Only 2% forex markup is competitive for international spends",
+    "Silver Elite status unlocked automatically with the card",
+    "Bonvoy Points transferable to 40+ airline partners for flexibility",
+    "8 domestic and 2 international lounge visits included"
+  ],
+  "cons": [
+    "Best value only if you stay at Marriott properties regularly",
+    "Base earn rate of 2 points per ₹150 (0.67%) is average for non-category spends",
+    "₹5L fee waiver threshold is steep for a ₹3,000 fee card",
+    "Bonvoy point value varies significantly based on redemption"
+  ],
+  "idealFor": [
+    "Frequent Marriott hotel guests who can benefit from Bonvoy Elite status",
+    "International travelers who want lower forex markup and lounge access",
+    "Users who prefer hotel loyalty points transferable to airline miles"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "What Marriott Bonvoy status do I get with this card?",
+      "answer": "You automatically receive Marriott Bonvoy Silver Elite status, which includes 10% bonus points on hotel stays, late checkout, and enhanced Wi-Fi at Marriott properties."
+    },
+    {
+      "question": "Can I transfer Bonvoy Points to airline miles?",
+      "answer": "Yes, Marriott Bonvoy Points are transferable to 40+ airline frequent flyer programs at a ratio of 3:1 (3 Bonvoy Points = 1 airline mile). A bonus of 5,000 miles is awarded for every 60,000 points transferred."
+    },
+    {
+      "question": "How much is a Bonvoy Point worth?",
+      "answer": "The value varies by redemption. For hotel stays, 1 Bonvoy Point is typically worth ₹0.40-₹0.70. At peak redemptions for premium properties, value can be higher. We estimate an average of ₹0.50 per point."
+    },
+    {
+      "question": "Is the 2% forex markup competitive?",
+      "answer": "Yes, 2% is among the lowest forex markups available on Indian credit cards. Most cards charge 3.5%, making this card a solid choice for international transactions."
+    }
+  ]
+}

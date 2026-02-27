@@ -1,0 +1,95 @@
+{
+  "slug": "icici-platinum-chip",
+  "name": "ICICI Platinum Chip Credit Card",
+  "issuer": "icici",
+  "network": "visa",
+  "tier": "entry",
+  "categories": ["cashback", "no-annual-fee"],
+  "imageUrl": "/images/cards/icici-platinum-chip.webp",
+  "fees": {
+    "joining": 199,
+    "annual": 199,
+    "renewal": 199,
+    "waiverCondition": "Annual fee waived on spending ₹50,000 in the previous year",
+    "waiverSpendThreshold": 50000
+  },
+  "rewards": {
+    "pointName": "PAYBACK Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.25,
+    "categoryRates": [
+      {
+        "category": "All spends",
+        "rate": 2,
+        "description": "2 PAYBACK Points per ₹100 spent on all retail purchases"
+      }
+    ],
+    "cappedCategories": [],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments",
+      "EMI transactions"
+    ],
+    "redemptionOptions": [
+      "PAYBACK catalogue redemption",
+      "Gift vouchers",
+      "Statement credit"
+    ]
+  },
+  "welcomeBenefits": [],
+  "milestoneBenefits": [],
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 100
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "EMV chip-based card for enhanced security",
+    "Contactless payment enabled",
+    "Interest-free credit period up to 48 days"
+  ],
+  "eligibility": {
+    "minIncome": 200000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.0,
+  "pros": [
+    "Very low annual fee of ₹199, easily waivable",
+    "Simple and straightforward rewards structure",
+    "Easy approval for first-time credit card users",
+    "Chip-based security for safer transactions",
+    "Fuel surcharge waiver available"
+  ],
+  "cons": [
+    "Low reward rate of 0.50% effective return",
+    "No lounge access",
+    "No premium benefits or milestone rewards",
+    "High foreign currency markup at 3.5%"
+  ],
+  "idealFor": [
+    "First-time credit card users building credit history",
+    "Users who want a basic, low-fee credit card from ICICI",
+    "Those who prefer simplicity over complex reward structures"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How can I waive the annual fee on the ICICI Platinum Chip card?",
+      "answer": "The annual fee of ₹199 is waived if you spend ₹50,000 or more in the previous anniversary year. This threshold is quite achievable with regular monthly spending."
+    },
+    {
+      "question": "What is the reward earning rate on this card?",
+      "answer": "You earn 2 PAYBACK Points per ₹100 spent. Each PAYBACK Point is worth approximately ₹0.25, giving you an effective reward rate of about 0.50%."
+    },
+    {
+      "question": "Does this card offer any lounge access?",
+      "answer": "No, the ICICI Platinum Chip Credit Card does not offer any domestic or international airport lounge access. Consider the ICICI Coral or Rubyx for lounge benefits."
+    },
+    {
+      "question": "Is this a good first credit card?",
+      "answer": "Yes, the ICICI Platinum Chip is a decent entry-level card with a low fee and easy eligibility. It helps build a credit history with ICICI Bank, which can lead to upgrades to better cards like Coral or Rubyx."
+    }
+  ]
+}

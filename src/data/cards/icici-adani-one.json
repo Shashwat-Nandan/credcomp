@@ -1,0 +1,125 @@
+{
+  "slug": "icici-adani-one",
+  "name": "ICICI Adani One Credit Card",
+  "issuer": "icici",
+  "network": "visa",
+  "tier": "mid",
+  "categories": ["travel", "rewards", "fuel"],
+  "imageUrl": "/images/cards/icici-adani-one.webp",
+  "fees": {
+    "joining": 500,
+    "annual": 500,
+    "renewal": 500,
+    "waiverCondition": "Annual fee waived on spending ₹2,00,000 in the previous year",
+    "waiverSpendThreshold": 200000
+  },
+  "rewards": {
+    "pointName": "Adani Reward Points",
+    "baseEarnRate": 1,
+    "pointValue": 1,
+    "categoryRates": [
+      {
+        "category": "Adani Group (airports, gas, ports, etc.)",
+        "rate": 7,
+        "description": "7% rewards on spends across Adani Group ecosystem including airports, Adani Gas, and Adani Ports"
+      },
+      {
+        "category": "Utility bill payments",
+        "rate": 2,
+        "description": "2% rewards on utility and bill payments"
+      },
+      {
+        "category": "All other spends",
+        "rate": 1,
+        "description": "1% rewards on all other retail purchases"
+      }
+    ],
+    "cappedCategories": [],
+    "exclusions": [
+      "Wallet loading",
+      "Rent payments",
+      "Insurance premiums",
+      "EMI transactions",
+      "Cash advances"
+    ],
+    "redemptionOptions": [
+      "Adani One app redemption for flights and services",
+      "Adani Group ecosystem purchases",
+      "Statement credit",
+      "Gift vouchers"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "1000 Adani Reward Points",
+      "value": 1000,
+      "condition": "On card activation and first transaction"
+    }
+  ],
+  "milestoneBenefits": [],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 4,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 0,
+      "visitPeriod": "annual"
+    },
+    "provider": "Adani Lounge / Dreamfolks"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "7% rewards across entire Adani Group ecosystem",
+    "Adani airport lounge access at Adani-managed airports",
+    "Integrated with Adani One app for seamless redemption",
+    "Fuel surcharge waiver applicable at all fuel stations"
+  ],
+  "eligibility": {
+    "minIncome": 400000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.5,
+  "pros": [
+    "Industry-leading 7% rewards at Adani Group businesses",
+    "Useful for frequent flyers from Adani-managed airports",
+    "4 domestic lounge visits per year",
+    "Decent 2% return on utility payments",
+    "Good for Adani Gas and fuel-related spends"
+  ],
+  "cons": [
+    "Best rewards locked to Adani ecosystem which has limited everyday use",
+    "Only 1% on general spends is below average",
+    "No international lounge access",
+    "High foreign currency markup at 3.5%"
+  ],
+  "idealFor": [
+    "Frequent users of Adani Group services (airports, gas, utilities)",
+    "Travellers who often fly from Adani-managed airports",
+    "Users who want an ecosystem-specific card with strong niche rewards"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "Which Adani businesses qualify for the 7% reward rate?",
+      "answer": "The 7% reward rate applies to spends across the Adani Group ecosystem, including Adani Airport services (duty-free, F&B, retail), Adani Gas (CNG, PNG), Adani Electricity, and other Adani Group businesses registered on the Adani One platform."
+    },
+    {
+      "question": "How do I redeem Adani Reward Points?",
+      "answer": "Points can be redeemed through the Adani One app for flights, airport services, and other Adani Group offerings. They can also be used for statement credit or gift vouchers, though best value is within the Adani ecosystem."
+    },
+    {
+      "question": "Is this card good if I don't use Adani services?",
+      "answer": "Not particularly. The card offers only 1% on general spends, which is average. The real value comes from the 7% on Adani Group spends. If you rarely use Adani services, a card like the ICICI Amazon Pay would give better everyday returns."
+    },
+    {
+      "question": "Do I get lounge access at all airports?",
+      "answer": "The 4 domestic lounge visits are available through Dreamfolks at most major airports. At Adani-managed airports, you may also have access to Adani-specific lounges. International lounge access is not included."
+    }
+  ]
+}

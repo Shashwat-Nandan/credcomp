@@ -1,0 +1,130 @@
+{
+  "slug": "hdfc-tata-neu-infinity",
+  "name": "HDFC Tata Neu Infinity Credit Card",
+  "issuer": "hdfc",
+  "network": "visa",
+  "tier": "premium",
+  "categories": ["rewards", "shopping", "cashback"],
+  "imageUrl": "/images/cards/hdfc-tata-neu-infinity.webp",
+  "fees": {
+    "joining": 1499,
+    "annual": 1499,
+    "renewal": 1499,
+    "waiverCondition": "Spend ₹3,00,000 or more in the previous year",
+    "waiverSpendThreshold": 300000
+  },
+  "rewards": {
+    "pointName": "NeuCoins",
+    "baseEarnRate": 1.5,
+    "pointValue": 1,
+    "categoryRates": [
+      {
+        "category": "Tata Neu brands",
+        "rate": 10,
+        "description": "10% NeuCoins on BigBasket, 1mg, Croma, Tata CLiQ and other Tata Neu brands"
+      },
+      {
+        "category": "Swiggy, Zomato",
+        "rate": 5,
+        "description": "5% NeuCoins on Swiggy and Zomato orders"
+      },
+      {
+        "category": "All other spends",
+        "rate": 1.5,
+        "description": "1.5% NeuCoins on all other retail purchases"
+      }
+    ],
+    "cappedCategories": [
+      {
+        "category": "Tata Neu brands",
+        "maxPointsPerMonth": 5000
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI transactions",
+      "Rent payments"
+    ],
+    "redemptionOptions": [
+      "NeuCoins redeemable on Tata Neu app (1 NeuCoin = ₹1)",
+      "Use across BigBasket, 1mg, Croma, Tata CLiQ, Westside",
+      "Redeem for Taj hotel bookings",
+      "Statement credit conversion"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "2,500 NeuCoins on card activation",
+      "value": 2500,
+      "condition": "On payment of joining fee and first transaction"
+    }
+  ],
+  "milestoneBenefits": [],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 6,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 0,
+      "visitPeriod": "annual"
+    },
+    "provider": "Visa Lounge Program"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 400
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "10% NeuCoins on the entire Tata ecosystem",
+    "6 complimentary domestic airport lounge visits per year",
+    "NeuCoins never expire as long as card is active",
+    "Access to exclusive Tata Neu brand offers and early sales",
+    "Higher fuel surcharge waiver cap of ₹400/month"
+  ],
+  "eligibility": {
+    "minIncome": 600000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 4.0,
+  "pros": [
+    "10% return on Tata Neu brands is among the highest category rates available",
+    "1 NeuCoin = ₹1 makes reward valuation simple and transparent",
+    "1.5% base earn rate is above average for all other spends",
+    "5% on Swiggy and Zomato is a great bonus for foodies",
+    "Welcome benefit of 2,500 NeuCoins more than covers the joining fee"
+  ],
+  "cons": [
+    "High value only if you shop frequently within the Tata ecosystem",
+    "No international lounge access",
+    "3.5% forex markup is steep for overseas transactions",
+    "10% category rate capped at 5,000 NeuCoins per month"
+  ],
+  "idealFor": [
+    "Regular users of BigBasket, Croma, Tata CLiQ and other Tata Neu brands",
+    "Food delivery enthusiasts who order frequently on Swiggy and Zomato",
+    "Users who want high-value rewards within the Tata ecosystem"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "What are NeuCoins and how much are they worth?",
+      "answer": "NeuCoins are the reward currency of the Tata Neu app. 1 NeuCoin = ₹1, and they can be redeemed across all Tata Neu brands including BigBasket, 1mg, Croma, Tata CLiQ, Westside, and Taj hotels."
+    },
+    {
+      "question": "Is the 10% NeuCoins on Tata brands unlimited?",
+      "answer": "No, the 10% earn rate on Tata Neu brands is capped at 5,000 NeuCoins per calendar month. Beyond this cap, you earn at the standard 1.5% rate."
+    },
+    {
+      "question": "Can I use NeuCoins outside the Tata ecosystem?",
+      "answer": "NeuCoins are primarily designed for use within the Tata Neu ecosystem. While statement credit conversion is available, the best value is obtained by redeeming on Tata Neu partner brands."
+    },
+    {
+      "question": "How does this card compare to the HDFC Millennia?",
+      "answer": "The Tata Neu Infinity offers higher category rewards (10% vs 5%) but only within the Tata ecosystem. The Millennia is more versatile with cashback on Amazon, Flipkart, and Myntra. Choose based on where you shop most."
+    }
+  ]
+}

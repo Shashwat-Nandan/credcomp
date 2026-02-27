@@ -1,0 +1,117 @@
+{
+  "slug": "idfc-first-wow",
+  "name": "IDFC FIRST WOW Credit Card",
+  "issuer": "idfc",
+  "network": "visa",
+  "tier": "entry",
+  "categories": ["cashback", "no-annual-fee"],
+  "imageUrl": "/images/cards/idfc-first-wow.webp",
+  "fees": {
+    "joining": 0,
+    "annual": 0,
+    "renewal": 0,
+    "waiverCondition": "Lifetime free credit card with no joining, annual, or renewal fees"
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 1,
+    "pointValue": 0.25,
+    "maxPointValue": 0.25,
+    "categoryRates": [
+      {
+        "category": "All spends (base)",
+        "rate": 1,
+        "description": "1 Reward Point per ₹100 spent on all purchases"
+      },
+      {
+        "category": "Select categories (via app)",
+        "rate": 5,
+        "description": "5X Reward Points on select rotating categories chosen via IDFC FIRST app"
+      }
+    ],
+    "cappedCategories": [
+      {
+        "category": "Select categories (5X)",
+        "maxPointsPerMonth": 3000,
+        "description": "5X rewards on select categories capped at 3,000 bonus RP per month"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments via third-party apps",
+      "Government/tax payments",
+      "Insurance premium payments"
+    ],
+    "redemptionOptions": [
+      "Statement credit (1 RP = ₹0.25)",
+      "Amazon Pay balance",
+      "Gift vouchers",
+      "Product catalogue"
+    ]
+  },
+  "welcomeBenefits": [],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 100000,
+      "period": "annual",
+      "benefit": "1,000 bonus Reward Points",
+      "value": 250
+    }
+  ],
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 200
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "Lifetime free with absolutely zero fees",
+    "5X rewards on select categories via IDFC FIRST app",
+    "Never-expiring reward points",
+    "Zero interest on ATM cash withdrawals for up to 48 days",
+    "Instant card issuance for IDFC FIRST Bank account holders"
+  ],
+  "eligibility": {
+    "minIncome": 250000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.4,
+  "pros": [
+    "Lifetime free with zero joining, annual, and renewal fees",
+    "5X rewards on select categories add value on targeted spends",
+    "Never-expiring reward points",
+    "Zero interest ATM withdrawal is a unique IDFC FIRST benefit",
+    "Low income requirement of ₹2.5 LPA makes it accessible"
+  ],
+  "cons": [
+    "Low base earn rate of 1 RP per ₹100 (0.25% return)",
+    "No lounge access whatsoever",
+    "No welcome benefits",
+    "3.5% forex markup is not competitive"
+  ],
+  "idealFor": [
+    "First-time credit card users looking for a zero-cost card",
+    "IDFC FIRST Bank account holders wanting a free credit card",
+    "Users who want basic rewards without paying any fees"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "Is the IDFC FIRST WOW card truly lifetime free?",
+      "answer": "Yes, the IDFC FIRST WOW card has zero joining fee, zero annual fee, and zero renewal fee for life. There are no hidden charges or spend-based conditions for fee waiver."
+    },
+    {
+      "question": "How do the 5X select categories work?",
+      "answer": "Through the IDFC FIRST Bank app, you can select specific spending categories that earn 5X reward points. These categories may rotate periodically, and you can update your selections via the app."
+    },
+    {
+      "question": "Can I get this card without an IDFC FIRST Bank account?",
+      "answer": "While you can apply without an existing account, having an IDFC FIRST Bank savings account significantly improves approval chances and may enable instant card issuance."
+    },
+    {
+      "question": "How does this compare to other lifetime free cards?",
+      "answer": "The WOW card is competitive among lifetime free cards with its 5X select category rewards and never-expiring points. However, it lacks lounge access and welcome benefits that some other free cards like the AU LIT offer."
+    }
+  ]
+}

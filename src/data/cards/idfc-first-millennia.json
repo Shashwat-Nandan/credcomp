@@ -1,0 +1,147 @@
+{
+  "slug": "idfc-first-millennia",
+  "name": "IDFC FIRST Millennia Credit Card",
+  "issuer": "idfc",
+  "network": "visa",
+  "tier": "mid",
+  "categories": ["rewards", "cashback"],
+  "imageUrl": "/images/cards/idfc-first-millennia.webp",
+  "fees": {
+    "joining": 999,
+    "annual": 999,
+    "renewal": 999,
+    "waiverCondition": "Annual fee waived on spending ₹1,50,000 or more in the previous year",
+    "waiverSpendThreshold": 150000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 1,
+    "pointValue": 0.25,
+    "maxPointValue": 0.25,
+    "categoryRates": [
+      {
+        "category": "All spends (base)",
+        "rate": 1,
+        "description": "1 Reward Point per ₹100 spent on all purchases"
+      },
+      {
+        "category": "Online spends",
+        "rate": 6,
+        "description": "6X Reward Points (6 RP per ₹100) on online transactions"
+      },
+      {
+        "category": "Dining",
+        "rate": 3,
+        "description": "3X Reward Points (3 RP per ₹100) on dining transactions"
+      }
+    ],
+    "cappedCategories": [
+      {
+        "category": "Online spends (6X)",
+        "maxPointsPerMonth": 5000,
+        "description": "6X rewards on online spends capped at 5,000 bonus RP per month"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments via third-party apps",
+      "Government/tax payments",
+      "Insurance premium payments"
+    ],
+    "redemptionOptions": [
+      "Statement credit (1 RP = ₹0.25)",
+      "Amazon Pay balance",
+      "Gift vouchers (Flipkart, Myntra, etc.)",
+      "Product catalogue",
+      "Travel bookings"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "1,000 bonus Reward Points on card activation",
+      "value": 250,
+      "condition": "On payment of joining fee and first transaction"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 100000,
+      "period": "annual",
+      "benefit": "1,500 bonus Reward Points",
+      "value": 375
+    },
+    {
+      "spendThreshold": 150000,
+      "period": "annual",
+      "benefit": "Annual fee waiver + 2,000 bonus Reward Points",
+      "value": 1499
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 4,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 0,
+      "visitPeriod": "annual"
+    },
+    "provider": "Dreamfolks / Visa Lounges"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "6X rewards on online shopping including Amazon, Flipkart, etc.",
+    "3X rewards on dining out",
+    "4 complimentary domestic lounge visits per year",
+    "Never-expiring reward points",
+    "Zero interest on ATM cash withdrawals for up to 48 days"
+  ],
+  "eligibility": {
+    "minIncome": 400000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.6,
+  "pros": [
+    "Strong 6X rewards on online shopping covers most e-commerce spends",
+    "Never-expiring reward points unlike most competing cards",
+    "Easy fee waiver at ₹1.5L annual spend",
+    "Zero interest on ATM cash withdrawals is a unique feature",
+    "4 domestic lounge visits at a reasonable price point"
+  ],
+  "cons": [
+    "Low base earn rate of 1 RP per ₹100 (0.25% return)",
+    "Point value of ₹0.25 is below average",
+    "No international lounge access",
+    "3.5% forex markup makes it unsuitable for international use"
+  ],
+  "idealFor": [
+    "Heavy online shoppers who want accelerated rewards on e-commerce",
+    "Users who value never-expiring reward points",
+    "Budget-conscious users looking for a mid-tier card with easy fee waiver"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "What counts as online spends for 6X rewards?",
+      "answer": "Online spends include transactions on e-commerce platforms like Amazon, Flipkart, Myntra, and other online merchants. App-based purchases and online subscriptions also qualify. Wallet loading and rent payments are excluded."
+    },
+    {
+      "question": "Do IDFC FIRST reward points expire?",
+      "answer": "No, IDFC FIRST Bank reward points never expire as long as your credit card account remains active. This is a standout benefit compared to most banks that expire points in 2-3 years."
+    },
+    {
+      "question": "How does zero interest ATM withdrawal work?",
+      "answer": "You can withdraw cash from ATMs using your IDFC FIRST Millennia card and pay zero interest if you repay within the billing cycle (up to 48 days). Most other cards charge 2.5-3.5% per month on cash advances."
+    },
+    {
+      "question": "Is this card better than the IDFC FIRST Wealth?",
+      "answer": "The Millennia offers 6X on online and 3X on dining but only 1X base, while the Wealth gives flat 6X on everything. If your spends are concentrated online, Millennia matches Wealth. For diverse spending, Wealth is better."
+    }
+  ]
+}

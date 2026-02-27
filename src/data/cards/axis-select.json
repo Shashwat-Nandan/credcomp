@@ -1,0 +1,120 @@
+{
+  "slug": "axis-select",
+  "name": "Axis Select Credit Card",
+  "issuer": "axis",
+  "network": "visa",
+  "tier": "premium",
+  "categories": ["rewards", "lounge", "lifestyle"],
+  "imageUrl": "/images/cards/axis-select.webp",
+  "fees": {
+    "joining": 3000,
+    "annual": 3000,
+    "renewal": 3000,
+    "waiverCondition": "Annual fee waived on spending ₹3,00,000 in the previous year",
+    "waiverSpendThreshold": 300000
+  },
+  "rewards": {
+    "pointName": "EDGE Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.40,
+    "categoryRates": [
+      {
+        "category": "All spends",
+        "rate": 2,
+        "description": "2 EDGE Points per ₹200 spent on all purchases"
+      },
+      {
+        "category": "Travel & dining",
+        "rate": 5,
+        "description": "5X EDGE Points (5 per ₹200) on travel and dining spends"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI conversions",
+      "Rent payments",
+      "Government/tax payments"
+    ],
+    "redemptionOptions": [
+      "Statement credit (1 EDGE Point = ₹0.40)",
+      "Gift vouchers from partner brands",
+      "Product catalogue redemption",
+      "Axis Travel EDGE portal bookings"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "5,000 EDGE Points on card activation",
+      "value": 2000,
+      "condition": "Credited on first transaction within 30 days"
+    }
+  ],
+  "milestoneBenefits": [],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 8,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 4,
+      "visitPeriod": "annual"
+    },
+    "provider": "Dreamfolks / Priority Pass"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 500
+  },
+  "foreignCurrencyMarkup": 2,
+  "additionalBenefits": [
+    "5X rewards on travel and dining categories",
+    "8 domestic + 4 international lounge visits per year",
+    "Low 2% foreign currency markup for international spends",
+    "Priority Pass membership included",
+    "Axis Bank Dining Delights programme"
+  ],
+  "eligibility": {
+    "minIncome": 800000,
+    "salariedOnly": false,
+    "minAge": 18
+  },
+  "rating": 4.0,
+  "pros": [
+    "5X rewards on travel and dining makes it strong for lifestyle spends",
+    "8 domestic and 4 international lounge visits is generous for premium tier",
+    "Low 2% foreign currency markup saves on international purchases",
+    "Annual fee waivable with ₹3 lakh spend threshold",
+    "Priority Pass membership included for international lounge access"
+  ],
+  "cons": [
+    "EDGE Point value at ₹0.40 is lower than competing premium cards",
+    "Base earn rate of 2 points per ₹200 is modest for a ₹3,000 fee card",
+    "No milestone or annual spend bonus benefits",
+    "Welcome benefit of 5,000 points (₹2,000 value) does not fully offset the fee"
+  ],
+  "idealFor": [
+    "Frequent travellers and diners who want strong category rewards",
+    "Users who need both domestic and international lounge access",
+    "International spenders looking for low foreign currency markup"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How many lounge visits do I get with the Axis Select card?",
+      "answer": "You get 8 complimentary domestic lounge visits and 4 international lounge visits per year through Dreamfolks and Priority Pass."
+    },
+    {
+      "question": "What qualifies as travel and dining for 5X rewards?",
+      "answer": "Travel includes airline tickets, hotel bookings, travel agencies, and ride-hailing services. Dining includes restaurants, cafes, food delivery apps, and bars."
+    },
+    {
+      "question": "How does the 2% foreign currency markup compare?",
+      "answer": "The 2% markup is lower than the industry standard of 3.5%. For international transactions, this can save ₹1,500 for every ₹1 lakh spent abroad."
+    },
+    {
+      "question": "Can the annual fee be waived?",
+      "answer": "Yes, the ₹3,000 annual fee is waived if you spend ₹3,00,000 or more in the previous year."
+    }
+  ]
+}

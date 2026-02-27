@@ -1,0 +1,144 @@
+{
+  "slug": "sbi-miles-elite",
+  "name": "SBI Miles Elite Credit Card",
+  "issuer": "sbi",
+  "network": "visa",
+  "tier": "premium",
+  "categories": ["travel", "rewards", "lounge"],
+  "imageUrl": "/images/cards/sbi-miles-elite.webp",
+  "fees": {
+    "joining": 4999,
+    "annual": 4999,
+    "renewal": 4999,
+    "waiverCondition": "Spend ₹5,00,000 or more in the previous year",
+    "waiverSpendThreshold": 500000
+  },
+  "rewards": {
+    "pointName": "Air Miles",
+    "baseEarnRate": 2,
+    "pointValue": 0.5,
+    "maxPointValue": 0.5,
+    "categoryRates": [
+      {
+        "category": "International spends",
+        "rate": 10,
+        "description": "10 Air Miles per ₹100 on all international transactions"
+      },
+      {
+        "category": "Domestic travel",
+        "rate": 4,
+        "description": "4 Air Miles per ₹100 on domestic travel bookings (flights, hotels, cabs)"
+      },
+      {
+        "category": "All other spends",
+        "rate": 2,
+        "description": "2 Air Miles per ₹100 on all other domestic transactions"
+      }
+    ],
+    "cappedCategories": [],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments",
+      "EMI transactions",
+      "Government/tax payments",
+      "Insurance premium payments"
+    ],
+    "redemptionOptions": [
+      "Transfer to airline frequent flyer programs (Vistara, Singapore Airlines, etc.)",
+      "Flight bookings via SBI Card portal",
+      "Statement credit (1 mile = ₹0.50)",
+      "Hotel and travel bookings"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "10,000 bonus Air Miles",
+      "value": 5000,
+      "condition": "On spending ₹10,000 within 60 days of card issuance"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 250000,
+      "period": "annual",
+      "benefit": "5,000 bonus Air Miles",
+      "value": 2500
+    },
+    {
+      "spendThreshold": 500000,
+      "period": "annual",
+      "benefit": "Additional 10,000 bonus Air Miles + annual fee waiver",
+      "value": 9999
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 8,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 4,
+      "visitPeriod": "annual"
+    },
+    "provider": "Visa / Priority Pass"
+  },
+  "insurance": {
+    "airAccident": "₹1,00,00,000",
+    "travelInsurance": "Up to ₹50,00,000 emergency medical cover",
+    "purchaseProtection": null
+  },
+  "fuelSurchargeWaiver": null,
+  "foreignCurrencyMarkup": 1.99,
+  "additionalBenefits": [
+    "Low foreign currency markup of 1.99% — ideal for international use",
+    "Transferable miles to multiple airline partners",
+    "8 domestic + 4 international lounge visits per year",
+    "Air accident insurance of ₹1 crore",
+    "Travel insurance with ₹50 lakh emergency medical cover",
+    "Concierge services for travel bookings"
+  ],
+  "eligibility": {
+    "minIncome": 1200000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 4.1,
+  "pros": [
+    "10 miles per ₹100 on international spends is excellent — effective 5% return",
+    "Low forex markup of 1.99% makes it one of the best cards for international use",
+    "8 domestic + 4 international lounge visits provide strong travel coverage",
+    "₹1 crore air accident insurance and ₹50 lakh travel insurance",
+    "Welcome bonus of 10,000 miles covers the joining fee value"
+  ],
+  "cons": [
+    "High annual fee of ₹4,999 with ₹5 lakh waiver threshold",
+    "Base earn rate of 2 miles per ₹100 is average for everyday domestic spends",
+    "Mile value of ₹0.50 is modest compared to some airline co-branded cards",
+    "High income eligibility of ₹12 lakh limits accessibility"
+  ],
+  "idealFor": [
+    "Frequent international travelers who want low forex markup and high miles earning",
+    "Travel enthusiasts who want transferable airline miles with flexibility",
+    "Users with high travel spends looking for comprehensive travel insurance and lounge access"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How much are the Air Miles worth?",
+      "answer": "Each Air Mile is worth approximately ₹0.50 when redeemed as statement credit. However, value can be higher when transferred to airline frequent flyer programs for flight bookings, especially during sales."
+    },
+    {
+      "question": "Can I transfer miles to airline programs?",
+      "answer": "Yes, you can transfer Air Miles to partner airline frequent flyer programs including Vistara Club Vistara and Singapore Airlines KrisFlyer, among others."
+    },
+    {
+      "question": "What makes this card good for international use?",
+      "answer": "The combination of 10 miles per ₹100 on international spends (5% effective return) and a low 1.99% forex markup makes this one of the best SBI cards for international transactions."
+    },
+    {
+      "question": "What insurance coverage does this card provide?",
+      "answer": "The card offers ₹1 crore air accident insurance and up to ₹50 lakh emergency medical travel insurance when tickets are purchased using the card."
+    }
+  ]
+}

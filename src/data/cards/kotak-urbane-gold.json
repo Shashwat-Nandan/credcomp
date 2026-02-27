@@ -1,0 +1,126 @@
+{
+  "slug": "kotak-urbane-gold",
+  "name": "Kotak Urbane Gold Credit Card",
+  "issuer": "kotak",
+  "network": "visa",
+  "tier": "mid",
+  "categories": ["rewards", "lifestyle"],
+  "imageUrl": "/images/cards/kotak-urbane-gold.webp",
+  "fees": {
+    "joining": 1000,
+    "annual": 1000,
+    "renewal": 1000,
+    "waiverCondition": "Spend ₹1,50,000 or more in the previous year",
+    "waiverSpendThreshold": 150000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.25,
+    "maxPointValue": 0.25,
+    "categoryRates": [
+      {
+        "category": "Dining & Entertainment",
+        "rate": 4,
+        "description": "4 Reward Points per ₹150 spent on dining and entertainment"
+      },
+      {
+        "category": "All other spends",
+        "rate": 2,
+        "description": "2 Reward Points per ₹150 spent on all other categories"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI transactions",
+      "Rent payments"
+    ],
+    "redemptionOptions": [
+      "Catalogue gift redemption",
+      "Statement credit",
+      "Airmiles conversion"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "1000 Reward Points on card activation",
+      "value": 250,
+      "condition": "On card activation and first transaction"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 150000,
+      "period": "annual",
+      "benefit": "Annual fee waiver for the next year",
+      "value": 1000
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 4,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 0,
+      "visitPeriod": "annual"
+    },
+    "provider": "Visa"
+  },
+  "insurance": null,
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "2X reward points on dining and entertainment spends",
+    "Complimentary domestic airport lounge access",
+    "Easy EMI conversion on large transactions",
+    "Contactless payment enabled"
+  ],
+  "eligibility": {
+    "minIncome": 350000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.5,
+  "pros": [
+    "Double reward points on dining and entertainment make it good for lifestyle spenders",
+    "Achievable annual fee waiver threshold of ₹1.5 lakh",
+    "4 complimentary domestic lounge visits per year",
+    "Welcome bonus of 1000 RP partially offsets joining fee",
+    "Reasonable annual fee for a mid-tier card"
+  ],
+  "cons": [
+    "Base reward rate of 0.33% is below average",
+    "No international lounge access",
+    "3.5% foreign currency markup is on the higher side",
+    "Reward point value of ₹0.25 per point is relatively low"
+  ],
+  "idealFor": [
+    "Users who frequently dine out and spend on entertainment",
+    "Mid-income earners looking for a card with lounge access and lifestyle rewards",
+    "Those who want an achievable fee waiver with moderate annual spending"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How do I earn accelerated reward points on dining?",
+      "answer": "You automatically earn 4 Reward Points per ₹150 spent at restaurants, cafes, and entertainment outlets. The merchant category code (MCC) determines eligibility."
+    },
+    {
+      "question": "How can I redeem my Reward Points?",
+      "answer": "Reward Points can be redeemed through the Kotak rewards catalogue for gifts, as statement credit against your outstanding balance, or converted to airmiles."
+    },
+    {
+      "question": "How do I get the annual fee waived?",
+      "answer": "Spend ₹1,50,000 or more in a card membership year to get the next year's annual fee waived automatically."
+    },
+    {
+      "question": "Which lounges can I access with this card?",
+      "answer": "You get 4 complimentary domestic airport lounge visits per year through the Visa lounge program. International lounge access is not included."
+    }
+  ]
+}

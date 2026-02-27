@@ -1,0 +1,136 @@
+{
+  "slug": "indusind-legend",
+  "name": "IndusInd Legend Credit Card",
+  "issuer": "indusind",
+  "network": "visa",
+  "tier": "super-premium",
+  "categories": ["travel", "premium", "lounge", "rewards"],
+  "imageUrl": "/images/cards/indusind-legend.webp",
+  "fees": {
+    "joining": 10000,
+    "annual": 10000,
+    "renewal": 10000,
+    "waiverCondition": "Spend ₹5,00,000 or more in the previous year",
+    "waiverSpendThreshold": 500000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.50,
+    "maxPointValue": 0.50,
+    "categoryRates": [
+      {
+        "category": "Travel & Dining",
+        "rate": 6,
+        "description": "6 Reward Points per ₹100 spent on travel and dining"
+      },
+      {
+        "category": "All other spends",
+        "rate": 2,
+        "description": "2 Reward Points per ₹100 spent on all other purchases"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI transactions"
+    ],
+    "redemptionOptions": [
+      "Airmiles conversion",
+      "Statement credit",
+      "Gift vouchers",
+      "Catalogue redemption"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "Welcome vouchers worth ₹10,000",
+      "value": 10000,
+      "condition": "On payment of joining fee"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 400000,
+      "period": "annual",
+      "benefit": "Bonus Reward Points worth ₹5,000",
+      "value": 5000
+    },
+    {
+      "spendThreshold": 800000,
+      "period": "annual",
+      "benefit": "Additional bonus Reward Points worth ₹10,000",
+      "value": 10000
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": "unlimited",
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": "unlimited",
+      "visitPeriod": "annual"
+    },
+    "provider": "Priority Pass"
+  },
+  "insurance": {
+    "airAccident": "₹2,00,00,000",
+    "travelInsurance": "Up to ₹50,00,000 emergency medical cover overseas"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 500
+  },
+  "foreignCurrencyMarkup": 1.8,
+  "additionalBenefits": [
+    "Complimentary Priority Pass membership",
+    "Dedicated relationship manager",
+    "Global concierge service 24/7",
+    "Complimentary golf rounds at select courses",
+    "Exclusive dining privileges at partner restaurants"
+  ],
+  "eligibility": {
+    "minIncome": 2000000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 4.3,
+  "pros": [
+    "Unlimited domestic and international lounge access",
+    "Strong 6X rewards on travel and dining spends",
+    "Low foreign currency markup of 1.8%",
+    "Comprehensive air accident and travel insurance",
+    "Annual fee waiver at ₹5L spend is achievable for target segment"
+  ],
+  "cons": [
+    "High joining and annual fee of ₹10,000",
+    "Base reward rate of 2 RP/₹100 is average for a super-premium card",
+    "Point value of ₹0.50 is lower than some competitors",
+    "Limited milestone benefits compared to peers"
+  ],
+  "idealFor": [
+    "Frequent travellers seeking unlimited lounge access",
+    "High spenders with annual spend exceeding ₹5 lakhs",
+    "Users who value travel and dining rewards"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How do I apply for the IndusInd Legend Credit Card?",
+      "answer": "You can apply online via the IndusInd Bank website or visit a branch. The card requires a minimum annual income of ₹20 lakhs and is subject to credit approval."
+    },
+    {
+      "question": "Is the annual fee waivable on the Legend card?",
+      "answer": "Yes, the ₹10,000 annual fee is waived if you spend ₹5,00,000 or more in the previous anniversary year."
+    },
+    {
+      "question": "What lounge access does the Legend card provide?",
+      "answer": "The Legend card offers unlimited complimentary domestic and international lounge access via Priority Pass for the primary cardholder."
+    },
+    {
+      "question": "Can I convert reward points to airmiles?",
+      "answer": "Yes, IndusInd Legend reward points can be converted to airline miles with partner airlines. Check the IndusInd rewards portal for current conversion ratios."
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "slug": "sbi-vistara",
+  "name": "SBI Club Vistara Credit Card",
+  "issuer": "sbi",
+  "network": "visa",
+  "tier": "premium",
+  "categories": ["travel", "rewards", "lounge"],
+  "imageUrl": "/images/cards/sbi-vistara.webp",
+  "fees": {
+    "joining": 1499,
+    "annual": 1499,
+    "renewal": 1499,
+    "waiverCondition": "Spend ₹2,00,000 or more in the previous year",
+    "waiverSpendThreshold": 200000
+  },
+  "rewards": {
+    "pointName": "CV Points",
+    "baseEarnRate": 2,
+    "pointValue": 1,
+    "maxPointValue": 1,
+    "categoryRates": [
+      {
+        "category": "Vistara bookings",
+        "rate": 6,
+        "description": "6 CV Points per ₹200 spent on Vistara flight bookings"
+      },
+      {
+        "category": "All other spends",
+        "rate": 2,
+        "description": "2 CV Points per ₹200 spent on all other transactions"
+      }
+    ],
+    "cappedCategories": [],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments",
+      "EMI transactions",
+      "Government/tax payments"
+    ],
+    "redemptionOptions": [
+      "Vistara flight bookings",
+      "Vistara seat upgrades",
+      "Vistara add-on services",
+      "Transfer to Club Vistara account"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "1 complimentary domestic economy class ticket on Vistara",
+      "value": 3500,
+      "condition": "On card issuance — ticket provided within 30 days"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 100000,
+      "period": "annual",
+      "benefit": "1 complimentary Economy class ticket on Vistara",
+      "value": 3500
+    },
+    {
+      "spendThreshold": 200000,
+      "period": "annual",
+      "benefit": "1 complimentary Premium Economy class ticket on Vistara",
+      "value": 6000
+    },
+    {
+      "spendThreshold": 400000,
+      "period": "annual",
+      "benefit": "1 complimentary Business class ticket on Vistara",
+      "value": 15000
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 4,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 0,
+      "visitPeriod": "annual"
+    },
+    "provider": "Visa"
+  },
+  "insurance": null,
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "Complimentary Club Vistara Silver membership",
+    "Priority check-in and boarding on Vistara flights",
+    "Extra baggage allowance on Vistara",
+    "Milestone-based complimentary Vistara flight tickets",
+    "EMI conversion facility available"
+  ],
+  "eligibility": {
+    "minIncome": 600000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.7,
+  "pros": [
+    "Complimentary Vistara flight ticket on welcome is worth more than the joining fee",
+    "Milestone benefits offer progressively better Vistara tickets (Economy to Business class)",
+    "Club Vistara Silver membership included for priority boarding and extra baggage",
+    "3X accelerated earn rate on Vistara bookings",
+    "Low joining fee of ₹1,499 for a travel-focused premium card"
+  ],
+  "cons": [
+    "Rewards locked into Vistara ecosystem — limited if you fly other airlines",
+    "No international lounge access",
+    "3.5% foreign currency markup is high for a travel card",
+    "Base earn rate of 2 CV points per ₹200 is low on non-Vistara spends"
+  ],
+  "idealFor": [
+    "Frequent Vistara flyers who want to maximize airline-specific rewards",
+    "Travelers who value complimentary flight tickets as milestone benefits",
+    "Those looking for a co-branded airline card with a low entry fee"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How do I get the complimentary welcome flight ticket?",
+      "answer": "A complimentary domestic economy class Vistara ticket is issued within 30 days of card issuance. You will receive a voucher code via email that can be used for booking on the Vistara website."
+    },
+    {
+      "question": "What are the milestone flight ticket benefits?",
+      "answer": "You earn complimentary Vistara tickets based on annual spend: Economy ticket at ₹1 lakh, Premium Economy at ₹2 lakh, and Business class at ₹4 lakh spend."
+    },
+    {
+      "question": "Can I use CV Points on other airlines?",
+      "answer": "No, CV Points are exclusively redeemable within the Vistara ecosystem for flights, upgrades, and add-on services. They cannot be transferred to other airline loyalty programs."
+    },
+    {
+      "question": "What is the annual fee waiver condition?",
+      "answer": "The ₹1,499 annual fee is waived if your total annual spends exceed ₹2,00,000 in the previous year."
+    }
+  ]
+}

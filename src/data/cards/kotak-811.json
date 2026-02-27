@@ -1,0 +1,95 @@
+{
+  "slug": "kotak-811",
+  "name": "Kotak 811 #DreamDifferent Credit Card",
+  "issuer": "kotak",
+  "network": "visa",
+  "tier": "entry",
+  "categories": ["cashback", "no-annual-fee"],
+  "imageUrl": "/images/cards/kotak-811.webp",
+  "fees": {
+    "joining": 0,
+    "annual": 0,
+    "renewal": 0,
+    "waiverCondition": "Lifetime free — no annual or renewal fee"
+  },
+  "rewards": {
+    "pointName": "Cashback",
+    "baseEarnRate": 1,
+    "pointValue": 1,
+    "maxPointValue": 1,
+    "categoryRates": [
+      {
+        "category": "All spends",
+        "rate": 1,
+        "description": "1% cashback on all spends with no category restriction"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI transactions"
+    ],
+    "redemptionOptions": [
+      "Automatic cashback credited to statement",
+      "Adjusted against outstanding balance"
+    ]
+  },
+  "welcomeBenefits": [],
+  "milestoneBenefits": [],
+  "loungeAccess": null,
+  "insurance": null,
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 200
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "Lifetime free card with zero joining and annual fees",
+    "Available against fixed deposit — no income proof required",
+    "Instant digital card issuance via Kotak 811 app",
+    "EMI conversion facility on transactions above ₹2,500"
+  ],
+  "eligibility": {
+    "minIncome": 0,
+    "salariedOnly": false,
+    "minAge": 18
+  },
+  "rating": 3.5,
+  "pros": [
+    "Lifetime free with absolutely no joining or annual fee",
+    "Available against fixed deposit making it accessible to anyone with a savings account",
+    "Flat 1% cashback on all spends without category restrictions",
+    "Good starter card to build credit history",
+    "Instant issuance through the Kotak 811 app"
+  ],
+  "cons": [
+    "Only 1% cashback rate which is below average for dedicated cashback cards",
+    "No lounge access of any kind",
+    "No welcome benefits or milestone rewards",
+    "3.5% foreign currency markup makes it unsuitable for international use"
+  ],
+  "idealFor": [
+    "First-time credit card users looking to build a credit history with no annual fee",
+    "Those who want a secured credit card against a fixed deposit without income proof",
+    "Users seeking a simple, no-frills card with straightforward cashback"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "Do I need a minimum income to get the Kotak 811 credit card?",
+      "answer": "No, the Kotak 811 credit card can be issued against a fixed deposit in your Kotak 811 savings account. There is no minimum income requirement."
+    },
+    {
+      "question": "Is the Kotak 811 card truly lifetime free?",
+      "answer": "Yes, the card has zero joining fee, zero annual fee, and zero renewal fee. There are no hidden charges or spend-based conditions for fee waiver."
+    },
+    {
+      "question": "What is the credit limit on the Kotak 811 card?",
+      "answer": "When issued against a fixed deposit, the credit limit is typically 80-90% of the FD amount. For other issuances, the limit is determined based on your credit profile."
+    },
+    {
+      "question": "Is there a cap on the 1% cashback?",
+      "answer": "There is no specified monthly or annual cap on the 1% cashback for general spends, making it a straightforward earning structure."
+    }
+  ]
+}

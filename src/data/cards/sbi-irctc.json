@@ -1,0 +1,129 @@
+{
+  "slug": "sbi-irctc",
+  "name": "SBI IRCTC Credit Card",
+  "issuer": "sbi",
+  "network": "visa",
+  "tier": "mid",
+  "categories": ["travel", "rewards"],
+  "imageUrl": "/images/cards/sbi-irctc.webp",
+  "fees": {
+    "joining": 500,
+    "annual": 500,
+    "renewal": 500,
+    "waiverCondition": "Spend ₹1,00,000 or more in the previous year",
+    "waiverSpendThreshold": 100000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 1,
+    "pointValue": 0.25,
+    "maxPointValue": 0.25,
+    "categoryRates": [
+      {
+        "category": "IRCTC bookings",
+        "rate": 10,
+        "description": "10% value back on IRCTC train ticket bookings (capped at ₹1,000 per quarter)"
+      },
+      {
+        "category": "All other spends",
+        "rate": 1,
+        "description": "1% value back on all other transactions"
+      }
+    ],
+    "cappedCategories": [
+      {
+        "category": "IRCTC bookings",
+        "maxPointsPerMonth": 3333
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments",
+      "EMI transactions",
+      "Government/tax payments"
+    ],
+    "redemptionOptions": [
+      "IRCTC booking discount (auto-applied)",
+      "Statement credit",
+      "Gift vouchers from SBI Card catalogue"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "350 bonus Reward Points",
+      "value": 87.5,
+      "condition": "On first IRCTC transaction within 30 days of card issuance"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 100000,
+      "period": "annual",
+      "benefit": "Annual fee waiver for next year",
+      "value": 500
+    },
+    {
+      "spendThreshold": 50000,
+      "period": "annual",
+      "benefit": "500 bonus Reward Points",
+      "value": 125
+    }
+  ],
+  "loungeAccess": null,
+  "insurance": null,
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "1% transaction charge waiver on IRCTC bookings",
+    "Saves on IRCTC convenience fees",
+    "Reward Points can be used directly for train bookings",
+    "EMI conversion facility available"
+  ],
+  "eligibility": {
+    "minIncome": 300000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.6,
+  "pros": [
+    "10% value back on IRCTC bookings is the highest in the segment for train travel",
+    "Transaction charge waiver on IRCTC saves additional money",
+    "Low annual fee of ₹500 with ₹1 lakh waiver threshold",
+    "Reward Points directly usable for train bookings",
+    "Niche card that delivers strong value for regular train travelers"
+  ],
+  "cons": [
+    "IRCTC cashback capped at ₹1,000 per quarter limits savings for heavy travelers",
+    "1% value back on non-IRCTC spends is below average",
+    "No lounge access — not ideal for broader travel needs",
+    "Limited utility if you don't travel by train frequently"
+  ],
+  "idealFor": [
+    "Frequent Indian Railways travelers who book regularly through IRCTC",
+    "Budget travelers looking to save on train ticket costs",
+    "Users who want a niche travel card with low annual fees"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How does the 10% value back on IRCTC work?",
+      "answer": "When you book train tickets on IRCTC using this card, you get 10% of the transaction value back as Reward Points. This is capped at ₹1,000 per quarter (₹4,000 per year maximum)."
+    },
+    {
+      "question": "Can I use Reward Points for IRCTC bookings?",
+      "answer": "Yes, accumulated Reward Points can be redeemed directly for IRCTC train ticket bookings, making the redemption process seamless for regular travelers."
+    },
+    {
+      "question": "Is the IRCTC transaction fee waived?",
+      "answer": "Yes, SBI waives the 1% IRCTC transaction/convenience fee when you use this card for bookings, providing additional savings on top of the reward points."
+    },
+    {
+      "question": "What is the annual fee waiver condition?",
+      "answer": "The ₹500 annual fee is waived if your total annual spends exceed ₹1,00,000 in the previous year."
+    }
+  ]
+}

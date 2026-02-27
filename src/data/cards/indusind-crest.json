@@ -1,0 +1,138 @@
+{
+  "slug": "indusind-crest",
+  "name": "IndusInd Crest Credit Card",
+  "issuer": "indusind",
+  "network": "mastercard",
+  "tier": "premium",
+  "categories": ["premium", "lounge", "rewards"],
+  "imageUrl": "/images/cards/indusind-crest.webp",
+  "fees": {
+    "joining": 2999,
+    "annual": 2999,
+    "renewal": 2999,
+    "waiverCondition": "Spend ₹4,00,000 or more in the previous year",
+    "waiverSpendThreshold": 400000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 4,
+    "pointValue": 0.50,
+    "maxPointValue": 0.50,
+    "categoryRates": [
+      {
+        "category": "Weekend spends",
+        "rate": 6,
+        "description": "6 Reward Points per ₹100 spent on weekends (Saturday & Sunday)"
+      },
+      {
+        "category": "Weekday spends",
+        "rate": 4,
+        "description": "4 Reward Points per ₹100 spent on weekdays"
+      },
+      {
+        "category": "Partner brands",
+        "rate": 8,
+        "description": "2X on partner brand spends (effectively 8 RP/₹100 on weekdays)"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI transactions",
+      "Insurance premium payments"
+    ],
+    "redemptionOptions": [
+      "Airmiles conversion",
+      "Statement credit",
+      "Gift vouchers",
+      "Catalogue redemption"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "5,000 bonus Reward Points on card activation",
+      "value": 2500,
+      "condition": "On payment of joining fee"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 300000,
+      "period": "annual",
+      "benefit": "3,000 bonus Reward Points",
+      "value": 1500
+    },
+    {
+      "spendThreshold": 600000,
+      "period": "annual",
+      "benefit": "Additional 6,000 bonus Reward Points",
+      "value": 3000
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 8,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 2,
+      "visitPeriod": "annual"
+    },
+    "provider": "Priority Pass"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 300
+  },
+  "foreignCurrencyMarkup": 2.5,
+  "additionalBenefits": [
+    "8 domestic + 2 international lounge visits per year",
+    "Priority Pass membership included",
+    "2X rewards on partner brand purchases",
+    "Fuel surcharge waiver up to ₹300 per month",
+    "Concierge services for travel and lifestyle bookings"
+  ],
+  "eligibility": {
+    "minIncome": 900000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 4.0,
+  "pros": [
+    "Strong weekday earn rate of 4 RP/₹100, even better at 6 RP on weekends",
+    "2X multiplier on partner brands stacks well with base rates",
+    "Good lounge access with 8 domestic + 2 international visits",
+    "Lower foreign currency markup of 2.5%",
+    "Competitive milestone benefits"
+  ],
+  "cons": [
+    "Annual fee of ₹2,999 with ₹4L waiver threshold is relatively high",
+    "Only 2 international lounge visits per year",
+    "Point value of ₹0.50 limits effective return rate",
+    "Partner brand list may be limited"
+  ],
+  "idealFor": [
+    "Consistent spenders who can benefit from high weekday and weekend earn rates",
+    "Users who spend frequently with IndusInd partner brands",
+    "Premium card seekers looking for strong all-round rewards with lounge access"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How do the weekday and weekend reward rates differ?",
+      "answer": "The Crest card earns 4 RP per ₹100 on weekdays (Monday to Friday) and 6 RP per ₹100 on weekends (Saturday and Sunday). Partner brand spends earn an additional 2X multiplier on top of these rates."
+    },
+    {
+      "question": "Is the annual fee waivable?",
+      "answer": "Yes, the ₹2,999 annual fee is waived if you spend ₹4,00,000 or more in the previous anniversary year."
+    },
+    {
+      "question": "What partner brands offer 2X rewards?",
+      "answer": "IndusInd periodically updates the list of partner brands. Common partners include select lifestyle, fashion, and electronics brands. Check the IndusInd rewards section for the current partner list."
+    },
+    {
+      "question": "Does the Crest card offer international lounge access?",
+      "answer": "Yes, the Crest card provides 2 complimentary international lounge visits per year via Priority Pass, in addition to 8 domestic lounge visits."
+    }
+  ]
+}

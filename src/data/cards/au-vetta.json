@@ -1,0 +1,151 @@
+{
+  "slug": "au-vetta",
+  "name": "AU Vetta Credit Card",
+  "issuer": "au",
+  "network": "visa",
+  "tier": "premium",
+  "categories": ["rewards", "lounge", "lifestyle"],
+  "imageUrl": "/images/cards/au-vetta.webp",
+  "fees": {
+    "joining": 2499,
+    "annual": 2499,
+    "renewal": 2499,
+    "waiverCondition": "Annual fee waived on spending ₹3,00,000 or more in the previous year",
+    "waiverSpendThreshold": 300000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.25,
+    "maxPointValue": 0.25,
+    "categoryRates": [
+      {
+        "category": "All spends (base)",
+        "rate": 2,
+        "description": "2 Reward Points per ₹100 spent on all purchases"
+      },
+      {
+        "category": "Dining",
+        "rate": 12,
+        "description": "6X Reward Points (12 RP per ₹100) on dining transactions"
+      },
+      {
+        "category": "Travel",
+        "rate": 8,
+        "description": "4X Reward Points (8 RP per ₹100) on travel bookings"
+      }
+    ],
+    "cappedCategories": [
+      {
+        "category": "Dining (6X)",
+        "maxPointsPerMonth": 7500,
+        "description": "6X accelerated dining rewards capped at 7,500 bonus RP per month"
+      },
+      {
+        "category": "Travel (4X)",
+        "maxPointsPerMonth": 5000,
+        "description": "4X accelerated travel rewards capped at 5,000 bonus RP per month"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments",
+      "Government/tax payments",
+      "EMI transactions"
+    ],
+    "redemptionOptions": [
+      "Cashback to statement",
+      "Gift vouchers (Amazon, Flipkart, Myntra, etc.)",
+      "Product catalogue redemption",
+      "Travel bookings"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "2,500 bonus Reward Points on card activation",
+      "value": 625,
+      "condition": "On payment of joining fee and first transaction"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 150000,
+      "period": "annual",
+      "benefit": "3,000 bonus Reward Points",
+      "value": 750
+    },
+    {
+      "spendThreshold": 300000,
+      "period": "annual",
+      "benefit": "Annual fee waiver + 5,000 bonus Reward Points",
+      "value": 3749
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 8,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 2,
+      "visitPeriod": "annual"
+    },
+    "provider": "Dreamfolks / Visa Lounges"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 2.5,
+  "additionalBenefits": [
+    "6X rewards on dining - one of the best dining reward rates",
+    "4X rewards on travel bookings",
+    "8 domestic + 2 international lounge visits per year",
+    "Lower forex markup of 2.5% compared to entry/mid tier cards",
+    "Complimentary golf rounds at select courses"
+  ],
+  "eligibility": {
+    "minIncome": 600000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.8,
+  "pros": [
+    "Excellent 6X rewards on dining (1.5% effective return)",
+    "International lounge access at a ₹2,499 price point",
+    "Lower foreign currency markup of 2.5%",
+    "Generous milestone benefits with fee waiver at ₹3L spend",
+    "Good mix of dining and travel rewards"
+  ],
+  "cons": [
+    "Base earn rate of 0.5% is still relatively low",
+    "Point value of ₹0.25 limits overall reward value",
+    "Only 2 international lounge visits per year",
+    "₹2,499 joining fee is not trivial for a mid-range premium card"
+  ],
+  "idealFor": [
+    "Frequent diners who want maximized dining rewards",
+    "Users stepping up from entry/mid-tier cards to premium benefits",
+    "Those who need occasional international lounge access"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How does the 6X dining reward work?",
+      "answer": "On dining transactions, you earn 12 Reward Points per ₹100 instead of the base 2 RP. At ₹0.25 per point, this gives you an effective 3% return on dining compared to the 0.5% base return."
+    },
+    {
+      "question": "Which international lounges can I access?",
+      "answer": "You can access international lounges through the Visa lounge network and Dreamfolks partners. You get 2 complimentary international visits per year, with additional visits charged at standard rates."
+    },
+    {
+      "question": "Is the 2.5% forex markup good?",
+      "answer": "Yes, 2.5% is competitive for a card at this price point. Most entry and mid-tier cards charge 3.5%. However, super-premium cards can offer even lower rates of 1.5-2%."
+    },
+    {
+      "question": "How do milestone benefits work?",
+      "answer": "When your annual spending crosses ₹1.5L, you get 3,000 bonus RP (₹750 value). At ₹3L spend, you get annual fee waiver plus 5,000 bonus RP (₹3,749 total value). These reset every card anniversary year."
+    }
+  ]
+}

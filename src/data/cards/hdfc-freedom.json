@@ -1,0 +1,109 @@
+{
+  "slug": "hdfc-freedom",
+  "name": "HDFC Freedom Credit Card",
+  "issuer": "hdfc",
+  "network": "visa",
+  "tier": "entry",
+  "categories": ["cashback", "no-annual-fee"],
+  "imageUrl": "/images/cards/hdfc-freedom.webp",
+  "fees": {
+    "joining": 500,
+    "annual": 500,
+    "renewal": 500,
+    "waiverCondition": "Spend ₹50,000 or more in the previous year",
+    "waiverSpendThreshold": 50000
+  },
+  "rewards": {
+    "pointName": "CashBack Points",
+    "baseEarnRate": 1,
+    "pointValue": 0.50,
+    "categoryRates": [
+      {
+        "category": "All spends",
+        "rate": 1,
+        "description": "1 CashBack Point per ₹150 on all retail purchases"
+      },
+      {
+        "category": "Dining",
+        "rate": 5,
+        "description": "5X CashBack Points on dining spends (5 points per ₹150)"
+      },
+      {
+        "category": "Grocery",
+        "rate": 5,
+        "description": "5X CashBack Points on grocery spends (5 points per ₹150)"
+      },
+      {
+        "category": "Telecom",
+        "rate": 2,
+        "description": "2X CashBack Points on telecom & utility bill payments"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI transactions"
+    ],
+    "redemptionOptions": [
+      "Statement credit",
+      "SmartBuy vouchers",
+      "Catalogue redemption"
+    ]
+  },
+  "welcomeBenefits": [],
+  "milestoneBenefits": [],
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "5X rewards on dining and grocery categories",
+    "2X rewards on telecom and utility bills",
+    "Fuel surcharge waiver up to ₹250/month",
+    "Easy EMI conversion facility"
+  ],
+  "eligibility": {
+    "minIncome": 200000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.2,
+  "pros": [
+    "5X rewards on dining and grocery are useful for everyday spending",
+    "Very low joining and annual fee of ₹500",
+    "Easy fee waiver threshold of ₹50,000 annual spend",
+    "Good entry card with low income requirement of ₹2L",
+    "2X on telecom helps with recurring utility payments"
+  ],
+  "cons": [
+    "Base reward rate of 1 point per ₹150 (0.33%) is low",
+    "No lounge access whatsoever",
+    "No notable welcome benefits",
+    "3.5% forex markup makes it unsuitable for international use"
+  ],
+  "idealFor": [
+    "Budget-conscious users who spend heavily on dining and groceries",
+    "First-time credit card holders looking for a no-frills starter card",
+    "Users with lower income who want to build a credit history with HDFC"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "What is the effective reward rate on dining and grocery?",
+      "answer": "With 5X CashBack Points (5 points per ₹150) and each point worth ₹0.50, the effective return on dining and grocery is about 1.67%, which is decent for an entry-level card."
+    },
+    {
+      "question": "Is the annual fee easy to get waived?",
+      "answer": "Yes, the ₹500 annual fee is waived on spending ₹50,000 in the previous year. With average monthly spending of ₹4,200, you can easily achieve the waiver."
+    },
+    {
+      "question": "Does the HDFC Freedom card have any welcome benefits?",
+      "answer": "The HDFC Freedom card does not offer any significant welcome benefits. It is designed as a simple, everyday cashback card with low fees."
+    },
+    {
+      "question": "Can I upgrade from HDFC Freedom to a better card?",
+      "answer": "Yes, with a good spending history and credit score, HDFC Bank may offer upgrades to cards like HDFC Millennia or MoneyBack Plus after 12-18 months of usage."
+    }
+  ]
+}

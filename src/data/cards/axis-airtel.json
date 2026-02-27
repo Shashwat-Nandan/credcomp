@@ -1,0 +1,128 @@
+{
+  "slug": "axis-airtel",
+  "name": "Axis Airtel Credit Card",
+  "issuer": "axis",
+  "network": "visa",
+  "tier": "mid",
+  "categories": ["cashback", "rewards"],
+  "imageUrl": "/images/cards/axis-airtel.webp",
+  "fees": {
+    "joining": 500,
+    "annual": 500,
+    "renewal": 500,
+    "waiverCondition": "Annual fee waived on spending ₹2,00,000 in the previous year",
+    "waiverSpendThreshold": 200000
+  },
+  "rewards": {
+    "pointName": "Cashback",
+    "baseEarnRate": 1,
+    "pointValue": 1,
+    "categoryRates": [
+      {
+        "category": "All other spends",
+        "rate": 1,
+        "description": "1% cashback on all other purchases"
+      },
+      {
+        "category": "Airtel bill payments & recharges",
+        "rate": 25,
+        "description": "25% cashback on Airtel bill payments and mobile recharges"
+      },
+      {
+        "category": "Swiggy, Zomato & BigBasket",
+        "rate": 10,
+        "description": "10% cashback on Swiggy, Zomato, and BigBasket orders"
+      }
+    ],
+    "cappedCategories": [
+      {
+        "category": "Airtel bill payments & recharges",
+        "maxPointsPerMonth": 250,
+        "description": "25% cashback on Airtel capped at ₹250 per month"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI conversions",
+      "Rent payments"
+    ],
+    "redemptionOptions": [
+      "Automatic cashback credited to statement",
+      "No manual redemption required"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "Airtel benefits worth ₹1,000 including OTT subscriptions and data add-ons",
+      "value": 1000,
+      "condition": "Activated on first transaction within 30 days"
+    }
+  ],
+  "milestoneBenefits": [],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 4,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 0,
+      "visitPeriod": "annual"
+    },
+    "provider": "Dreamfolks"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 200
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "25% cashback on Airtel recharges and bill payments",
+    "10% cashback on Swiggy, Zomato, and BigBasket",
+    "Welcome benefits worth ₹1,000 from Airtel",
+    "4 complimentary domestic lounge visits per year"
+  ],
+  "eligibility": {
+    "minIncome": 300000,
+    "salariedOnly": false,
+    "minAge": 18
+  },
+  "rating": 3.5,
+  "pros": [
+    "25% cashback on Airtel is unmatched for Airtel users",
+    "10% cashback on Swiggy, Zomato, and BigBasket is excellent for food and groceries",
+    "Welcome benefits worth ₹1,000 offset the joining fee",
+    "4 domestic lounge visits per year add travel convenience",
+    "Easy fee waiver with ₹2 lakh annual spend"
+  ],
+  "cons": [
+    "Airtel cashback is capped at just ₹250/month, limiting actual savings",
+    "Only useful if you are an Airtel subscriber",
+    "1% base cashback on other spends is below average",
+    "No international lounge access"
+  ],
+  "idealFor": [
+    "Airtel subscribers looking to maximize savings on telecom bills",
+    "Frequent food delivery and online grocery shoppers",
+    "Users who want a co-branded card with strong niche cashback"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "Do I need to be an Airtel customer to apply?",
+      "answer": "While you can apply without being an Airtel customer, the card's biggest benefit (25% cashback on Airtel) is only useful for Airtel subscribers. You can link your Airtel account post-issuance."
+    },
+    {
+      "question": "What Airtel benefits are included in the welcome offer?",
+      "answer": "The ₹1,000 welcome benefit includes Airtel Thanks benefits such as free OTT subscriptions (Airtel Xstream, Amazon Prime trial), data add-ons, and other Airtel ecosystem perks."
+    },
+    {
+      "question": "Is the 25% cashback on Airtel really unlimited?",
+      "answer": "No, the 25% cashback on Airtel bill payments and recharges is capped at ₹250 per month. This means you get maximum benefit on about ₹1,000 of Airtel spending per month."
+    },
+    {
+      "question": "Can I use this card for non-Airtel expenses?",
+      "answer": "Yes, you get 10% cashback on Swiggy, Zomato, and BigBasket, plus 1% cashback on all other spends. However, the base rate is lower than cards like Axis ACE."
+    }
+  ]
+}

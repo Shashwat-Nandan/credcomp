@@ -1,0 +1,125 @@
+{
+  "slug": "icici-rubyx",
+  "name": "ICICI Rubyx Credit Card",
+  "issuer": "icici",
+  "network": "visa",
+  "tier": "premium",
+  "categories": ["rewards", "lifestyle", "lounge"],
+  "imageUrl": "/images/cards/icici-rubyx.webp",
+  "fees": {
+    "joining": 3000,
+    "annual": 3000,
+    "renewal": 3000,
+    "waiverCondition": "Annual fee waived on spending ₹3,00,000 in the previous year",
+    "waiverSpendThreshold": 300000
+  },
+  "rewards": {
+    "pointName": "PAYBACK Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.25,
+    "categoryRates": [
+      {
+        "category": "Dining",
+        "rate": 4,
+        "description": "4 PAYBACK Points per ₹100 spent on dining"
+      },
+      {
+        "category": "Grocery",
+        "rate": 4,
+        "description": "4 PAYBACK Points per ₹100 spent on grocery purchases"
+      },
+      {
+        "category": "All other spends",
+        "rate": 2,
+        "description": "2 PAYBACK Points per ₹100 spent on all other retail purchases"
+      }
+    ],
+    "cappedCategories": [],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments",
+      "Insurance premiums",
+      "Government payments"
+    ],
+    "redemptionOptions": [
+      "PAYBACK catalogue redemption",
+      "Gift vouchers (Amazon, Flipkart, Myntra, etc.)",
+      "Statement credit",
+      "Air miles conversion"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "2000 bonus PAYBACK Points",
+      "value": 500,
+      "condition": "On payment of joining fee"
+    }
+  ],
+  "milestoneBenefits": [],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 8,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 2,
+      "visitPeriod": "annual"
+    },
+    "provider": "Dreamfolks / Visa Signature Lounges"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 500
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "BookMyShow Buy 1 Get 1 on movie tickets (2 free tickets per month)",
+    "Culinary Treats dining program with partner restaurants",
+    "Contactless payment enabled",
+    "Higher fuel surcharge waiver cap of ₹500/month"
+  ],
+  "eligibility": {
+    "minIncome": 700000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.9,
+  "pros": [
+    "8 domestic + 2 international lounge visits per year",
+    "BookMyShow Buy 1 Get 1 twice per month",
+    "Double rewards on dining and grocery categories",
+    "Higher fuel surcharge waiver cap at ₹500/month",
+    "Good balance of lifestyle benefits and rewards"
+  ],
+  "cons": [
+    "₹3,000 annual fee requires ₹3L spend to waive",
+    "Base reward rate of 0.50% is average",
+    "High foreign currency markup at 3.5%",
+    "Only 2 international lounge visits per year"
+  ],
+  "idealFor": [
+    "Frequent domestic travellers who value lounge access",
+    "Movie lovers and diners who want BMS BOGO and dining rewards",
+    "Mid-to-high spenders looking for a solid all-round premium card"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How does the BookMyShow offer differ from the Coral card?",
+      "answer": "The Rubyx offers Buy 1 Get 1 on BookMyShow twice per month (2 free tickets), compared to once per month on the Coral card. This effectively doubles your entertainment savings."
+    },
+    {
+      "question": "Can I use international lounge access with a companion?",
+      "answer": "The 2 complimentary international lounge visits are for the primary cardholder. Companion access may be available at a discounted rate depending on the lounge, but is not included free."
+    },
+    {
+      "question": "What is the effective reward rate on this card?",
+      "answer": "The effective reward rate is 0.50% on general spends (2 points × ₹0.25 per ₹100) and 1% on dining and grocery (4 points × ₹0.25 per ₹100). The value can be higher with strategic voucher redemptions."
+    },
+    {
+      "question": "Is the ICICI Rubyx worth the ₹3,000 fee?",
+      "answer": "If you use the 8 domestic lounge visits (worth ₹1,200-1,600/year), BMS BOGO twice monthly (worth ₹4,800-7,200/year), and dining rewards, the card easily justifies its fee. Otherwise, aim to waive it with ₹3L annual spend."
+    }
+  ]
+}

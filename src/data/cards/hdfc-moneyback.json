@@ -1,0 +1,102 @@
+{
+  "slug": "hdfc-moneyback",
+  "name": "HDFC MoneyBack Credit Card",
+  "issuer": "hdfc",
+  "network": "visa",
+  "tier": "entry",
+  "categories": ["cashback", "no-annual-fee", "rewards"],
+  "imageUrl": "/images/cards/hdfc-moneyback.webp",
+  "fees": {
+    "joining": 500,
+    "annual": 500,
+    "renewal": 500,
+    "waiverCondition": "Spend ₹50,000 or more in the previous year",
+    "waiverSpendThreshold": 50000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.20,
+    "categoryRates": [
+      {
+        "category": "All spends",
+        "rate": 2,
+        "description": "2 Reward Points per ₹150 spent on all purchases"
+      },
+      {
+        "category": "Online spends",
+        "rate": 10,
+        "description": "5X Reward Points on all online transactions (10 RP per ₹150)"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI transactions"
+    ],
+    "redemptionOptions": [
+      "Statement credit",
+      "SmartBuy vouchers",
+      "Catalogue redemption",
+      "Airmiles conversion"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "500 bonus Reward Points on card activation",
+      "value": 100,
+      "condition": "On payment of joining fee"
+    }
+  ],
+  "milestoneBenefits": [],
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "5X reward points on all online spends",
+    "Easy EMI conversion on large purchases",
+    "Access to HDFC SmartBuy portal for deals",
+    "Surcharge waiver on fuel transactions"
+  ],
+  "eligibility": {
+    "minIncome": 250000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.3,
+  "pros": [
+    "5X rewards on online spends is good for an entry-level card",
+    "Very low annual fee of ₹500 with easy ₹50K waiver",
+    "Good starter card to build HDFC relationship for upgrades",
+    "Fuel surcharge waiver saves on regular fuel purchases",
+    "Wide acceptance with Visa network"
+  ],
+  "cons": [
+    "Low point value at ₹0.20 per Reward Point",
+    "No lounge access of any kind",
+    "3.5% forex markup is high for international transactions",
+    "Base reward rate of 2 RP per ₹150 translates to just 0.27% return"
+  ],
+  "idealFor": [
+    "First-time credit card users looking for a low-cost entry card",
+    "Online shoppers who want better rewards on digital transactions",
+    "Users building an HDFC credit history for future upgrades"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "What is the effective reward rate on the HDFC MoneyBack card?",
+      "answer": "The base reward rate is 2 RP per ₹150 spent, with each point worth ₹0.20. This gives an effective return of about 0.27% on offline spends and ~1.33% on online spends (with the 5X multiplier)."
+    },
+    {
+      "question": "Can I get the annual fee waived?",
+      "answer": "Yes, the ₹500 annual fee is waived if you spend ₹50,000 or more in the previous anniversary year, which is very achievable with regular use."
+    },
+    {
+      "question": "Does the HDFC MoneyBack card offer lounge access?",
+      "answer": "No, the MoneyBack card does not include any complimentary lounge access. For lounge benefits, consider upgrading to a mid-tier or premium HDFC card."
+    }
+  ]
+}

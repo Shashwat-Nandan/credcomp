@@ -1,0 +1,138 @@
+{
+  "slug": "icici-emirates",
+  "name": "ICICI Emirates Skywards Credit Card",
+  "issuer": "icici",
+  "network": "visa",
+  "tier": "premium",
+  "categories": ["travel", "rewards", "lounge"],
+  "imageUrl": "/images/cards/icici-emirates.webp",
+  "fees": {
+    "joining": 2500,
+    "annual": 2500,
+    "renewal": 2500,
+    "waiverCondition": "Annual fee waived on spending ₹3,00,000 in the previous year",
+    "waiverSpendThreshold": 300000
+  },
+  "rewards": {
+    "pointName": "Skywards Miles",
+    "baseEarnRate": 1,
+    "pointValue": 1.5,
+    "maxPointValue": 2.5,
+    "categoryRates": [
+      {
+        "category": "Travel",
+        "rate": 4,
+        "description": "4 Skywards Miles per ₹100 spent on travel bookings"
+      },
+      {
+        "category": "Dining",
+        "rate": 2,
+        "description": "2 Skywards Miles per ₹100 spent on dining"
+      },
+      {
+        "category": "All other spends",
+        "rate": 1,
+        "description": "1 Skywards Mile per ₹100 spent on all other retail purchases"
+      }
+    ],
+    "cappedCategories": [],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments",
+      "Insurance premiums",
+      "Government payments"
+    ],
+    "redemptionOptions": [
+      "Emirates flight redemption (best value at ~₹1.50-2.50 per mile)",
+      "Emirates upgrades (Economy to Business, Business to First)",
+      "Emirates Skywards partner airlines",
+      "Skywards merchandise and retail partners"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "2500 Skywards Miles",
+      "value": 3750,
+      "condition": "On payment of joining fee and card activation"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 500000,
+      "period": "annual",
+      "benefit": "Bonus Skywards Miles and Emirates tier points",
+      "value": 5000
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 8,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 2,
+      "visitPeriod": "annual"
+    },
+    "provider": "Dreamfolks / Visa Signature Lounges"
+  },
+  "insurance": {
+    "airAccident": "₹1,00,00,000",
+    "travelInsurance": "Up to ₹25,00,000 overseas medical insurance"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 2,
+  "additionalBenefits": [
+    "Direct Skywards Miles earning - no conversion needed",
+    "Emirates Skywards Silver tier fast-track opportunity",
+    "Lower forex markup at 2% for international spends",
+    "8 domestic + 2 international lounge visits per year",
+    "Travel insurance cover for overseas medical emergencies"
+  ],
+  "eligibility": {
+    "minIncome": 800000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.9,
+  "pros": [
+    "Direct Skywards Miles earning without conversion hassle",
+    "4 miles per ₹100 on travel gives excellent value on Emirates redemptions",
+    "Lower 2% forex markup ideal for international spends",
+    "8 domestic + 2 international lounge visits",
+    "Welcome bonus of 2500 miles covers the joining fee value"
+  ],
+  "cons": [
+    "Miles value is best only when redeemed on Emirates flights",
+    "Low base earn rate of 1 mile per ₹100 on general spends",
+    "Only 2 international lounge visits per year",
+    "Limited value if you don't fly Emirates regularly"
+  ],
+  "idealFor": [
+    "Frequent Emirates flyers who want to accumulate Skywards Miles",
+    "International travellers looking for low forex markup and lounge access",
+    "Users who fly Dubai/Middle East routes regularly"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How valuable are Skywards Miles?",
+      "answer": "Skywards Miles are worth approximately ₹1.50 per mile when redeemed for Emirates Economy flights, and up to ₹2.50 per mile for Business/First class upgrades. Value drops significantly for merchandise or partner redemptions."
+    },
+    {
+      "question": "Can I use Skywards Miles on other airlines?",
+      "answer": "Yes, Skywards Miles can be redeemed on Emirates partner airlines including flydubai, Qantas, Korean Air, and several others. However, the best value is typically on Emirates flights directly."
+    },
+    {
+      "question": "How does the 2% forex markup compare to other travel cards?",
+      "answer": "At 2%, this card is among the better options for international spending. Most cards charge 3.5%, and only a few super-premium cards like the ICICI Emeralde (1.5%) offer lower markups."
+    },
+    {
+      "question": "Do I get Emirates Skywards tier status with this card?",
+      "answer": "The card does not directly grant tier status, but certain spend milestones may earn bonus tier points that count towards Emirates Skywards Silver status. Check the latest terms for tier point earning rates."
+    }
+  ]
+}

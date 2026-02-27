@@ -1,0 +1,130 @@
+{
+  "slug": "sbi-simplyclick",
+  "name": "SBI SimplyCLICK Credit Card",
+  "issuer": "sbi",
+  "network": "visa",
+  "tier": "mid",
+  "categories": ["shopping", "rewards", "cashback"],
+  "imageUrl": "/images/cards/sbi-simplyclick.webp",
+  "fees": {
+    "joining": 499,
+    "annual": 499,
+    "renewal": 499,
+    "waiverCondition": "Spend ₹1,00,000 or more in the previous year",
+    "waiverSpendThreshold": 100000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 1,
+    "pointValue": 0.25,
+    "maxPointValue": 0.25,
+    "categoryRates": [
+      {
+        "category": "Partner online stores (Amazon, Cleartrip, Lenskart, Netmeds)",
+        "rate": 10,
+        "description": "10X Reward Points on partner online stores (10 RP per ₹100)"
+      },
+      {
+        "category": "All other online spends",
+        "rate": 5,
+        "description": "5X Reward Points on all other online transactions (5 RP per ₹100)"
+      },
+      {
+        "category": "Offline spends",
+        "rate": 1,
+        "description": "1 Reward Point per ₹100 on all offline/POS transactions"
+      }
+    ],
+    "cappedCategories": [],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments",
+      "EMI transactions",
+      "Government/tax payments"
+    ],
+    "redemptionOptions": [
+      "Amazon Pay balance",
+      "Statement credit (1 RP = ₹0.25)",
+      "Gift vouchers from SBI Card catalogue",
+      "Cleartrip bookings"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "₹500 Amazon voucher",
+      "value": 500,
+      "condition": "On card activation and first transaction"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 100000,
+      "period": "annual",
+      "benefit": "₹500 Amazon voucher",
+      "value": 500
+    },
+    {
+      "spendThreshold": 200000,
+      "period": "annual",
+      "benefit": "Additional ₹500 Amazon voucher",
+      "value": 500
+    }
+  ],
+  "loungeAccess": null,
+  "insurance": null,
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "10X rewards on popular e-commerce partners including Amazon",
+    "Exclusive partner offers and discounts",
+    "Easy reward redemption on Amazon Pay",
+    "EMI conversion facility on large purchases"
+  ],
+  "eligibility": {
+    "minIncome": 300000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.8,
+  "pros": [
+    "10X rewards on Amazon and other popular partners is excellent value",
+    "5X rewards on all online spends is strong for the fee range",
+    "Low annual fee of ₹499 with easy ₹1 lakh waiver threshold",
+    "Welcome benefit covers the entire first-year fee",
+    "Good Amazon Pay redemption integration"
+  ],
+  "cons": [
+    "Only 1 RP per ₹100 on offline spends — poor for POS transactions",
+    "Reward point value of ₹0.25 is relatively low",
+    "No lounge access at all",
+    "3.5% foreign currency markup makes it poor for international use"
+  ],
+  "idealFor": [
+    "Frequent Amazon shoppers who want to maximize online rewards",
+    "Users who predominantly shop online and want a low-fee rewards card",
+    "Budget-conscious spenders looking for strong partner-based accelerated rewards"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "Which partner stores give 10X reward points?",
+      "answer": "You earn 10X Reward Points on purchases from Amazon, Cleartrip, Lenskart, and Netmeds. The list of partners may be updated by SBI Card from time to time."
+    },
+    {
+      "question": "Can I redeem reward points on Amazon?",
+      "answer": "Yes, you can convert your Reward Points into Amazon Pay balance for seamless redemption. 1 RP = ₹0.25 in Amazon Pay balance."
+    },
+    {
+      "question": "What is the annual fee waiver condition?",
+      "answer": "The ₹499 annual fee is waived if your annual spends exceed ₹1,00,000 in the previous year."
+    },
+    {
+      "question": "Do I earn 5X on all online transactions?",
+      "answer": "Yes, all online transactions that are not on partner stores earn 5X Reward Points. Partner store transactions earn 10X. Excluded categories like wallet loading and rent payments do not earn accelerated rewards."
+    }
+  ]
+}

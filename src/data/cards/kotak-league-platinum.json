@@ -1,0 +1,122 @@
+{
+  "slug": "kotak-league-platinum",
+  "name": "Kotak League Platinum Credit Card",
+  "issuer": "kotak",
+  "network": "mastercard",
+  "tier": "mid",
+  "categories": ["rewards", "lounge"],
+  "imageUrl": "/images/cards/kotak-league-platinum.webp",
+  "fees": {
+    "joining": 1500,
+    "annual": 1500,
+    "renewal": 1500,
+    "waiverCondition": "Spend ₹2,00,000 or more in the previous year",
+    "waiverSpendThreshold": 200000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.25,
+    "maxPointValue": 0.25,
+    "categoryRates": [
+      {
+        "category": "Weekend spends",
+        "rate": 8,
+        "description": "4X reward points on all weekend spends (Saturday & Sunday)"
+      },
+      {
+        "category": "All other spends",
+        "rate": 2,
+        "description": "2 Reward Points per ₹150 spent on weekday transactions"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI transactions",
+      "Rent payments"
+    ],
+    "redemptionOptions": [
+      "Catalogue gift redemption",
+      "Statement credit",
+      "Airmiles conversion"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "1500 Reward Points on card activation",
+      "value": 375,
+      "condition": "On card activation and first transaction"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 200000,
+      "period": "annual",
+      "benefit": "Annual fee waiver for the next year",
+      "value": 1500
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 4,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 1,
+      "visitPeriod": "annual"
+    },
+    "provider": "Mastercard"
+  },
+  "insurance": null,
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "4X reward points on all weekend transactions",
+    "Domestic and international airport lounge access",
+    "Mastercard World benefits and offers",
+    "Easy EMI conversion on transactions above ₹2,500"
+  ],
+  "eligibility": {
+    "minIncome": 400000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.6,
+  "pros": [
+    "4X reward points on weekends is excellent for those who shop primarily on weekends",
+    "Includes 1 complimentary international lounge visit which is rare in this segment",
+    "Welcome bonus of 1500 RP offsets part of the joining fee",
+    "Mastercard Platinum benefits and global acceptance",
+    "Achievable fee waiver threshold of ₹2 lakh annually"
+  ],
+  "cons": [
+    "Base weekday reward rate of 0.33% is below average",
+    "Only 1 international lounge visit per year is limited",
+    "3.5% foreign currency markup is on the higher side",
+    "Reward point value at ₹0.25 per point is relatively low"
+  ],
+  "idealFor": [
+    "Weekend shoppers who do most of their spending on Saturdays and Sundays",
+    "Users looking for a mid-tier card with both domestic and international lounge access",
+    "Those who prefer Mastercard network benefits over Visa"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "What counts as a weekend spend for 4X rewards?",
+      "answer": "Any transaction made on Saturday or Sunday qualifies for 4X reward points. The transaction date (not posting date) is considered for determining weekend eligibility."
+    },
+    {
+      "question": "How do I access international airport lounges?",
+      "answer": "You get 1 complimentary international airport lounge visit per year through the Mastercard lounge program. Present your card at participating lounges for access."
+    },
+    {
+      "question": "Can I get the annual fee waived?",
+      "answer": "Yes, spend ₹2,00,000 or more in a membership year and the next year's annual fee of ₹1,500 will be waived automatically."
+    }
+  ]
+}

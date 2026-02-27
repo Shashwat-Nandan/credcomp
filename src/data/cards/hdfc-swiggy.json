@@ -1,0 +1,116 @@
+{
+  "slug": "hdfc-swiggy",
+  "name": "HDFC Swiggy Credit Card",
+  "issuer": "hdfc",
+  "network": "visa",
+  "tier": "mid",
+  "categories": ["dining", "cashback", "rewards"],
+  "imageUrl": "/images/cards/hdfc-swiggy.webp",
+  "fees": {
+    "joining": 500,
+    "annual": 500,
+    "renewal": 500,
+    "waiverCondition": "Spend ₹2,00,000 or more in the previous year",
+    "waiverSpendThreshold": 200000
+  },
+  "rewards": {
+    "pointName": "Cashback",
+    "baseEarnRate": 1,
+    "pointValue": 1,
+    "categoryRates": [
+      {
+        "category": "Swiggy",
+        "rate": 10,
+        "description": "10% cashback on Swiggy orders (food delivery, Instamart, Dineout)"
+      },
+      {
+        "category": "Online dining",
+        "rate": 5,
+        "description": "5% cashback on other online dining platforms (Zomato, etc.)"
+      },
+      {
+        "category": "All other spends",
+        "rate": 1,
+        "description": "1% cashback on all other retail purchases"
+      }
+    ],
+    "cappedCategories": [
+      {
+        "category": "Swiggy",
+        "maxPointsPerMonth": 1500
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI transactions",
+      "Rent payments"
+    ],
+    "redemptionOptions": [
+      "Direct cashback to statement",
+      "Swiggy Money wallet credit"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "Swiggy vouchers worth ₹500 on card activation",
+      "value": 500,
+      "condition": "On payment of joining fee and first transaction"
+    }
+  ],
+  "milestoneBenefits": [],
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "10% cashback on all Swiggy services including Instamart",
+    "5% on other online dining and food delivery apps",
+    "Swiggy One membership benefits",
+    "Easy EMI conversion on purchases above ₹2,500"
+  ],
+  "eligibility": {
+    "minIncome": 300000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.7,
+  "pros": [
+    "Industry-best 10% cashback on Swiggy orders",
+    "5% on other online dining platforms is generous",
+    "Very low annual fee of ₹500",
+    "Direct cashback model with no complex point calculations",
+    "Good 1% default cashback on all other spends"
+  ],
+  "cons": [
+    "10% Swiggy cashback capped at ₹1,500/month limits heavy users",
+    "No lounge access at airports",
+    "₹2L fee waiver threshold is relatively high for a ₹500 fee card",
+    "3.5% forex markup is not ideal for international use"
+  ],
+  "idealFor": [
+    "Frequent Swiggy users who order food delivery and groceries via Instamart",
+    "Food enthusiasts who spend regularly on online dining platforms",
+    "Young professionals looking for a dining-focused cashback card"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "Is the 10% Swiggy cashback really uncapped?",
+      "answer": "No, the 10% cashback on Swiggy is capped at ₹1,500 per calendar month. Once you exhaust this cap, further Swiggy orders earn at the standard 1% rate."
+    },
+    {
+      "question": "Does the card work for Swiggy Instamart orders?",
+      "answer": "Yes, the 10% cashback applies to all Swiggy services including food delivery, Instamart grocery orders, and Dineout restaurant bookings."
+    },
+    {
+      "question": "How is the cashback credited?",
+      "answer": "Cashback is credited directly to your credit card statement or Swiggy Money wallet, depending on the transaction type. Statement credits typically appear within 2-3 billing cycles."
+    },
+    {
+      "question": "Can I get the annual fee waived?",
+      "answer": "Yes, the ₹500 annual fee is waived if you spend ₹2,00,000 or more in the previous anniversary year."
+    }
+  ]
+}

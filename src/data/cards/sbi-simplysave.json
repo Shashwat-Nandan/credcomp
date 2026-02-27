@@ -1,0 +1,133 @@
+{
+  "slug": "sbi-simplysave",
+  "name": "SBI SimplySAVE Credit Card",
+  "issuer": "sbi",
+  "network": "visa",
+  "tier": "entry",
+  "categories": ["cashback", "dining", "entertainment", "no-annual-fee"],
+  "imageUrl": "/images/cards/sbi-simplysave.webp",
+  "fees": {
+    "joining": 499,
+    "annual": 499,
+    "renewal": 499,
+    "waiverCondition": "Spend ₹1,00,000 or more in the previous year",
+    "waiverSpendThreshold": 100000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 1,
+    "pointValue": 0.25,
+    "maxPointValue": 0.25,
+    "categoryRates": [
+      {
+        "category": "Dining",
+        "rate": 10,
+        "description": "10X Reward Points on dining transactions (10 RP per ₹100)"
+      },
+      {
+        "category": "Movies",
+        "rate": 10,
+        "description": "10X Reward Points on movie ticket purchases (10 RP per ₹100)"
+      },
+      {
+        "category": "Grocery",
+        "rate": 10,
+        "description": "10X Reward Points on grocery store purchases (10 RP per ₹100)"
+      },
+      {
+        "category": "Departmental stores",
+        "rate": 10,
+        "description": "10X Reward Points on departmental store purchases (10 RP per ₹100)"
+      },
+      {
+        "category": "All other spends",
+        "rate": 1,
+        "description": "1 Reward Point per ₹100 on all other transactions"
+      }
+    ],
+    "cappedCategories": [],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments",
+      "EMI transactions",
+      "Government/tax payments"
+    ],
+    "redemptionOptions": [
+      "Statement credit (1 RP = ₹0.25)",
+      "Gift vouchers from SBI Card catalogue",
+      "Product redemption from catalogue",
+      "Amazon Pay balance"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "500 bonus Reward Points",
+      "value": 125,
+      "condition": "On first transaction within 30 days of card issuance"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 100000,
+      "period": "annual",
+      "benefit": "Annual fee waiver for next year",
+      "value": 499
+    }
+  ],
+  "loungeAccess": null,
+  "insurance": null,
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "10X accelerated rewards on everyday categories like dining and grocery",
+    "Wide acceptance across dining and entertainment merchants",
+    "EMI conversion facility available",
+    "Contactless payment enabled"
+  ],
+  "eligibility": {
+    "minIncome": 300000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.5,
+  "pros": [
+    "10X rewards on dining, movies, grocery, and departmental stores covers everyday spending",
+    "Low annual fee of ₹499 with easy ₹1 lakh spend waiver",
+    "Good entry-level card for building credit history",
+    "Wide range of accelerated reward categories"
+  ],
+  "cons": [
+    "Base earn rate of 1 RP per ₹100 is very low on non-bonus categories",
+    "Reward point value of ₹0.25 per point is mediocre",
+    "No lounge access whatsoever",
+    "Welcome benefit of 500 RP is worth only ₹125"
+  ],
+  "idealFor": [
+    "Frequent diners and movie-goers who want accelerated rewards on entertainment",
+    "First-time credit card users looking for an affordable entry-level card",
+    "Grocery shoppers who want to earn more on everyday household spends"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "What categories earn 10X Reward Points?",
+      "answer": "You earn 10X Reward Points on dining, movies, grocery, and departmental store purchases. All other spends earn 1 RP per ₹100."
+    },
+    {
+      "question": "What is the annual fee waiver condition?",
+      "answer": "The ₹499 annual fee is waived if your annual spends exceed ₹1,00,000 in the previous year."
+    },
+    {
+      "question": "How much are the Reward Points worth?",
+      "answer": "Each Reward Point is worth ₹0.25 when redeemed as statement credit or gift vouchers. So 10X rewards on bonus categories effectively gives you 2.5% return."
+    },
+    {
+      "question": "Is this card suitable for beginners?",
+      "answer": "Yes, the SBI SimplySAVE is an excellent entry-level card with a low fee, easy waiver threshold, and good rewards on everyday spending categories like dining and grocery."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "icici-amazon-pay",
+  "name": "ICICI Amazon Pay Credit Card",
+  "issuer": "icici",
+  "network": "visa",
+  "tier": "mid",
+  "categories": ["shopping", "cashback", "no-annual-fee"],
+  "imageUrl": "/images/cards/icici-amazon-pay.webp",
+  "fees": {
+    "joining": 0,
+    "annual": 0,
+    "renewal": 0,
+    "waiverCondition": "Lifetime free - no joining or annual fee"
+  },
+  "rewards": {
+    "pointName": "Amazon Pay Balance",
+    "baseEarnRate": 1,
+    "pointValue": 1,
+    "categoryRates": [
+      {
+        "category": "Amazon (Prime members)",
+        "rate": 5,
+        "description": "5% cashback on Amazon purchases for Prime members"
+      },
+      {
+        "category": "Amazon (non-Prime)",
+        "rate": 2,
+        "description": "2% cashback on Amazon purchases for non-Prime members"
+      },
+      {
+        "category": "Bill payments & utilities",
+        "rate": 2,
+        "description": "2% cashback on paying bills and utility payments"
+      },
+      {
+        "category": "All other spends",
+        "rate": 1,
+        "description": "1% cashback on all other purchases"
+      }
+    ],
+    "cappedCategories": [],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments",
+      "EMI transactions",
+      "Cash advances"
+    ],
+    "redemptionOptions": [
+      "Amazon Pay Balance (auto-credited)",
+      "Use on Amazon.in for purchases",
+      "Pay at Amazon Pay partner merchants"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "₹500 Amazon Pay cashback",
+      "value": 500,
+      "condition": "On card activation and first transaction"
+    }
+  ],
+  "milestoneBenefits": [],
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "Lifetime free - no annual or joining fee ever",
+    "Cashback auto-credited as Amazon Pay Balance",
+    "No minimum redemption threshold for cashback",
+    "Contactless payment enabled"
+  ],
+  "eligibility": {
+    "minIncome": 300000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 4.2,
+  "pros": [
+    "Lifetime free with zero annual and joining fee",
+    "Excellent 5% cashback on Amazon for Prime members",
+    "Cashback credited as Amazon Pay Balance with no redemption hassle",
+    "Decent 2% on bill payments and utilities",
+    "1% baseline cashback on all other spends"
+  ],
+  "cons": [
+    "Cashback is only as Amazon Pay Balance, not direct bank credit",
+    "Non-Prime members get only 2% on Amazon",
+    "No lounge access",
+    "High foreign currency markup at 3.5%"
+  ],
+  "idealFor": [
+    "Amazon Prime members who shop frequently on Amazon",
+    "Users looking for a lifetime free card with solid cashback",
+    "Anyone who regularly pays bills and utilities online"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "Is the ICICI Amazon Pay Credit Card truly lifetime free?",
+      "answer": "Yes, the card has no joining fee and no annual fee for the lifetime of the card. There are no hidden charges or spend-based conditions to maintain the free status."
+    },
+    {
+      "question": "How is the cashback credited?",
+      "answer": "Cashback is automatically credited to your Amazon Pay Balance within a few days of the transaction. You can use this balance for purchases on Amazon.in or at any Amazon Pay partner merchant."
+    },
+    {
+      "question": "Do I need Amazon Prime to get 5% cashback?",
+      "answer": "Yes, the 5% cashback on Amazon purchases is exclusive to Amazon Prime members. Non-Prime members receive 2% cashback on Amazon purchases. A Prime membership costs ₹1,499/year."
+    },
+    {
+      "question": "Can I use the Amazon Pay Balance outside Amazon?",
+      "answer": "Yes, Amazon Pay Balance can be used at various partner merchants including Swiggy, BigBasket, BookMyShow, and many others. It can also be used for utility bill payments through Amazon."
+    }
+  ]
+}

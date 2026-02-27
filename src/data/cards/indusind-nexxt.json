@@ -1,0 +1,110 @@
+{
+  "slug": "indusind-nexxt",
+  "name": "IndusInd Nexxt Credit Card",
+  "issuer": "indusind",
+  "network": "visa",
+  "tier": "entry",
+  "categories": ["cashback", "no-annual-fee"],
+  "imageUrl": "/images/cards/indusind-nexxt.webp",
+  "fees": {
+    "joining": 0,
+    "annual": 0,
+    "renewal": 0
+  },
+  "rewards": {
+    "pointName": "Cashback / Reward Points",
+    "baseEarnRate": 0.7,
+    "pointValue": 1,
+    "categoryRates": [
+      {
+        "category": "Cashback Mode",
+        "rate": 0.7,
+        "description": "0.7% cashback on all spends when cashback button is selected"
+      },
+      {
+        "category": "Rewards Mode",
+        "rate": 5,
+        "description": "5X Reward Points on all spends when rewards button is selected"
+      },
+      {
+        "category": "EMI Mode",
+        "rate": 0,
+        "description": "Instant EMI conversion on purchases when EMI button is selected"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading"
+    ],
+    "redemptionOptions": [
+      "Direct cashback (in cashback mode)",
+      "Statement credit",
+      "Gift vouchers",
+      "Instant EMI conversion (in EMI mode)"
+    ]
+  },
+  "welcomeBenefits": [],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 50000,
+      "period": "annual",
+      "benefit": "Bonus ₹250 cashback",
+      "value": 250
+    }
+  ],
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 200
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "World's first interactive credit card with physical buttons",
+    "Three modes selectable via card buttons: Cashback, Rewards, EMI",
+    "No joining or annual fee - lifetime free",
+    "Fuel surcharge waiver up to ₹200 per month",
+    "Instant EMI conversion without calling the bank"
+  ],
+  "eligibility": {
+    "minIncome": 300000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.3,
+  "pros": [
+    "Lifetime free card with zero joining and annual fee",
+    "Innovative interactive buttons for mode selection",
+    "Three distinct modes: cashback, rewards, and EMI",
+    "Good entry-level card for first-time users",
+    "Fuel surcharge waiver included"
+  ],
+  "cons": [
+    "Cashback rate of 0.7% is below average",
+    "No lounge access at all",
+    "High foreign currency markup of 3.5%",
+    "No welcome benefits"
+  ],
+  "idealFor": [
+    "First-time credit card users looking for a no-fee card",
+    "Tech enthusiasts interested in the interactive button feature",
+    "Users who frequently convert purchases to EMI"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How do the interactive buttons on the Nexxt card work?",
+      "answer": "The IndusInd Nexxt card has three physical buttons on the card face. Before making a purchase, you press the button for your desired mode: Cashback, Rewards, or EMI. The LED indicator confirms your selection. The card then processes the transaction in the selected mode."
+    },
+    {
+      "question": "Is the Nexxt card really lifetime free?",
+      "answer": "Yes, the IndusInd Nexxt Credit Card has zero joining fee, zero annual fee, and zero renewal fee. It is a lifetime free card with no spending conditions required for fee waiver."
+    },
+    {
+      "question": "What is the cashback rate on the Nexxt card?",
+      "answer": "In cashback mode, you earn 0.7% cashback on all eligible spends. While this is lower than some dedicated cashback cards, the benefit of this card lies in its flexibility across three modes."
+    },
+    {
+      "question": "Does the Nexxt card offer lounge access?",
+      "answer": "No, the IndusInd Nexxt card does not offer any domestic or international lounge access. It is an entry-level card focused on the interactive button feature and basic rewards."
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "slug": "indusind-indulge",
+  "name": "IndusInd Indulge Credit Card",
+  "issuer": "indusind",
+  "network": "visa",
+  "tier": "premium",
+  "categories": ["dining", "lifestyle", "rewards"],
+  "imageUrl": "/images/cards/indusind-indulge.webp",
+  "fees": {
+    "joining": 2499,
+    "annual": 2499,
+    "renewal": 2499,
+    "waiverCondition": "Spend ₹3,00,000 or more in the previous year",
+    "waiverSpendThreshold": 300000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 1,
+    "pointValue": 0.50,
+    "maxPointValue": 0.50,
+    "categoryRates": [
+      {
+        "category": "Dining",
+        "rate": 6,
+        "description": "6X Reward Points on dining spends at restaurants"
+      },
+      {
+        "category": "Entertainment",
+        "rate": 4,
+        "description": "4X Reward Points on entertainment spends (movies, events, streaming)"
+      },
+      {
+        "category": "All other spends",
+        "rate": 1,
+        "description": "1 Reward Point per ₹100 spent on all other purchases"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI transactions",
+      "Insurance premium payments"
+    ],
+    "redemptionOptions": [
+      "Statement credit",
+      "Gift vouchers",
+      "Dining vouchers",
+      "Catalogue redemption"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "2,500 bonus Reward Points on card activation",
+      "value": 1250,
+      "condition": "On payment of joining fee"
+    },
+    {
+      "description": "Complimentary Dineout Passport membership",
+      "value": 1000,
+      "condition": "On payment of joining fee"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 200000,
+      "period": "annual",
+      "benefit": "2,000 bonus Reward Points + Dineout Passport renewal",
+      "value": 2000
+    },
+    {
+      "spendThreshold": 400000,
+      "period": "annual",
+      "benefit": "Additional 4,000 bonus Reward Points",
+      "value": 2000
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 4,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 0,
+      "visitPeriod": "annual"
+    },
+    "provider": "Visa Lounge Program"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3,
+  "additionalBenefits": [
+    "Complimentary Dineout Passport with up to 25% off at 2,000+ restaurants",
+    "6X rewards on dining makes it one of the best dining cards",
+    "4X rewards on entertainment for movie and event enthusiasts",
+    "Fuel surcharge waiver up to ₹250 per month",
+    "4 complimentary domestic lounge visits per year"
+  ],
+  "eligibility": {
+    "minIncome": 600000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.7,
+  "pros": [
+    "Excellent 6X rewards on dining is among the best for food lovers",
+    "4X rewards on entertainment covers movies, events, and streaming",
+    "Complimentary Dineout Passport membership for restaurant discounts",
+    "Foreign currency markup of 3% is slightly better than mid-tier peers",
+    "Annual fee waiver at ₹3L spend is reasonable"
+  ],
+  "cons": [
+    "Base earn rate of 1 RP/₹100 is low for non-dining/entertainment spends",
+    "No international lounge access",
+    "Limited utility for users who don't spend heavily on dining and entertainment",
+    "Point value of ₹0.50 reduces the effective return"
+  ],
+  "idealFor": [
+    "Food enthusiasts and frequent diners who can maximize 6X dining rewards",
+    "Entertainment spenders who regularly spend on movies, events, and streaming",
+    "Lifestyle-oriented users who want a card tailored to dining and entertainment"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "What is the Dineout Passport and how does it work?",
+      "answer": "Dineout Passport is a premium dining membership offering up to 25% off at 2,000+ restaurants across India. As an Indulge cardholder, you receive this membership complimentary on paying the joining fee."
+    },
+    {
+      "question": "What counts as entertainment spend for 4X rewards?",
+      "answer": "Entertainment spends include movie tickets (BookMyShow, PVR, etc.), event bookings, OTT streaming subscriptions, and amusement park tickets. The merchant category code (MCC) determines eligibility."
+    },
+    {
+      "question": "Is the annual fee waivable?",
+      "answer": "Yes, the ₹2,499 annual fee is waived if you spend ₹3,00,000 or more in the previous anniversary year."
+    },
+    {
+      "question": "How does the Indulge card compare to the EazyDiner card for dining?",
+      "answer": "The Indulge card offers 6X on all dining, while the EazyDiner card offers 10X specifically on EazyDiner bookings and 3X on other dining. If you use EazyDiner frequently, the EazyDiner card may be better. For general dining across all restaurants, the Indulge card is more versatile."
+    }
+  ]
+}

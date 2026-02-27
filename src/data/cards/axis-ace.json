@@ -1,0 +1,123 @@
+{
+  "slug": "axis-ace",
+  "name": "Axis ACE Credit Card",
+  "issuer": "axis",
+  "network": "visa",
+  "tier": "mid",
+  "categories": ["cashback", "shopping", "no-annual-fee"],
+  "imageUrl": "/images/cards/axis-ace.webp",
+  "fees": {
+    "joining": 0,
+    "annual": 0,
+    "renewal": 499,
+    "waiverCondition": "Lifetime free for first year; renewal waived on spending ₹2,00,000 in the previous year",
+    "waiverSpendThreshold": 200000
+  },
+  "rewards": {
+    "pointName": "Cashback",
+    "baseEarnRate": 2,
+    "pointValue": 1,
+    "categoryRates": [
+      {
+        "category": "All other spends",
+        "rate": 2,
+        "description": "2% cashback on all non-category spends"
+      },
+      {
+        "category": "Bill payments via Google Pay",
+        "rate": 5,
+        "description": "5% cashback on utility bill payments made through Google Pay"
+      },
+      {
+        "category": "Swiggy & Zomato",
+        "rate": 4,
+        "description": "4% cashback on Swiggy and Zomato orders"
+      }
+    ],
+    "cappedCategories": [
+      {
+        "category": "Bill payments via Google Pay",
+        "maxPointsPerMonth": 500,
+        "description": "5% cashback on Google Pay bills capped at ₹500 per month"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI conversions",
+      "Rent payments"
+    ],
+    "redemptionOptions": [
+      "Automatic cashback credited to statement",
+      "No manual redemption required"
+    ]
+  },
+  "welcomeBenefits": [],
+  "milestoneBenefits": [],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 4,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 0,
+      "visitPeriod": "annual"
+    },
+    "provider": "Dreamfolks"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 400
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "Lifetime free card with zero joining fee",
+    "Flat 2% cashback on all spends - no category restrictions",
+    "5% cashback on Google Pay bill payments",
+    "4 complimentary domestic lounge visits per year",
+    "Contactless tap-and-pay enabled"
+  ],
+  "eligibility": {
+    "minIncome": 400000,
+    "salariedOnly": false,
+    "minAge": 18
+  },
+  "rating": 4.1,
+  "pros": [
+    "Zero joining fee - lifetime free for the first year",
+    "Flat 2% cashback on all spends is excellent for a free card",
+    "5% cashback on bill payments via Google Pay saves on utilities",
+    "4 domestic lounge visits per year is rare for a mid-tier card",
+    "Automatic cashback with no manual redemption hassle"
+  ],
+  "cons": [
+    "Google Pay bill payment cashback is capped at ₹500/month",
+    "No international lounge access",
+    "3.5% foreign currency markup is on the higher side",
+    "Renewal fee of ₹499 applies if spend threshold not met"
+  ],
+  "idealFor": [
+    "Users who want a strong flat cashback card with no annual fee",
+    "Google Pay users who pay utility bills regularly",
+    "Everyday spenders looking for hassle-free automatic cashback"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "Is the Axis ACE card really lifetime free?",
+      "answer": "The first year is completely free with zero joining fee. From the second year, a renewal fee of ₹499 applies, which is waived if you spend ₹2 lakh or more in the previous year."
+    },
+    {
+      "question": "How does the 5% cashback on Google Pay work?",
+      "answer": "When you pay utility bills (electricity, gas, broadband, etc.) through Google Pay using the Axis ACE card, you get 5% cashback. This is capped at ₹500 per billing cycle."
+    },
+    {
+      "question": "Do I get cashback on all purchases?",
+      "answer": "Yes, you get a flat 2% cashback on all spends except excluded categories like fuel, wallet loading, rent, and EMI conversions. Swiggy and Zomato earn an even higher 4% cashback."
+    },
+    {
+      "question": "Does the Axis ACE card offer lounge access?",
+      "answer": "Yes, you get 4 complimentary domestic airport lounge visits per year through Dreamfolks. International lounge access is not included."
+    }
+  ]
+}

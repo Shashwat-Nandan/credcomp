@@ -1,0 +1,152 @@
+{
+  "slug": "sbi-aurum",
+  "name": "SBI Aurum Credit Card",
+  "issuer": "sbi",
+  "network": "visa",
+  "tier": "super-premium",
+  "categories": ["travel", "premium", "lounge", "rewards"],
+  "imageUrl": "/images/cards/sbi-aurum.webp",
+  "fees": {
+    "joining": 9999,
+    "annual": 9999,
+    "renewal": 9999,
+    "waiverCondition": "Spend ₹10,00,000 or more in the previous year",
+    "waiverSpendThreshold": 1000000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 5,
+    "pointValue": 1,
+    "maxPointValue": 1,
+    "categoryRates": [
+      {
+        "category": "Dining and travel partners",
+        "rate": 20,
+        "description": "20X Reward Points on dining and travel partner transactions (20 RP per ₹100)"
+      },
+      {
+        "category": "All other spends",
+        "rate": 5,
+        "description": "5 Reward Points per ₹100 on all other transactions"
+      }
+    ],
+    "cappedCategories": [],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments",
+      "EMI transactions",
+      "Government/tax payments",
+      "Insurance premium payments"
+    ],
+    "redemptionOptions": [
+      "Statement credit (1 RP = ₹1)",
+      "Premium gift vouchers from SBI Card catalogue",
+      "Travel bookings via SBI Card portal",
+      "Product redemption from luxury catalogue",
+      "Amazon Pay balance"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "₹10,000 worth of e-vouchers",
+      "value": 10000,
+      "condition": "On spending ₹15,000 within 60 days of card issuance"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 300000,
+      "period": "annual",
+      "benefit": "E-gift voucher worth ₹5,000",
+      "value": 5000
+    },
+    {
+      "spendThreshold": 600000,
+      "period": "annual",
+      "benefit": "Additional e-gift voucher worth ₹7,500",
+      "value": 7500
+    },
+    {
+      "spendThreshold": 1000000,
+      "period": "annual",
+      "benefit": "Additional e-gift voucher worth ₹10,000 + annual fee waiver",
+      "value": 19999
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": -1,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": -1,
+      "visitPeriod": "annual"
+    },
+    "provider": "Priority Pass (unlimited visits)"
+  },
+  "insurance": {
+    "airAccident": "₹2,00,00,000",
+    "travelInsurance": "Up to ₹1,00,00,000 emergency medical cover",
+    "purchaseProtection": "Up to ₹5,00,000 for 120 days"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 500
+  },
+  "foreignCurrencyMarkup": 1.99,
+  "additionalBenefits": [
+    "Unlimited domestic and international airport lounge access via Priority Pass",
+    "Low foreign currency markup of 1.99%",
+    "Air accident insurance of ₹2 crore",
+    "Travel insurance with ₹1 crore emergency medical cover",
+    "Purchase protection of ₹5 lakh for 120 days",
+    "Dedicated relationship manager",
+    "24/7 premium concierge services",
+    "Complimentary golf rounds at select courses",
+    "Buy 1 Get 1 on movie tickets via BookMyShow"
+  ],
+  "eligibility": {
+    "minIncome": 3000000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 4.5,
+  "pros": [
+    "5% base reward rate (5 RP/₹100 at ₹1 per point) is exceptional for everyday spends",
+    "20X rewards on dining and travel partners gives an effective 20% return",
+    "Unlimited domestic and international lounge access via Priority Pass",
+    "Comprehensive insurance: ₹2 Cr air accident, ₹1 Cr travel, ₹5 L purchase protection",
+    "Welcome benefit of ₹10,000 more than covers the joining fee"
+  ],
+  "cons": [
+    "Very high income eligibility of ₹30 lakh limits accessibility",
+    "₹10 lakh annual spend needed for fee waiver is demanding",
+    "₹9,999 annual fee is steep if you cannot hit milestone benefits",
+    "Reward exclusions on fuel, rent, and wallet loading reduce earning potential"
+  ],
+  "idealFor": [
+    "High-income individuals seeking a super-premium card with unlimited lounge access",
+    "Frequent travelers who want comprehensive insurance and low forex markup",
+    "Luxury spenders who dine out often and want the best possible reward rates"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "Is the lounge access really unlimited?",
+      "answer": "Yes, the SBI Aurum provides unlimited complimentary airport lounge visits — both domestic and international — through the Priority Pass network. There is no cap on the number of visits per year."
+    },
+    {
+      "question": "How much is each Reward Point worth?",
+      "answer": "Each Reward Point is worth ₹1 when redeemed. With a base earn rate of 5 RP per ₹100, this gives an effective 5% return on all spends and up to 20% on partner dining and travel categories."
+    },
+    {
+      "question": "What insurance does the card provide?",
+      "answer": "The card offers ₹2 crore air accident insurance, ₹1 crore emergency medical travel insurance, and ₹5 lakh purchase protection for 120 days from the date of purchase."
+    },
+    {
+      "question": "How does the welcome benefit work?",
+      "answer": "You receive e-vouchers worth ₹10,000 when you spend ₹15,000 within 60 days of card issuance. This more than covers the ₹9,999 joining fee, making the first year effectively free."
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "hdfc-millennia",
+  "name": "HDFC Millennia Credit Card",
+  "issuer": "hdfc",
+  "network": "mastercard",
+  "tier": "mid",
+  "categories": ["cashback", "rewards", "shopping"],
+  "imageUrl": "/images/cards/hdfc-millennia.webp",
+  "fees": {
+    "joining": 1000,
+    "annual": 1000,
+    "renewal": 1000,
+    "waiverCondition": "Spend ₹1,00,000 or more in the previous year",
+    "waiverSpendThreshold": 100000
+  },
+  "rewards": {
+    "pointName": "CashPoints",
+    "baseEarnRate": 1,
+    "pointValue": 1,
+    "categoryRates": [
+      {
+        "category": "Amazon, Flipkart, Myntra, Swiggy",
+        "rate": 5,
+        "description": "5% CashBack on Amazon, Flipkart, Myntra & Swiggy"
+      },
+      {
+        "category": "Online spends",
+        "rate": 2.5,
+        "description": "2.5% CashBack on all other online spends"
+      },
+      {
+        "category": "Offline spends",
+        "rate": 1,
+        "description": "1% CashBack on all offline spends"
+      }
+    ],
+    "cappedCategories": [
+      {
+        "category": "Amazon, Flipkart, Myntra, Swiggy",
+        "maxPointsPerMonth": 1000
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI transactions",
+      "Rent payments"
+    ],
+    "redemptionOptions": [
+      "Direct cashback to statement",
+      "SmartBuy vouchers",
+      "Catalogue redemption"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "1,000 CashPoints on card activation",
+      "value": 1000,
+      "condition": "On payment of joining fee and first transaction"
+    }
+  ],
+  "milestoneBenefits": [],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 8,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 0,
+      "visitPeriod": "annual"
+    },
+    "provider": "Visa / Mastercard Lounge Program"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "Complimentary domestic airport lounge access",
+    "Attractive cashback on popular online platforms",
+    "No hassle reward redemption with direct cashback",
+    "Easy EMI conversion on purchases above ₹2,500"
+  ],
+  "eligibility": {
+    "minIncome": 400000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.9,
+  "pros": [
+    "5% cashback on Amazon, Flipkart, Myntra and Swiggy is best-in-class for a mid-tier card",
+    "2.5% on all online spends is generous for everyday use",
+    "8 complimentary domestic lounge visits per year",
+    "Low annual fee with easily achievable ₹1L waiver threshold",
+    "Direct cashback model avoids complex point calculations"
+  ],
+  "cons": [
+    "5% cashback capped at ₹1,000 per month limits high spenders",
+    "No international lounge access",
+    "3.5% forex markup makes it poor for international use",
+    "1% offline cashback is below average"
+  ],
+  "idealFor": [
+    "Frequent online shoppers on Amazon, Flipkart, Myntra and Swiggy",
+    "Young professionals looking for a low-fee cashback card",
+    "Users who prefer straightforward cashback over reward points"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "Is the 5% cashback on Amazon and Flipkart unlimited?",
+      "answer": "No, the 5% cashback on Amazon, Flipkart, Myntra and Swiggy is capped at ₹1,000 per calendar month. Spends beyond this cap earn at the standard 2.5% online rate."
+    },
+    {
+      "question": "How can I get the annual fee waived?",
+      "answer": "The ₹1,000 annual fee is waived if you spend ₹1,00,000 or more in the previous anniversary year."
+    },
+    {
+      "question": "Does the HDFC Millennia card offer international lounge access?",
+      "answer": "No, the Millennia card only provides complimentary domestic airport lounge access (8 visits per year). For international lounge access, consider upgrading to a premium HDFC card."
+    },
+    {
+      "question": "Can I earn cashback on EMI transactions?",
+      "answer": "No, EMI transactions, wallet loading, fuel purchases and rent payments are excluded from cashback earning."
+    }
+  ]
+}

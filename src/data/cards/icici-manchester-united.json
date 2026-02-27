@@ -1,0 +1,103 @@
+{
+  "slug": "icici-manchester-united",
+  "name": "ICICI Manchester United Credit Card",
+  "issuer": "icici",
+  "network": "visa",
+  "tier": "mid",
+  "categories": ["lifestyle", "rewards", "entertainment"],
+  "imageUrl": "/images/cards/icici-manchester-united.webp",
+  "fees": {
+    "joining": 499,
+    "annual": 499,
+    "renewal": 499,
+    "waiverCondition": "Annual fee waived on spending ₹1,00,000 in the previous year",
+    "waiverSpendThreshold": 100000
+  },
+  "rewards": {
+    "pointName": "PAYBACK Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.25,
+    "categoryRates": [
+      {
+        "category": "All spends",
+        "rate": 2,
+        "description": "2 PAYBACK Points per ₹100 spent on all retail purchases"
+      }
+    ],
+    "cappedCategories": [],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments",
+      "Insurance premiums",
+      "EMI transactions"
+    ],
+    "redemptionOptions": [
+      "PAYBACK catalogue redemption",
+      "Gift vouchers (Amazon, Flipkart, etc.)",
+      "Statement credit",
+      "Manchester United merchandise (select options)"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "Exclusive Manchester United merchandise discount",
+      "condition": "On card activation"
+    }
+  ],
+  "milestoneBenefits": [],
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "Officially branded Manchester United credit card design",
+    "Access to exclusive Manchester United fan experiences and contests",
+    "Discounts on official Manchester United merchandise",
+    "Contactless payment enabled"
+  ],
+  "eligibility": {
+    "minIncome": 300000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.2,
+  "pros": [
+    "Unique Manchester United branded card design for fans",
+    "Access to exclusive MU fan experiences and merchandise discounts",
+    "Low annual fee of ₹499 with easy ₹1L waiver threshold",
+    "Fuel surcharge waiver up to ₹250/month",
+    "Simple rewards structure with no confusing categories"
+  ],
+  "cons": [
+    "Low effective reward rate of 0.50%",
+    "No lounge access at all",
+    "No accelerated reward categories",
+    "High foreign currency markup at 3.5%"
+  ],
+  "idealFor": [
+    "Manchester United fans who want a branded card with MU perks",
+    "Users who prefer a low-fee card with simple rewards",
+    "Football enthusiasts who value exclusive fan experiences"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "What Manchester United benefits does this card offer?",
+      "answer": "The card features an official Manchester United design and provides access to exclusive MU merchandise discounts, fan experiences, contests, and occasionally match-related offers. Specific offers vary by season."
+    },
+    {
+      "question": "Is this card worth it purely for the rewards?",
+      "answer": "From a pure rewards perspective, no. The 0.50% effective return is below average, and there are no accelerated categories. The card's value lies in the Manchester United branding and fan perks rather than financial rewards."
+    },
+    {
+      "question": "Can I get lounge access with this card?",
+      "answer": "No, the ICICI Manchester United Credit Card does not include any airport lounge access. If you need lounge access, consider the ICICI Coral (4 domestic visits) or Rubyx (8 domestic + 2 international visits)."
+    },
+    {
+      "question": "How does the fee waiver work?",
+      "answer": "The annual fee of ₹499 is waived if you spend ₹1,00,000 or more in the previous anniversary year. This is one of the easier waiver thresholds, requiring only about ₹8,333 in monthly spending."
+    }
+  ]
+}

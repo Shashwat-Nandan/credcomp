@@ -1,0 +1,151 @@
+{
+  "slug": "sbi-prime",
+  "name": "SBI Prime Credit Card",
+  "issuer": "sbi",
+  "network": "visa",
+  "tier": "premium",
+  "categories": ["rewards", "lounge", "lifestyle"],
+  "imageUrl": "/images/cards/sbi-prime.webp",
+  "fees": {
+    "joining": 2999,
+    "annual": 2999,
+    "renewal": 2999,
+    "waiverCondition": "Spend ₹3,00,000 or more in the previous year",
+    "waiverSpendThreshold": 300000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 1,
+    "pointValue": 0.25,
+    "maxPointValue": 0.25,
+    "categoryRates": [
+      {
+        "category": "Dining",
+        "rate": 5,
+        "description": "5X Reward Points on dining transactions (5 RP per ₹100)"
+      },
+      {
+        "category": "Departmental stores",
+        "rate": 5,
+        "description": "5X Reward Points on departmental store purchases (5 RP per ₹100)"
+      },
+      {
+        "category": "Online spends",
+        "rate": 2,
+        "description": "2X Reward Points on all online transactions (2 RP per ₹100)"
+      },
+      {
+        "category": "All other spends",
+        "rate": 1,
+        "description": "1 Reward Point per ₹100 on all other transactions"
+      }
+    ],
+    "cappedCategories": [],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments",
+      "EMI transactions",
+      "Government/tax payments",
+      "Insurance premium payments"
+    ],
+    "redemptionOptions": [
+      "Statement credit (1 RP = ₹0.25)",
+      "Gift vouchers from SBI Card catalogue",
+      "Product redemption from catalogue",
+      "Amazon Pay balance"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "₹3,000 worth of e-vouchers",
+      "value": 3000,
+      "condition": "On spending ₹5,000 within 60 days of card issuance"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 150000,
+      "period": "annual",
+      "benefit": "E-gift voucher worth ₹1,500",
+      "value": 1500
+    },
+    {
+      "spendThreshold": 300000,
+      "period": "annual",
+      "benefit": "Additional e-gift voucher worth ₹3,000 + annual fee waiver",
+      "value": 5999
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 8,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 2,
+      "visitPeriod": "annual"
+    },
+    "provider": "Visa"
+  },
+  "insurance": {
+    "airAccident": "₹50,00,000",
+    "travelInsurance": null,
+    "purchaseProtection": null
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 500
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "8 domestic + 2 international lounge visits per year",
+    "Air accident insurance cover of ₹50 lakh",
+    "Higher fuel surcharge waiver cap of ₹500/month",
+    "Concierge services for travel and lifestyle",
+    "EMI conversion facility on large purchases"
+  ],
+  "eligibility": {
+    "minIncome": 600000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 4.0,
+  "pros": [
+    "Welcome benefit of ₹3,000 effectively makes the first year free",
+    "8 domestic + 2 international lounge visits is generous for the fee",
+    "5X rewards on dining and departmental stores cover lifestyle spending",
+    "Achievable ₹3 lakh waiver threshold for annual fee",
+    "Air accident insurance of ₹50 lakh adds peace of mind"
+  ],
+  "cons": [
+    "Reward point value of ₹0.25 per point is on the lower side",
+    "Only 2X on online spends — lower than many competing cards",
+    "3.5% foreign currency markup despite having international lounge access",
+    "Many common categories excluded from earning rewards"
+  ],
+  "idealFor": [
+    "Lifestyle spenders who dine out frequently and shop at departmental stores",
+    "Users looking for a premium card with solid lounge access at a reasonable fee",
+    "Those who want a well-rounded card with milestone benefits and insurance"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How does the welcome benefit work?",
+      "answer": "You receive e-vouchers worth ₹3,000 when you spend ₹5,000 within 60 days of card issuance. This effectively makes the first year free as the voucher value matches the joining fee."
+    },
+    {
+      "question": "How many lounge visits do I get?",
+      "answer": "You get 8 complimentary domestic airport lounge visits and 2 international lounge visits per year through the Visa lounge program."
+    },
+    {
+      "question": "What is the annual fee waiver condition?",
+      "answer": "The ₹2,999 annual fee is waived if your total annual spends exceed ₹3,00,000 in the previous year."
+    },
+    {
+      "question": "Is there air accident insurance?",
+      "answer": "Yes, the card provides air accident insurance cover of ₹50 lakh when flight tickets are purchased using the card."
+    }
+  ]
+}

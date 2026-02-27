@@ -12,6 +12,9 @@ export const CATEGORIES = [
   "fuel",
   "lounge",
   "no-annual-fee",
+  "dining",
+  "shopping",
+  "entertainment",
 ] as const;
 
 export const ISSUERS = [
@@ -22,6 +25,13 @@ export const ISSUERS = [
   "amex",
   "idfc",
   "au",
+  "kotak",
+  "indusind",
+  "rbl",
+  "hsbc",
+  "yes",
+  "federal",
+  "sc",
 ] as const;
 
 export const NETWORKS = [

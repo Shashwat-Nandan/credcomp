@@ -1,0 +1,140 @@
+{
+  "slug": "axis-magnus",
+  "name": "Axis Magnus Credit Card",
+  "issuer": "axis",
+  "network": "visa",
+  "tier": "super-premium",
+  "categories": ["travel", "premium", "lounge", "rewards"],
+  "imageUrl": "/images/cards/axis-magnus.webp",
+  "fees": {
+    "joining": 12500,
+    "annual": 12500,
+    "renewal": 12500,
+    "waiverCondition": "Annual fee waived on spending ₹15,00,000 in the previous year",
+    "waiverSpendThreshold": 1500000
+  },
+  "rewards": {
+    "pointName": "EDGE Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.50,
+    "maxPointValue": 1,
+    "categoryRates": [
+      {
+        "category": "All spends",
+        "rate": 2,
+        "description": "2 EDGE Points per ₹200 spent on all purchases"
+      },
+      {
+        "category": "Axis Travel EDGE portal",
+        "rate": 12,
+        "description": "12X EDGE Points (12 per ₹200) on bookings via Axis Travel EDGE portal"
+      },
+      {
+        "category": "Dining",
+        "rate": 5,
+        "description": "5X EDGE Points (5 per ₹200) on dining spends"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI conversions",
+      "Rent payments",
+      "Government/tax payments",
+      "Insurance premiums"
+    ],
+    "redemptionOptions": [
+      "Flights and hotels via Axis Travel EDGE portal (1 EDGE Point = up to ₹1)",
+      "Transfer to airline partners (InterMiles, Singapore KrisFlyer, Etihad Guest, etc.)",
+      "Statement credit (1 EDGE Point = ₹0.50)",
+      "Gift vouchers from partner brands"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "25,000 EDGE Points on card activation",
+      "value": 12500,
+      "condition": "Credited on first transaction within 45 days"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 750000,
+      "period": "annual",
+      "benefit": "25,000 bonus EDGE Points",
+      "value": 12500
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": -1,
+      "visitPeriod": "unlimited"
+    },
+    "international": {
+      "complimentaryVisits": -1,
+      "visitPeriod": "unlimited"
+    },
+    "provider": "Priority Pass / Dreamfolks"
+  },
+  "insurance": {
+    "airAccident": "₹2,00,00,000",
+    "travelInsurance": "Up to ₹50,00,000 overseas medical insurance"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 500
+  },
+  "foreignCurrencyMarkup": 2,
+  "additionalBenefits": [
+    "Unlimited domestic and international lounge access",
+    "12X rewards on Axis Travel EDGE portal bookings",
+    "5X rewards on dining spends",
+    "Priority Pass with unlimited visits for primary cardholder",
+    "Transfer EDGE Points to 16+ airline loyalty programs",
+    "Complimentary travel insurance of ₹50 lakh",
+    "Air accident cover of ₹2 crore"
+  ],
+  "eligibility": {
+    "minIncome": 2400000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 4.5,
+  "pros": [
+    "Unlimited domestic and international lounge access is a standout benefit",
+    "12X rewards on Axis Travel EDGE portal offers massive value for travellers",
+    "25,000 welcome points (₹12,500 value) offset the joining fee",
+    "Milestone benefit of 25,000 points at ₹7.5L spend adds further value",
+    "Low 2% foreign currency markup for international transactions"
+  ],
+  "cons": [
+    "High annual fee of ₹12,500 requires significant spend to justify",
+    "Fee waiver threshold of ₹15 lakh is steep for most users",
+    "Accelerated rewards are best unlocked via Axis Travel EDGE portal",
+    "EDGE Points lose value if not redeemed on travel portal"
+  ],
+  "idealFor": [
+    "Frequent travellers who book through Axis Travel EDGE for 12X rewards",
+    "High spenders seeking unlimited lounge access and strong milestone benefits",
+    "Users who transfer points to airline partners for premium cabin redemptions"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "Is the lounge access really unlimited?",
+      "answer": "Yes, the Axis Magnus offers unlimited complimentary domestic and international lounge visits for the primary cardholder through Priority Pass and Dreamfolks."
+    },
+    {
+      "question": "How valuable are EDGE Points on the Magnus card?",
+      "answer": "EDGE Points are worth ₹0.50 each when redeemed as statement credit, but can be worth up to ₹1 each when redeemed on the Axis Travel EDGE portal for flights and hotels."
+    },
+    {
+      "question": "What is the milestone benefit and how does it work?",
+      "answer": "When you spend ₹7,50,000 in a year, you receive 25,000 bonus EDGE Points (worth ₹12,500). This effectively makes the card free if you hit this spend threshold."
+    },
+    {
+      "question": "Can I transfer EDGE Points to airline miles?",
+      "answer": "Yes, you can transfer EDGE Points to 16+ airline partners including Singapore Airlines KrisFlyer, InterMiles, Etihad Guest, British Airways Avios, and Turkish Airlines Miles&Smiles."
+    }
+  ]
+}

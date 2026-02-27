@@ -1,0 +1,110 @@
+{
+  "slug": "axis-neo",
+  "name": "Axis Neo Credit Card",
+  "issuer": "axis",
+  "network": "visa",
+  "tier": "entry",
+  "categories": ["cashback", "rewards", "no-annual-fee"],
+  "imageUrl": "/images/cards/axis-neo.webp",
+  "fees": {
+    "joining": 250,
+    "annual": 250,
+    "renewal": 250,
+    "waiverCondition": "Annual fee waived on spending ₹50,000 in the previous year",
+    "waiverSpendThreshold": 50000
+  },
+  "rewards": {
+    "pointName": "EDGE Points",
+    "baseEarnRate": 1,
+    "pointValue": 0.40,
+    "categoryRates": [
+      {
+        "category": "All spends",
+        "rate": 1,
+        "description": "1 EDGE Point per ₹200 spent on all purchases"
+      },
+      {
+        "category": "Flipkart & Myntra",
+        "rate": 2,
+        "description": "2X EDGE Points (2 per ₹200) on Flipkart and Myntra purchases"
+      },
+      {
+        "category": "Bill payments & recharges",
+        "rate": 4,
+        "description": "4X EDGE Points (4 per ₹200) on bill payments and mobile recharges"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI conversions"
+    ],
+    "redemptionOptions": [
+      "Statement credit (1 EDGE Point = ₹0.40)",
+      "Gift vouchers from partner brands",
+      "Product catalogue redemption"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "250 EDGE Points on card activation",
+      "value": 100,
+      "condition": "Credited on first transaction"
+    }
+  ],
+  "milestoneBenefits": [],
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 200
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "2X rewards on Flipkart and Myntra shopping",
+    "4X rewards on bill payments and recharges",
+    "Easy annual fee waiver with ₹50,000 spend",
+    "Axis Bank Dining Delights programme"
+  ],
+  "eligibility": {
+    "minIncome": 250000,
+    "salariedOnly": false,
+    "minAge": 18
+  },
+  "rating": 3.3,
+  "pros": [
+    "Low annual fee of ₹250, easily waived with ₹50K spend",
+    "4X rewards on bill payments and recharges is useful for everyday spends",
+    "2X rewards on Flipkart and Myntra for online shoppers",
+    "Good starter card with no high income requirement",
+    "Fuel surcharge waiver saves on petrol pump transactions"
+  ],
+  "cons": [
+    "Low base earn rate of 1 point per ₹200 (0.2% effective)",
+    "No lounge access benefit",
+    "EDGE Point value is low at ₹0.40 per point",
+    "No milestone or annual spend benefits"
+  ],
+  "idealFor": [
+    "First-time credit card users looking for a low-fee entry card",
+    "Users who frequently pay bills and recharge via the card",
+    "Flipkart and Myntra shoppers seeking accelerated rewards"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How do I get the annual fee waived on the Axis Neo card?",
+      "answer": "Spend ₹50,000 or more in a year and the ₹250 annual fee is waived for the next year."
+    },
+    {
+      "question": "What is the value of EDGE Points on this card?",
+      "answer": "1 EDGE Point is worth approximately ₹0.40 when redeemed for statement credits or gift vouchers."
+    },
+    {
+      "question": "Does the Axis Neo card offer lounge access?",
+      "answer": "No, the Axis Neo Credit Card does not come with any domestic or international lounge access."
+    },
+    {
+      "question": "Can I get this card as my first credit card?",
+      "answer": "Yes, the Axis Neo is an entry-level card with a minimum income requirement of ₹2.5 lakh per annum, making it accessible for salaried individuals starting out."
+    }
+  ]
+}

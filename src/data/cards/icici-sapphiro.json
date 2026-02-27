@@ -1,0 +1,144 @@
+{
+  "slug": "icici-sapphiro",
+  "name": "ICICI Sapphiro Credit Card",
+  "issuer": "icici",
+  "network": "visa",
+  "tier": "super-premium",
+  "categories": ["travel", "premium", "lounge", "rewards"],
+  "imageUrl": "/images/cards/icici-sapphiro.webp",
+  "fees": {
+    "joining": 6500,
+    "annual": 6500,
+    "renewal": 6500,
+    "waiverCondition": "Annual fee waived on spending ₹6,00,000 in the previous year",
+    "waiverSpendThreshold": 600000
+  },
+  "rewards": {
+    "pointName": "PAYBACK Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.25,
+    "maxPointValue": 0.50,
+    "categoryRates": [
+      {
+        "category": "Travel",
+        "rate": 4,
+        "description": "4 PAYBACK Points per ₹100 spent on travel bookings"
+      },
+      {
+        "category": "Dining",
+        "rate": 4,
+        "description": "4 PAYBACK Points per ₹100 spent on dining"
+      },
+      {
+        "category": "Weekend spends",
+        "rate": 4,
+        "description": "2X PAYBACK Points on all weekend (Saturday & Sunday) transactions"
+      },
+      {
+        "category": "All other spends",
+        "rate": 2,
+        "description": "2 PAYBACK Points per ₹100 spent on all other retail purchases"
+      }
+    ],
+    "cappedCategories": [],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments",
+      "Insurance premiums",
+      "Government payments"
+    ],
+    "redemptionOptions": [
+      "PAYBACK catalogue redemption",
+      "Gift vouchers (Amazon, Flipkart, Myntra, etc.)",
+      "InterMiles transfer",
+      "Statement credit",
+      "Air miles conversion"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "Vouchers worth ₹5,000",
+      "value": 5000,
+      "condition": "On payment of joining fee and card activation"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 600000,
+      "period": "annual",
+      "benefit": "Bonus PAYBACK Points and annual fee waiver",
+      "value": 6500
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 12,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 4,
+      "visitPeriod": "annual"
+    },
+    "provider": "Priority Pass / Dreamfolks / Visa Signature Lounges"
+  },
+  "insurance": {
+    "airAccident": "₹2,00,00,000",
+    "travelInsurance": "Up to ₹50,00,000 overseas medical insurance"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 500
+  },
+  "foreignCurrencyMarkup": 2,
+  "additionalBenefits": [
+    "2X rewards on weekend spends across all categories",
+    "Culinary Treats dining program - Buy 1 Get 1 at 1500+ restaurants",
+    "Complimentary golf games at select courses",
+    "24/7 concierge service",
+    "Comprehensive overseas travel insurance"
+  ],
+  "eligibility": {
+    "minIncome": 1500000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 4.2,
+  "pros": [
+    "12 domestic + 4 international lounge visits per year",
+    "2X rewards on weekends gives excellent value for weekend shoppers",
+    "Lower forex markup at 2% compared to most cards",
+    "₹2 Cr air accident cover and ₹50L travel insurance",
+    "Culinary Treats BOGO at 1500+ restaurants"
+  ],
+  "cons": [
+    "₹6,500 annual fee is steep and requires ₹6L spend to waive",
+    "Base reward rate still only 0.50% on weekdays",
+    "PAYBACK Point value is modest at ₹0.25 per point",
+    "Limited international lounge visits compared to Emeralde"
+  ],
+  "idealFor": [
+    "High spenders who want weekend bonus rewards and travel perks",
+    "Frequent travellers who need lounge access and travel insurance",
+    "Users who dine out regularly and can leverage Culinary Treats"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How does the 2X weekend reward work?",
+      "answer": "All transactions made on Saturday and Sunday earn double PAYBACK Points (4 points per ₹100 instead of the usual 2). This applies to all retail categories and is a great way to maximize rewards on larger weekend purchases."
+    },
+    {
+      "question": "What is included in the travel insurance?",
+      "answer": "The card provides up to ₹50 lakh overseas medical insurance covering emergency hospitalization, evacuation, and related expenses. Air accident cover is up to ₹2 crore. Coverage is activated when travel tickets are purchased using the card."
+    },
+    {
+      "question": "How does the Sapphiro compare to the Emeralde?",
+      "answer": "The Emeralde is a tier above with unlimited lounge access, Taj Epicure membership, 1.5% forex markup, and higher reward rates. However, the Emeralde is invite-only with a ₹12,000 fee, while the Sapphiro is more accessible at ₹6,500."
+    },
+    {
+      "question": "Is the 2% forex markup competitive?",
+      "answer": "Yes, 2% is competitive among Indian credit cards. Most cards charge 3.5%, and only a few super-premium cards offer lower rates. For international spends, this card saves 1.5% per transaction compared to standard cards."
+    }
+  ]
+}

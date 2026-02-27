@@ -1,0 +1,146 @@
+{
+  "slug": "au-altura-plus",
+  "name": "AU Altura Plus Credit Card",
+  "issuer": "au",
+  "network": "visa",
+  "tier": "mid",
+  "categories": ["rewards", "lounge", "cashback"],
+  "imageUrl": "/images/cards/au-altura-plus.webp",
+  "fees": {
+    "joining": 999,
+    "annual": 999,
+    "renewal": 999,
+    "waiverCondition": "Annual fee waived on spending ₹2,00,000 or more in the previous year",
+    "waiverSpendThreshold": 200000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.25,
+    "maxPointValue": 0.25,
+    "categoryRates": [
+      {
+        "category": "All spends (base)",
+        "rate": 2,
+        "description": "2 Reward Points per ₹100 spent on all purchases"
+      },
+      {
+        "category": "Dining",
+        "rate": 8,
+        "description": "4X Reward Points (8 RP per ₹100) on dining transactions"
+      },
+      {
+        "category": "Travel",
+        "rate": 8,
+        "description": "4X Reward Points (8 RP per ₹100) on travel bookings"
+      }
+    ],
+    "cappedCategories": [
+      {
+        "category": "Dining and Travel (4X)",
+        "maxPointsPerMonth": 5000,
+        "description": "4X accelerated rewards capped at 5,000 bonus RP per month"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments",
+      "Government/tax payments",
+      "EMI transactions"
+    ],
+    "redemptionOptions": [
+      "Cashback to statement",
+      "Gift vouchers",
+      "Product catalogue redemption",
+      "Travel bookings"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "1,000 bonus Reward Points on card activation",
+      "value": 250,
+      "condition": "On payment of joining fee and first transaction"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 100000,
+      "period": "annual",
+      "benefit": "1,500 bonus Reward Points",
+      "value": 375
+    },
+    {
+      "spendThreshold": 200000,
+      "period": "annual",
+      "benefit": "Annual fee waiver + 2,500 bonus Reward Points",
+      "value": 1624
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 8,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 0,
+      "visitPeriod": "annual"
+    },
+    "provider": "Dreamfolks / Visa Lounges"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 200
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "4X accelerated rewards on dining and travel",
+    "8 complimentary domestic lounge visits per year",
+    "1% fuel surcharge waiver up to ₹200 per month",
+    "EMI conversion facility on large purchases",
+    "Contactless payment enabled"
+  ],
+  "eligibility": {
+    "minIncome": 400000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.7,
+  "pros": [
+    "Good 4X rewards on dining and travel categories",
+    "8 domestic lounge visits per year at a ₹999 fee point",
+    "Easy annual fee waiver at ₹2L spend threshold",
+    "Welcome bonus of 1,000 RP on activation",
+    "Fuel surcharge waiver saves on fuel purchases"
+  ],
+  "cons": [
+    "Low base earn rate of 2 RP per ₹100 (0.5% return)",
+    "No international lounge access",
+    "3.5% foreign currency markup is not competitive",
+    "Accelerated rewards are capped monthly"
+  ],
+  "idealFor": [
+    "Frequent diners and travellers looking for accelerated rewards",
+    "Users who want domestic lounge access at an affordable fee",
+    "Mid-income earners seeking a well-rounded rewards card"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    {
+      "question": "How do 4X rewards on dining and travel work?",
+      "answer": "Instead of the base 2 RP per ₹100, you earn 8 RP per ₹100 on dining and travel transactions. At ₹0.25 per point, that's 2% return on these categories compared to 0.5% base return."
+    },
+    {
+      "question": "How can I access domestic airport lounges?",
+      "answer": "You get 8 complimentary domestic lounge visits per year via Dreamfolks or Visa lounge network. Simply swipe your AU Altura Plus card at participating lounge reception desks."
+    },
+    {
+      "question": "Is the annual fee easily waivable?",
+      "answer": "Yes, spending ₹2,00,000 in a year waives the ₹999 annual fee. This averages to about ₹16,667 per month, which is achievable for most mid-income users."
+    },
+    {
+      "question": "Can I convert purchases to EMI?",
+      "answer": "Yes, you can convert large purchases into easy EMIs at competitive interest rates through the AU 0101 app or by contacting customer service."
+    }
+  ]
+}
