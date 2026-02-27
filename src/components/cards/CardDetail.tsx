@@ -3,6 +3,7 @@ import { formatCurrency, getIssuerDisplayName } from "@/lib/utils";
 import { NETWORK_LABELS, TIER_LABELS } from "@/lib/constants";
 import { Badge } from "@/components/ui/Badge";
 import { StarRating } from "@/components/ui/StarRating";
+import { CardImage } from "./CardImage";
 import Link from "next/link";
 import { getComparisonUrl } from "@/lib/compare";
 
@@ -11,13 +12,14 @@ export function CardDetail({ card, relatedSlugs }: { card: CreditCard; relatedSl
     <article className="space-y-8">
       {/* Hero section */}
       <section className="flex flex-col gap-6 md:flex-row md:items-start">
-        {/* Card image placeholder */}
-        <div className="flex h-56 w-full shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-primary-light)] md:w-72">
-          <div className="text-center text-white">
-            <div className="text-3xl font-bold">{card.name.split(" ").slice(-1)[0]}</div>
-            <div className="mt-2 text-sm opacity-75">{getIssuerDisplayName(card.issuer)}</div>
-            <div className="mt-1 text-xs opacity-50">{NETWORK_LABELS[card.network]}</div>
-          </div>
+        {/* Card image */}
+        <div className="w-full shrink-0 overflow-hidden rounded-xl md:w-72">
+          <CardImage
+            name={card.name}
+            issuer={card.issuer}
+            network={card.network}
+            className="h-auto w-full"
+          />
         </div>
 
         <div className="flex-1">

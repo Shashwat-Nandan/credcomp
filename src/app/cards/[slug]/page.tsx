@@ -1,7 +1,9 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getCardBySlug, getCardSlugs, getRelatedCards } from "@/lib/cards";
+import { getCardReview } from "@/lib/content";
 import { CardDetail } from "@/components/cards/CardDetail";
+import { CardReview } from "@/components/cards/CardReview";
 import { CardGrid } from "@/components/cards/CardGrid";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { JsonLd } from "@/components/seo/JsonLd";
@@ -34,6 +36,7 @@ export default async function CardPage({ params }: PageProps) {
   if (!card) notFound();
 
   const relatedCards = getRelatedCards(card, 3);
+  const review = getCardReview(slug);
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
@@ -48,6 +51,11 @@ export default async function CardPage({ params }: PageProps) {
       />
 
       <CardDetail card={card} relatedSlugs={relatedCards.map((c) => c.slug)} />
+
+      {/* Expert review (MDX content) */}
+      {review && (
+        <CardReview content={review.content} frontmatter={review.frontmatter} />
+      )}
 
       {/* Related cards */}
       {relatedCards.length > 0 && (

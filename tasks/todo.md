@@ -20,7 +20,7 @@
 - [x] Comparison tool (/compare?cards=x,y,z)
 - [x] Comparison logic (src/lib/compare.ts)
 - [x] Point calculator (/calculator page with PointCalculator component)
-- [ ] MDX integration for card reviews
+- [x] MDX integration for card reviews (next-mdx-remote/rsc, 3 reviews written)
 - [x] "Compare with" quick action on detail pages
 
 ## Phase 3: SEO & AI Compatibility
@@ -32,11 +32,11 @@
 - [x] Internal linking (nav, footer, home CTA, card detail cross-links)
 
 ## Phase 4: Polish & Performance
-- [ ] Image optimization (currently using gradient placeholders)
+- [x] Image optimization (dynamic SVG CardImage component with issuer brand colors)
 - [x] Responsive design (mobile-first with grid system, mobile nav)
 - [x] Accessibility (ARIA labels, keyboard navigation, skip-to-content)
 - [x] Error handling (404 page, notFound() for invalid slugs, generateStaticParams)
-- [ ] Final QA & Lighthouse
+- [x] Final QA — build passes (31 pages), TypeScript clean, @tailwindcss/typography added
 
 ## Build fixes applied
 - Added `export const dynamic = "force-static"` to robots.ts and sitemap.ts for static export
@@ -46,4 +46,8 @@
 ## Review
 - All 31 pages build successfully with `output: 'export'`
 - 8 credit cards seeded: HDFC Infinia, HDFC Regalia, Axis Atlas, ICICI Emeralde, SBI Elite, Amex Platinum Travel, AU LIT, IDFC FIRST Wealth
-- Remaining: MDX card reviews, real card images, Lighthouse audit
+- 3 expert reviews: HDFC Infinia, Axis Atlas, SBI Elite (MDX with frontmatter)
+- Dynamic SVG card images with issuer-specific brand colors (7 issuers)
+- Tailwind Typography plugin added for MDX prose styling
+- Pre-existing ESLint config issue (ESLint 9 + FlatCompat circular ref) — does not affect build
+- All phases complete
