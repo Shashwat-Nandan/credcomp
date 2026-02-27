@@ -7,6 +7,7 @@ CredComp is a comparison website for Indian credit cards. We provide structured 
 - /cards — Browse all credit cards with filters
 - /cards/[slug] — Detailed card review (fees, rewards, benefits, pros/cons, FAQs)
 - /compare?cards=slug1,slug2 — Side-by-side comparison of 2-3 cards
+- /calculator — Rewards calculator based on monthly spending
 - /categories/[category] — Cards filtered by category
 - /issuers/[bank] — Cards filtered by issuer
 

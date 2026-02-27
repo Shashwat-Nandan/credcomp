@@ -98,14 +98,22 @@ export default function HomePage() {
           Not sure which card is right for you?
         </h2>
         <p className="mx-auto mt-2 max-w-lg text-gray-500">
-          Use our comparison tool to evaluate up to 3 cards side-by-side on rewards, fees, lounge access, and more.
+          Use our comparison tool to evaluate up to 3 cards side-by-side, or calculate your potential rewards based on your spending.
         </p>
-        <Link
-          href="/compare"
-          className="mt-6 inline-flex rounded-lg bg-[var(--color-accent)] px-6 py-3 font-medium text-white hover:bg-[var(--color-accent-light)] transition-colors"
-        >
-          Compare Cards Now
-        </Link>
+        <div className="mt-6 flex flex-wrap justify-center gap-3">
+          <Link
+            href="/compare"
+            className="inline-flex rounded-lg bg-[var(--color-accent)] px-6 py-3 font-medium text-white hover:bg-[var(--color-accent-light)] transition-colors"
+          >
+            Compare Cards
+          </Link>
+          <Link
+            href="/calculator"
+            className="inline-flex rounded-lg border border-[var(--color-accent)] px-6 py-3 font-medium text-[var(--color-accent)] hover:bg-[var(--color-accent)]/5 transition-colors"
+          >
+            Rewards Calculator
+          </Link>
+        </div>
       </section>
     </>
   );
