@@ -1,0 +1,10 @@
+[
+  { "slug": "travel", "name": "Travel", "description": "Best cards for flights, hotels, and travel rewards" },
+  { "slug": "cashback", "name": "Cashback", "description": "Cards that give you cash back on spending" },
+  { "slug": "rewards", "name": "Rewards", "description": "Cards with the best reward point programs" },
+  { "slug": "premium", "name": "Premium", "description": "High-end cards with luxury benefits" },
+  { "slug": "lifestyle", "name": "Lifestyle", "description": "Cards for dining, shopping, and entertainment" },
+  { "slug": "fuel", "name": "Fuel", "description": "Best cards for fuel surcharge waivers" },
+  { "slug": "lounge", "name": "Lounge Access", "description": "Cards with airport lounge access" },
+  { "slug": "no-annual-fee", "name": "No Annual Fee", "description": "Cards with zero or waivable annual fees" }
+]

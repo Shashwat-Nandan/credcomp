@@ -1,0 +1,149 @@
+{
+  "slug": "amex-platinum-travel",
+  "name": "American Express Platinum Travel Credit Card",
+  "issuer": "amex",
+  "network": "amex",
+  "tier": "premium",
+  "categories": ["travel", "rewards", "lounge"],
+  "imageUrl": "/images/cards/amex-platinum-travel.webp",
+  "fees": {
+    "joining": 3500,
+    "annual": 5000,
+    "renewal": 5000,
+    "waiverCondition": "Spend ₹1,90,000 or more in the previous year for fee reversal via travel voucher",
+    "waiverSpendThreshold": 190000
+  },
+  "rewards": {
+    "pointName": "Membership Rewards",
+    "baseEarnRate": 1,
+    "pointValue": 0.5,
+    "maxPointValue": 1,
+    "categoryRates": [
+      {
+        "category": "All spends",
+        "rate": 1,
+        "description": "1 Membership Rewards point per ₹50 spent"
+      },
+      {
+        "category": "Travel (AmexTravel.in)",
+        "rate": 5,
+        "description": "5X Membership Rewards points on domestic and international flights booked via AmexTravel.in"
+      },
+      {
+        "category": "International spends",
+        "rate": 2,
+        "description": "2X Membership Rewards points on all international spending"
+      }
+    ],
+    "cappedCategories": [],
+    "exclusions": [
+      "Fuel transactions below ₹400 and above ₹4,000",
+      "Utility bill payments above ₹20,000",
+      "Cash advances",
+      "Insurance premium payments"
+    ],
+    "redemptionOptions": [
+      "Transfer to airline partners (1:1 for InternMiles at 18,000 MR = 18,000 miles)",
+      "Amex Travel portal bookings",
+      "Statement credit",
+      "Amazon Pay balance",
+      "Gift vouchers via Amex Reward Multiplier"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "₹3,500 Taj Voucher or flight voucher",
+      "value": 3500,
+      "condition": "On payment of joining fee and first transaction"
+    },
+    {
+      "description": "3-month complimentary Cleartrip+ membership",
+      "condition": "On card approval"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 190000,
+      "period": "annual",
+      "benefit": "Travel voucher worth ₹5,000 (effectively waives annual fee)",
+      "value": 5000
+    },
+    {
+      "spendThreshold": 400000,
+      "period": "annual",
+      "benefit": "Additional travel voucher worth ₹7,000",
+      "value": 7000
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 8,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 4,
+      "visitPeriod": "annual"
+    },
+    "provider": "American Express Lounge / Priority Pass"
+  },
+  "insurance": {
+    "airAccident": "₹1,00,00,000",
+    "travelInsurance": "Up to ₹25,00,000 comprehensive travel insurance",
+    "purchaseProtection": "Up to ₹5,00,000 for 90 days"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 500
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "Complimentary Priority Pass membership",
+    "24/7 Global Assist Hotline for travel emergencies",
+    "Amex Offers with curated merchant discounts",
+    "Complimentary Boingo Wi-Fi access at select airports",
+    "Extended warranty on purchases (up to 1 additional year)"
+  ],
+  "eligibility": {
+    "minIncome": 600000,
+    "salariedOnly": false,
+    "minAge": 18
+  },
+  "rating": 4.2,
+  "pros": [
+    "Strong milestone benefits effectively make the card free",
+    "5X rewards on flights booked via AmexTravel.in",
+    "Good travel insurance coverage",
+    "Transfer to multiple airline loyalty programs",
+    "Generous welcome benefit covers joining fee"
+  ],
+  "cons": [
+    "Amex acceptance is limited in India compared to Visa/Mastercard",
+    "Base earn rate of 1 MR per ₹50 is below average",
+    "3.5% foreign currency markup is standard but not competitive",
+    "Annual fee of ₹5,000 is higher than joining fee"
+  ],
+  "idealFor": [
+    "Travellers who book flights and hotels frequently",
+    "Users who can hit milestone spends for fee reversal",
+    "Those who value comprehensive travel insurance"
+  ],
+  "lastUpdated": "2025-01-15",
+  "faqs": [
+    {
+      "question": "Is the annual fee really waivable?",
+      "answer": "Not waived directly, but if you spend ₹1,90,000 in a year, you get a travel voucher worth ₹5,000 which effectively offsets the annual fee. Spending ₹4,00,000 gets you an additional ₹7,000 voucher."
+    },
+    {
+      "question": "Where is Amex accepted in India?",
+      "answer": "Amex acceptance has improved significantly, covering most large merchants, online stores (Amazon, Flipkart, Swiggy, etc.), and restaurants. However, smaller merchants and some utility billers may not accept it."
+    },
+    {
+      "question": "Can I transfer Membership Rewards to airline miles?",
+      "answer": "Yes, you can transfer MR points to InternMiles (InterMiles), Singapore Airlines KrisFlyer, and other partner programs. Transfer ratios vary by partner."
+    },
+    {
+      "question": "How does Amex Travel work?",
+      "answer": "AmexTravel.in is Amex's own travel booking portal. Booking flights through it earns 5X MR points. You can also use MR points to pay for bookings on the portal."
+    }
+  ]
+}

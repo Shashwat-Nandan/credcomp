@@ -1,0 +1,29 @@
+# CredComp — Indian Credit Card Comparison Website
+
+## About
+CredComp is a comparison website for Indian credit cards. We provide structured data on fees, rewards, benefits, lounge access, and eligibility for credit cards from all major Indian banks.
+
+## Site Structure
+- /cards — Browse all credit cards with filters
+- /cards/[slug] — Detailed card review (fees, rewards, benefits, pros/cons, FAQs)
+- /compare?cards=slug1,slug2 — Side-by-side comparison of 2-3 cards
+- /categories/[category] — Cards filtered by category
+- /issuers/[bank] — Cards filtered by issuer
+
+## Categories
+travel, cashback, rewards, premium, lifestyle, fuel, lounge, no-annual-fee
+
+## Issuers Covered
+HDFC Bank, SBI Card, ICICI Bank, Axis Bank, American Express, IDFC FIRST Bank, AU Small Finance Bank
+
+## Card Data Schema
+Each card has: name, issuer, network, tier, fees (joining/annual/renewal), rewards (point name, earn rate, point value, category rates, redemption options), welcome benefits, milestone benefits, lounge access (domestic/international), insurance, fuel surcharge waiver, forex markup, eligibility (income/age), rating, pros, cons, ideal-for, FAQs.
+
+## Data Freshness
+Card data is updated regularly. Check the lastUpdated field on each card for currency.
+
+## Structured Data
+All pages include JSON-LD structured data (Product, FAQPage, BreadcrumbList, ItemList, WebSite schemas).
+
+## Contact
+For corrections or card additions, please open an issue on our repository.

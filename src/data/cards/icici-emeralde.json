@@ -1,0 +1,151 @@
+{
+  "slug": "icici-emeralde",
+  "name": "ICICI Emeralde Credit Card",
+  "issuer": "icici",
+  "network": "visa",
+  "tier": "super-premium",
+  "categories": ["travel", "premium", "lounge", "rewards"],
+  "imageUrl": "/images/cards/icici-emeralde.webp",
+  "fees": {
+    "joining": 12000,
+    "annual": 12000,
+    "renewal": 12000,
+    "waiverCondition": "Invite-only card; fee waiver based on relationship value with the bank"
+  },
+  "rewards": {
+    "pointName": "ICICI Reward Points",
+    "baseEarnRate": 4,
+    "pointValue": 0.5,
+    "maxPointValue": 1,
+    "categoryRates": [
+      {
+        "category": "All spends",
+        "rate": 4,
+        "description": "4 ICICI Reward Points per ₹100 spent on all retail purchases"
+      },
+      {
+        "category": "Travel (via iMobile/ICICI portal)",
+        "rate": 8,
+        "description": "2X Reward Points on travel bookings via ICICI portal"
+      },
+      {
+        "category": "Dining",
+        "rate": 8,
+        "description": "2X Reward Points on dining spends"
+      }
+    ],
+    "cappedCategories": [],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments",
+      "Insurance premiums",
+      "Government payments"
+    ],
+    "redemptionOptions": [
+      "InterMiles transfer (1 RP = 0.5 InterMiles)",
+      "Air India Miles transfer",
+      "Catalogue redemption",
+      "Gift vouchers (Amazon, Flipkart, Myntra, etc.)",
+      "Statement credit"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "Complimentary Culinary Treats membership",
+      "condition": "On card activation"
+    },
+    {
+      "description": "Welcome gift or vouchers worth ₹12,000",
+      "value": 12000,
+      "condition": "On payment of joining fee"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 1500000,
+      "period": "annual",
+      "benefit": "Bonus reward points worth ₹10,000 + Taj InnerCircle Gold membership",
+      "value": 10000
+    },
+    {
+      "spendThreshold": 2500000,
+      "period": "annual",
+      "benefit": "Additional bonus reward points worth ₹15,000",
+      "value": 15000
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": "unlimited",
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": "unlimited",
+      "visitPeriod": "annual"
+    },
+    "provider": "Priority Pass / Visa Infinite Lounges / Dreamfolks"
+  },
+  "insurance": {
+    "airAccident": "₹3,00,00,000",
+    "travelInsurance": "Up to ₹50,00,000 comprehensive overseas medical insurance",
+    "purchaseProtection": "Up to ₹5,00,000"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 500
+  },
+  "foreignCurrencyMarkup": 1.5,
+  "additionalBenefits": [
+    "Complimentary Taj InnerCircle Epicure membership (worth ₹25,000+)",
+    "Complimentary Culinary Treats - Buy 1 Get 1 at 1500+ restaurants",
+    "Unlimited domestic and international lounge access for primary + add-on",
+    "Complimentary golf games (4 rounds per quarter at select courses)",
+    "24/7 concierge service",
+    "Meet & Greet at select airports (2 per quarter)",
+    "Visa Infinite luxury hotel collection privileges"
+  ],
+  "eligibility": {
+    "minIncome": 3000000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 4.7,
+  "pros": [
+    "Unlimited lounge access worldwide",
+    "Best-in-class Taj Epicure complimentary membership",
+    "Lowest foreign currency markup at 1.5%",
+    "Culinary Treats BOGO at 1500+ restaurants",
+    "Strong travel insurance and air accident cover"
+  ],
+  "cons": [
+    "Invite-only card, very difficult to obtain",
+    "₹12,000 annual fee with no published waiver threshold",
+    "Reward point value is moderate unless transferred to miles",
+    "Requires maintaining significant banking relationship with ICICI"
+  ],
+  "idealFor": [
+    "Ultra-high-net-worth individuals who travel internationally",
+    "Frequent Taj hotel guests",
+    "ICICI Bank salary/wealth management customers with 30 LPA+ income"
+  ],
+  "lastUpdated": "2025-01-15",
+  "faqs": [
+    {
+      "question": "How do I get the ICICI Emeralde Credit Card?",
+      "answer": "The Emeralde is strictly invite-only. It's typically offered to ICICI Bank wealth management customers, high-value salary accounts, or existing ICICI cardholders with very high spending (typically ₹15-20 LPA+ spend or ₹30 LPA+ income)."
+    },
+    {
+      "question": "What is the Taj Epicure membership worth?",
+      "answer": "The complimentary Taj InnerCircle Epicure membership is worth ₹25,000+. It provides discounts at Taj hotels (20% off on food, 15% off on rooms) and can deliver exceptional value for frequent Taj guests."
+    },
+    {
+      "question": "Is the lounge access truly unlimited?",
+      "answer": "Yes, both domestic and international lounge access is unlimited for the primary cardholder and add-on cardholder through Priority Pass and Visa Infinite lounge networks."
+    },
+    {
+      "question": "How does the 1.5% forex markup compare?",
+      "answer": "At 1.5%, the ICICI Emeralde has one of the lowest foreign currency markups among Indian credit cards. Most premium cards charge 2-3.5%, making this card excellent for international spends."
+    }
+  ]
+}

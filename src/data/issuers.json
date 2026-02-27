@@ -1,0 +1,9 @@
+[
+  { "slug": "hdfc", "name": "HDFC Bank", "shortName": "HDFC" },
+  { "slug": "sbi", "name": "SBI Card", "shortName": "SBI" },
+  { "slug": "icici", "name": "ICICI Bank", "shortName": "ICICI" },
+  { "slug": "axis", "name": "Axis Bank", "shortName": "Axis" },
+  { "slug": "amex", "name": "American Express", "shortName": "Amex" },
+  { "slug": "idfc", "name": "IDFC FIRST Bank", "shortName": "IDFC" },
+  { "slug": "au", "name": "AU Small Finance Bank", "shortName": "AU" }
+]

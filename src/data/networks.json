@@ -1,0 +1,7 @@
+[
+  { "slug": "visa", "name": "Visa" },
+  { "slug": "mastercard", "name": "Mastercard" },
+  { "slug": "amex", "name": "American Express" },
+  { "slug": "rupay", "name": "RuPay" },
+  { "slug": "dinersclub", "name": "Diners Club" }
+]

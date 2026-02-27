@@ -1,0 +1,163 @@
+{
+  "slug": "axis-atlas",
+  "name": "Axis Bank Atlas Credit Card",
+  "issuer": "axis",
+  "network": "visa",
+  "tier": "premium",
+  "categories": ["travel", "rewards", "lounge"],
+  "imageUrl": "/images/cards/axis-atlas.webp",
+  "fees": {
+    "joining": 5000,
+    "annual": 5000,
+    "renewal": 5000,
+    "waiverCondition": "No fee waiver; milestone benefits offset the fee"
+  },
+  "rewards": {
+    "pointName": "EDGE Miles",
+    "baseEarnRate": 5,
+    "pointValue": 1,
+    "maxPointValue": 1,
+    "categoryRates": [
+      {
+        "category": "All spends",
+        "rate": 5,
+        "description": "5 EDGE Miles per ₹200 spent on all purchases (2.5%)"
+      },
+      {
+        "category": "Travel (via Axis Travel EDGE portal)",
+        "rate": 15,
+        "description": "3X EDGE Miles (15 per ₹200) on flights and hotels via Axis Travel EDGE"
+      },
+      {
+        "category": "Dining",
+        "rate": 10,
+        "description": "2X EDGE Miles (10 per ₹200) on dining"
+      },
+      {
+        "category": "International spends",
+        "rate": 10,
+        "description": "2X EDGE Miles (10 per ₹200) on all international spends"
+      }
+    ],
+    "cappedCategories": [
+      {
+        "category": "Accelerated categories (travel, dining, international)",
+        "maxPointsPerMonth": 5000,
+        "description": "Bonus EDGE Miles (above base) capped at 5,000 per statement cycle"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Government/tax payments",
+      "Rent payments",
+      "Insurance premiums",
+      "EMI conversions"
+    ],
+    "redemptionOptions": [
+      "Flights and hotels via Axis Travel EDGE portal (1 EDGE Mile = ₹1)",
+      "Transfer to airline partners (InterMiles, Singapore KrisFlyer, Etihad Guest, etc.)",
+      "Statement credit (at lower value - 1 EDGE Mile = ₹0.50)",
+      "Gift vouchers"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "5,000 bonus EDGE Miles on first spend within 45 days",
+      "value": 5000,
+      "condition": "Make any transaction within 45 days of card issuance"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 250000,
+      "period": "annual",
+      "benefit": "5,000 bonus EDGE Miles",
+      "value": 5000
+    },
+    {
+      "spendThreshold": 750000,
+      "period": "annual",
+      "benefit": "Additional 12,500 bonus EDGE Miles",
+      "value": 12500
+    },
+    {
+      "spendThreshold": 1500000,
+      "period": "annual",
+      "benefit": "Additional 25,000 bonus EDGE Miles",
+      "value": 25000
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 8,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 8,
+      "visitPeriod": "annual"
+    },
+    "provider": "Dreamfolks / Priority Pass"
+  },
+  "insurance": {
+    "airAccident": "₹1,00,00,000",
+    "travelInsurance": "Up to ₹25,00,000 overseas medical insurance",
+    "purchaseProtection": "Up to ₹2,00,000"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 400
+  },
+  "foreignCurrencyMarkup": 2,
+  "additionalBenefits": [
+    "Complimentary Priority Pass membership",
+    "8 international lounge visits - among the best for premium tier",
+    "Travel EDGE portal for booking flights and hotels with EDGE Miles",
+    "Transfer partners include 16+ airline loyalty programs",
+    "Axis Bank Dining Delights programme"
+  ],
+  "eligibility": {
+    "minIncome": 1500000,
+    "salariedOnly": false,
+    "minAge": 18
+  },
+  "rating": 4.5,
+  "pros": [
+    "Excellent 2.5% base reward rate as EDGE Miles",
+    "3X Miles on travel via Axis Travel EDGE portal",
+    "Low 2% foreign currency markup",
+    "16+ airline transfer partners for flexibility",
+    "Strong milestone benefits can yield 42,500 bonus miles annually",
+    "8 international lounge visits - great for international travellers"
+  ],
+  "cons": [
+    "No annual fee waiver option",
+    "Bonus miles on accelerated categories are capped at 5,000/month",
+    "EDGE Miles lose value if redeemed as statement credit",
+    "Acceptance limited to Visa Signature (not Infinite) merchants"
+  ],
+  "idealFor": [
+    "Frequent international flyers who want flexible mile transfers",
+    "Users who value a high base earn rate on all spends",
+    "Travellers looking for strong international lounge access"
+  ],
+  "lastUpdated": "2025-01-15",
+  "faqs": [
+    {
+      "question": "What are EDGE Miles and how do they work?",
+      "answer": "EDGE Miles are Axis Bank's travel rewards currency. 1 EDGE Mile = ₹1 when redeemed on the Axis Travel EDGE portal for flights and hotels. You can also transfer them to 16+ airline loyalty programs at varying ratios."
+    },
+    {
+      "question": "Which airlines can I transfer EDGE Miles to?",
+      "answer": "Transfer partners include InterMiles, Singapore Airlines KrisFlyer, Etihad Guest, Turkish Airlines Miles&Smiles, British Airways Avios, Air France-KLM Flying Blue, and several others."
+    },
+    {
+      "question": "How does the Axis Travel EDGE portal work?",
+      "answer": "It's Axis Bank's travel booking platform where you can book flights and hotels. Bookings earn 3X EDGE Miles, and you can also use accumulated EDGE Miles to pay for bookings at ₹1 per mile."
+    },
+    {
+      "question": "Is the ₹5,000 annual fee justified?",
+      "answer": "With the welcome benefit of 5,000 miles (worth ₹5,000) and milestone benefits up to 42,500 miles annually, the fee is easily offset if you spend ₹2.5L+ per year."
+    }
+  ]
+}

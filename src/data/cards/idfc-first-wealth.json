@@ -1,0 +1,147 @@
+{
+  "slug": "idfc-first-wealth",
+  "name": "IDFC FIRST Wealth Credit Card",
+  "issuer": "idfc",
+  "network": "visa",
+  "tier": "premium",
+  "categories": ["rewards", "lounge", "lifestyle"],
+  "imageUrl": "/images/cards/idfc-first-wealth.webp",
+  "fees": {
+    "joining": 499,
+    "annual": 499,
+    "renewal": 499,
+    "waiverCondition": "Annual fee waived on spends of ₹3,00,000 or more in previous year",
+    "waiverSpendThreshold": 300000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 6,
+    "pointValue": 0.25,
+    "maxPointValue": 0.25,
+    "categoryRates": [
+      {
+        "category": "All spends",
+        "rate": 6,
+        "description": "6 Reward Points per ₹100 spent on all online and offline purchases"
+      },
+      {
+        "category": "Dining (via IDFC FIRST curated offers)",
+        "rate": 30,
+        "description": "Up to 5X rewards on select dining partners"
+      }
+    ],
+    "cappedCategories": [
+      {
+        "category": "All spends",
+        "maxPointsPerMonth": 25000,
+        "description": "Rewards capped at 25,000 RP per statement cycle"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments via third-party apps",
+      "Government/tax payments",
+      "Insurance premium payments"
+    ],
+    "redemptionOptions": [
+      "Statement credit (1 RP = ₹0.25)",
+      "Amazon Pay balance",
+      "Gift vouchers (Flipkart, Myntra, Tanishq, etc.)",
+      "Product catalogue",
+      "Travel bookings"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "2,500 bonus Reward Points on first transaction",
+      "value": 625,
+      "condition": "Make any transaction within 30 days of card issuance"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 200000,
+      "period": "annual",
+      "benefit": "5,000 bonus Reward Points",
+      "value": 1250
+    },
+    {
+      "spendThreshold": 500000,
+      "period": "annual",
+      "benefit": "Additional 10,000 bonus Reward Points",
+      "value": 2500
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 8,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 4,
+      "visitPeriod": "annual"
+    },
+    "provider": "Dreamfolks / Visa Lounges"
+  },
+  "insurance": {
+    "airAccident": "₹50,00,000",
+    "travelInsurance": "Up to ₹10,00,000 overseas medical insurance",
+    "purchaseProtection": "Up to ₹1,00,000"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 200
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "6X reward points on all spends - no category restrictions",
+    "Never-expiring reward points",
+    "Zero interest on cash withdrawal from ATMs for up to 48 days",
+    "Low forex markup compared to IDFC FIRST Classic",
+    "Complimentary roadside assistance"
+  ],
+  "eligibility": {
+    "minIncome": 600000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 4.1,
+  "pros": [
+    "Extremely low annual fee of ₹499 with easy waiver",
+    "6X reward points on ALL spends without category restrictions",
+    "Never-expiring reward points",
+    "Decent lounge access for a card at this price point",
+    "Zero interest on ATM cash withdrawals (unique feature)"
+  ],
+  "cons": [
+    "Per-point value of ₹0.25 means effective return is ~1.5%",
+    "25,000 RP monthly cap limits high spenders",
+    "3.5% foreign currency markup is average",
+    "Milestone benefits are relatively modest"
+  ],
+  "idealFor": [
+    "Users seeking a low-fee card with all-round rewards",
+    "Those who want rewards on ALL categories without restrictions",
+    "Budget-conscious users who still want premium benefits"
+  ],
+  "lastUpdated": "2025-01-15",
+  "faqs": [
+    {
+      "question": "What does 6X rewards really mean in value?",
+      "answer": "You earn 6 Reward Points per ₹100 spent. At ₹0.25 per point, that's ₹1.50 back per ₹100, or an effective 1.5% return on all spends. While not the highest, it applies to ALL categories."
+    },
+    {
+      "question": "Do reward points expire?",
+      "answer": "No. IDFC FIRST Bank reward points never expire as long as your credit card account is active. This is a unique benefit compared to most banks that expire points in 2-3 years."
+    },
+    {
+      "question": "How does the zero interest ATM withdrawal work?",
+      "answer": "You can withdraw cash from ATMs using your IDFC FIRST Wealth card and pay zero interest if you repay within the billing cycle (up to 48 days). Most other cards charge 2.5-3.5% per month on cash advances."
+    },
+    {
+      "question": "Is the ₹499 fee waivable?",
+      "answer": "Yes, the annual fee is waived if your annual spending exceeds ₹3,00,000. Given the card's benefits, this is a very reasonable threshold."
+    }
+  ]
+}

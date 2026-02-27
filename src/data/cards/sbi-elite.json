@@ -1,0 +1,162 @@
+{
+  "slug": "sbi-elite",
+  "name": "SBI Card Elite",
+  "issuer": "sbi",
+  "network": "visa",
+  "tier": "premium",
+  "categories": ["rewards", "lifestyle", "lounge"],
+  "imageUrl": "/images/cards/sbi-elite.webp",
+  "fees": {
+    "joining": 4999,
+    "annual": 4999,
+    "renewal": 4999,
+    "waiverCondition": "Spend ₹10,00,000 or more in the previous year",
+    "waiverSpendThreshold": 1000000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.25,
+    "maxPointValue": 0.25,
+    "categoryRates": [
+      {
+        "category": "All spends",
+        "rate": 2,
+        "description": "2 Reward Points per ₹100 spent on all purchases"
+      },
+      {
+        "category": "Dining",
+        "rate": 10,
+        "description": "5X Reward Points on dining (10 RP per ₹100)"
+      },
+      {
+        "category": "Grocery",
+        "rate": 10,
+        "description": "5X Reward Points on grocery spends (10 RP per ₹100)"
+      },
+      {
+        "category": "Departmental stores",
+        "rate": 10,
+        "description": "5X Reward Points on departmental store spends (10 RP per ₹100)"
+      },
+      {
+        "category": "Movies",
+        "rate": 10,
+        "description": "5X Reward Points on movie ticket purchases (10 RP per ₹100)"
+      }
+    ],
+    "cappedCategories": [],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments",
+      "Government/tax payments",
+      "Insurance premium payments",
+      "EMI transactions"
+    ],
+    "redemptionOptions": [
+      "Statement credit (1 RP = ₹0.25)",
+      "Gift vouchers from catalogue",
+      "Product redemption",
+      "Amazon Pay balance"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "E-gift voucher worth ₹5,000",
+      "value": 5000,
+      "condition": "On spending ₹10,000 within 60 days of card issuance"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 300000,
+      "period": "annual",
+      "benefit": "E-gift voucher worth ₹3,000",
+      "value": 3000
+    },
+    {
+      "spendThreshold": 600000,
+      "period": "annual",
+      "benefit": "Additional e-gift voucher worth ₹5,000",
+      "value": 5000
+    },
+    {
+      "spendThreshold": 1000000,
+      "period": "annual",
+      "benefit": "Additional e-gift voucher worth ₹7,000",
+      "value": 7000
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 8,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 6,
+      "visitPeriod": "annual"
+    },
+    "provider": "Visa / Priority Pass"
+  },
+  "insurance": {
+    "airAccident": "₹50,00,000",
+    "travelInsurance": "Up to ₹10,00,000 emergency medical cover",
+    "purchaseProtection": "Up to ₹2,00,000 for 120 days"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "Complimentary Club Vistara Silver membership",
+    "Buy 1 Get 1 free on movie tickets via BookMyShow (up to ₹250 off, once per month)",
+    "Trident Privilege Red Tier complimentary membership",
+    "Concierge services",
+    "E-privileges at partner restaurants"
+  ],
+  "eligibility": {
+    "minIncome": 1200000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 4.0,
+  "pros": [
+    "5X rewards on dining, grocery, departmental stores, and movies",
+    "Strong milestone benefits with achievable tiers",
+    "Good lounge access (domestic + international)",
+    "Welcome benefit covers the joining fee",
+    "Buy 1 Get 1 free movie tickets monthly"
+  ],
+  "cons": [
+    "High waiver threshold of ₹10 lakh annual spend",
+    "Base reward point value of ₹0.25 per point is low",
+    "3.5% foreign currency markup",
+    "Many common categories excluded from rewards"
+  ],
+  "idealFor": [
+    "Users who spend heavily on dining and groceries",
+    "Movie enthusiasts who want BOGO offers",
+    "Those looking for a solid all-round premium card"
+  ],
+  "lastUpdated": "2025-01-15",
+  "faqs": [
+    {
+      "question": "How much is the welcome benefit worth?",
+      "answer": "You get e-gift vouchers worth ₹5,000 when you spend ₹10,000 within 60 days of getting the card. This effectively makes the first year free."
+    },
+    {
+      "question": "How do the accelerated rewards work?",
+      "answer": "You earn 5X reward points (10 RP per ₹100 instead of 2 RP) on dining, grocery, departmental stores, and movie ticket purchases."
+    },
+    {
+      "question": "What airport lounges can I access?",
+      "answer": "SBI Card Elite provides 8 domestic and 6 international lounge visits per year through the Visa/Priority Pass network."
+    },
+    {
+      "question": "Is the annual fee waivable?",
+      "answer": "Yes, the ₹4,999 annual fee is waived if your annual spending crosses ₹10,00,000. Milestone benefits can also offset the fee at lower spend levels."
+    }
+  ]
+}

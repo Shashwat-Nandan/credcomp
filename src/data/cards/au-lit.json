@@ -1,0 +1,156 @@
+{
+  "slug": "au-lit",
+  "name": "AU Small Finance Bank LIT Credit Card",
+  "issuer": "au",
+  "network": "visa",
+  "tier": "entry",
+  "categories": ["cashback", "rewards", "no-annual-fee"],
+  "imageUrl": "/images/cards/au-lit.webp",
+  "fees": {
+    "joining": 0,
+    "annual": 0,
+    "renewal": 499,
+    "waiverCondition": "Renewal fee of ₹499 waived on annual spend of ₹2,00,000; joining fee is always free",
+    "waiverSpendThreshold": 200000
+  },
+  "rewards": {
+    "pointName": "Reward Points / Cashback",
+    "baseEarnRate": 1,
+    "pointValue": 0.25,
+    "maxPointValue": 0.25,
+    "categoryRates": [
+      {
+        "category": "All spends (base)",
+        "rate": 1,
+        "description": "1 Reward Point per ₹100 spent on non-chosen categories"
+      },
+      {
+        "category": "Chosen category 1",
+        "rate": 5,
+        "description": "5X Reward Points on your first chosen category (e.g., Grocery, Dining, Online Shopping, etc.)"
+      },
+      {
+        "category": "Chosen category 2",
+        "rate": 5,
+        "description": "5X Reward Points on your second chosen category"
+      },
+      {
+        "category": "Chosen category 3",
+        "rate": 5,
+        "description": "5X Reward Points on your third chosen category"
+      }
+    ],
+    "cappedCategories": [
+      {
+        "category": "Chosen categories (5X)",
+        "maxPointsPerMonth": 5000,
+        "description": "5X rewards on chosen categories capped at 5,000 bonus RP per month"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "Rent payments",
+      "Government/tax payments",
+      "EMI transactions"
+    ],
+    "redemptionOptions": [
+      "Cashback to statement",
+      "Gift vouchers",
+      "Product catalogue redemption"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "Zero joining fee - no welcome benefit",
+      "condition": "Card issuance"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 100000,
+      "period": "annual",
+      "benefit": "1,000 bonus Reward Points",
+      "value": 250
+    },
+    {
+      "spendThreshold": 200000,
+      "period": "annual",
+      "benefit": "Renewal fee waiver + 2,000 bonus Reward Points",
+      "value": 999
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 4,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 0,
+      "visitPeriod": "annual"
+    },
+    "provider": "Dreamfolks / Visa Lounges"
+  },
+  "insurance": {
+    "airAccident": "₹10,00,000",
+    "purchaseProtection": "Up to ₹50,000"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 100
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "Choose any 3 reward categories from 7+ options (Grocery, Dining, Online Shopping, Travel, Entertainment, Utilities, Healthcare)",
+    "Change chosen categories once per quarter via AU 0101 app",
+    "Lifetime free option available (first year always free)",
+    "Simple and transparent reward structure",
+    "Instant card issuance via AU 0101 app"
+  ],
+  "eligibility": {
+    "minIncome": 300000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 3.8,
+  "pros": [
+    "Zero joining fee and first year free",
+    "Unique choose-your-category feature for personalized rewards",
+    "5X rewards on 3 categories of your choice",
+    "Can change categories quarterly for flexibility",
+    "Decent domestic lounge access for an entry card",
+    "Low income requirement of ₹3 LPA"
+  ],
+  "cons": [
+    "Low base reward rate on non-chosen categories",
+    "5X rewards are capped at 5,000 bonus RP per month",
+    "Per-point value is low at ₹0.25",
+    "No international lounge access",
+    "AU Bank has limited branch network compared to large banks",
+    "Renewal fee of ₹499 applies from second year (waivable)"
+  ],
+  "idealFor": [
+    "First-time credit card users looking for a no-cost entry",
+    "Users who want to customize their reward categories",
+    "Budget-conscious users who spend in specific categories"
+  ],
+  "lastUpdated": "2025-01-15",
+  "faqs": [
+    {
+      "question": "How does the choose-your-category feature work?",
+      "answer": "When you get the card, you pick 3 categories from options like Grocery, Dining, Online Shopping, Travel, Entertainment, Utilities, and Healthcare. You earn 5X reward points on spends in your chosen categories. You can change your selections once per quarter via the AU 0101 app."
+    },
+    {
+      "question": "Is the AU LIT card really lifetime free?",
+      "answer": "The first year is always free (₹0 joining fee). From the second year, a ₹499 renewal fee applies, which is waived if you spend ₹2,00,000 or more in the previous year."
+    },
+    {
+      "question": "What categories can I choose from?",
+      "answer": "Available categories typically include Grocery, Dining, Online Shopping, Travel, Entertainment, Utilities, and Healthcare. AU Bank may add or modify categories over time."
+    },
+    {
+      "question": "Can I get this card without an AU Bank account?",
+      "answer": "Yes, you can apply for the AU LIT card without having an existing AU Bank account. However, having a savings account with AU Bank may improve your chances of approval and credit limit."
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "slug": "hdfc-regalia",
+  "name": "HDFC Regalia Gold Credit Card",
+  "issuer": "hdfc",
+  "network": "visa",
+  "tier": "premium",
+  "categories": ["travel", "rewards", "lounge"],
+  "imageUrl": "/images/cards/hdfc-regalia.webp",
+  "fees": {
+    "joining": 2500,
+    "annual": 2500,
+    "renewal": 2500,
+    "waiverCondition": "Spend ₹3,00,000 or more in the previous year",
+    "waiverSpendThreshold": 300000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 4,
+    "pointValue": 0.5,
+    "maxPointValue": 1,
+    "categoryRates": [
+      {
+        "category": "All spends",
+        "rate": 4,
+        "description": "4 Reward Points per ₹150 spent on all retail purchases"
+      },
+      {
+        "category": "SmartBuy 10X",
+        "rate": 40,
+        "description": "10X Reward Points on Smartbuy portal (flights, hotels, Amazon, Flipkart)"
+      }
+    ],
+    "cappedCategories": [
+      {
+        "category": "SmartBuy 10X",
+        "maxPointsPerMonth": 15000,
+        "description": "10X rewards capped at 15,000 bonus points per calendar month"
+      }
+    ],
+    "exclusions": [
+      "Fuel transactions",
+      "Wallet loading",
+      "EMI transactions"
+    ],
+    "redemptionOptions": [
+      "Airmiles (1 RP = 1 Airmile for InternMiles)",
+      "SmartBuy vouchers and products",
+      "Statement credit (at lower value)",
+      "Catalogue redemption"
+    ]
+  },
+  "welcomeBenefits": [
+    {
+      "description": "Welcome vouchers worth ₹2,500 via SmartBuy",
+      "value": 2500,
+      "condition": "On payment of joining fee"
+    }
+  ],
+  "milestoneBenefits": [
+    {
+      "spendThreshold": 500000,
+      "period": "annual",
+      "benefit": "Bonus Reward Points worth ₹5,000",
+      "value": 5000
+    },
+    {
+      "spendThreshold": 800000,
+      "period": "annual",
+      "benefit": "Additional bonus Reward Points worth ₹7,500",
+      "value": 7500
+    }
+  ],
+  "loungeAccess": {
+    "domestic": {
+      "complimentaryVisits": 12,
+      "visitPeriod": "annual"
+    },
+    "international": {
+      "complimentaryVisits": 6,
+      "visitPeriod": "annual"
+    },
+    "provider": "Priority Pass / Visa Lounge"
+  },
+  "insurance": {
+    "airAccident": "₹1,00,00,000",
+    "travelInsurance": "Up to ₹25,00,000 emergency medical cover overseas",
+    "purchaseProtection": "Up to ₹2,50,000 for 90 days from purchase"
+  },
+  "fuelSurchargeWaiver": {
+    "percentage": 1,
+    "maxPerMonth": 250
+  },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "Complimentary Priority Pass membership",
+    "Access to HDFC Bank Dining Privileges",
+    "Concierge services",
+    "Golf access at select courses"
+  ],
+  "eligibility": {
+    "minIncome": 1200000,
+    "salariedOnly": false,
+    "minAge": 21
+  },
+  "rating": 4.3,
+  "pros": [
+    "Good 10X rewards via SmartBuy portal",
+    "Solid lounge access for a premium card",
+    "Reasonable annual fee with achievable waiver threshold",
+    "1:1 airmile transfer for InternMiles",
+    "Decent milestone benefits"
+  ],
+  "cons": [
+    "3.5% foreign currency markup is on the higher side",
+    "Base reward rate is average at 4 RP per ₹150",
+    "10X cap is lower than Infinia (15,000 vs 25,000 bonus points)",
+    "Fuel transactions excluded from rewards"
+  ],
+  "idealFor": [
+    "Frequent domestic travellers who value lounge access",
+    "SmartBuy users looking for good rewards on travel bookings",
+    "Aspirants looking to upgrade to HDFC Infinia or Diners Club Black"
+  ],
+  "lastUpdated": "2025-01-15",
+  "faqs": [
+    {
+      "question": "How is HDFC Regalia Gold different from the old HDFC Regalia?",
+      "answer": "The HDFC Regalia Gold replaced the older HDFC Regalia card in 2023. It has a lower annual fee of ₹2,500 (vs ₹2,500 for old Regalia) but slightly reduced benefits. The 10X SmartBuy cap is 15,000 bonus points per month."
+    },
+    {
+      "question": "Can I get the annual fee waived?",
+      "answer": "Yes, the ₹2,500 annual fee is waived if your spending exceeds ₹3,00,000 in the previous anniversary year."
+    },
+    {
+      "question": "How many lounge visits do I get?",
+      "answer": "You get 12 complimentary domestic lounge visits and 6 international lounge visits per year through Priority Pass."
+    },
+    {
+      "question": "Can I upgrade from Regalia Gold to Infinia?",
+      "answer": "Yes, HDFC Bank may offer an upgrade to Infinia or Diners Club Black if you maintain high spending (typically ₹8-10 lakh+ annually) on the Regalia Gold for 12-18 months."
+    }
+  ]
+}
