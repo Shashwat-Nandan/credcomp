@@ -99,7 +99,7 @@ export function CardSearch({ cards }: { cards: CreditCard[] }) {
       {isOpen && results.length > 0 && (
         <ul
           role="listbox"
-          className="absolute z-50 mt-1 w-full rounded-lg border border-gray-200 bg-white py-1 shadow-lg"
+          className="absolute z-50 mt-1 w-full rounded-lg border border-gray-200 bg-white py-1 shadow-lg text-gray-900"
         >
           {results.map((card, i) => (
             <li
@@ -113,7 +113,7 @@ export function CardSearch({ cards }: { cards: CreditCard[] }) {
               onMouseEnter={() => setSelectedIndex(i)}
             >
               <div className="font-medium">{card.name}</div>
-              <div className="text-xs text-gray-400">{card.issuer.toUpperCase()} &middot; {card.tier}</div>
+              <div className="text-xs text-gray-500">{card.issuer.toUpperCase()} &middot; {card.tier}</div>
             </li>
           ))}
         </ul>
