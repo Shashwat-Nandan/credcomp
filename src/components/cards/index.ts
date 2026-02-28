@@ -3,3 +3,4 @@ export { CardGrid } from "./CardGrid";
 export { CardDetail } from "./CardDetail";
 export { CardFilters } from "./CardFilters";
 export { CardSearch } from "./CardSearch";
+export { CreditCardVisual } from "./CreditCardVisual";
