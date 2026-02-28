@@ -8,6 +8,12 @@ export interface ComparisonField {
   higherIsBetter?: boolean;
 }
 
+function normalizeLoungeVisits(value: number | string | undefined | null): number | null {
+  if (value == null) return null;
+  if (value === -1 || String(value).toLowerCase() === "unlimited") return Infinity;
+  return typeof value === "number" ? value : null;
+}
+
 export const comparisonFields: ComparisonField[] = [
   {
     label: "Annual Fee",
@@ -47,14 +53,14 @@ export const comparisonFields: ComparisonField[] = [
   {
     label: "Domestic Lounge Visits",
     key: "domesticLounge",
-    getValue: (c) => c.loungeAccess?.domestic.complimentaryVisits ?? null,
+    getValue: (c) => normalizeLoungeVisits(c.loungeAccess?.domestic.complimentaryVisits),
     format: "number",
     higherIsBetter: true,
   },
   {
     label: "International Lounge Visits",
     key: "intlLounge",
-    getValue: (c) => c.loungeAccess?.international.complimentaryVisits ?? null,
+    getValue: (c) => normalizeLoungeVisits(c.loungeAccess?.international.complimentaryVisits),
     format: "number",
     higherIsBetter: true,
   },

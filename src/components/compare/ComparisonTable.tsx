@@ -20,7 +20,7 @@ function formatFieldValue(
     case "percentage":
       return typeof value === "number" ? formatPercentage(value) : String(value);
     case "number":
-      return String(value);
+      return value === Infinity ? "Unlimited" : String(value);
     case "text":
     default:
       return String(value);
