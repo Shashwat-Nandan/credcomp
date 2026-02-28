@@ -1,0 +1,84 @@
+{
+  "slug": "kotak-white-reserve",
+  "name": "Kotak White Reserve Credit Card",
+  "issuer": "kotak",
+  "network": "visa",
+  "tier": "super-premium",
+  "categories": ["travel", "premium", "lounge", "rewards"],
+  "imageUrl": "/images/cards/kotak-white-reserve.webp",
+  "fees": {
+    "joining": 10000,
+    "annual": 10000,
+    "renewal": 10000,
+    "waiverCondition": "Spend ₹10,00,000 or more in the previous year",
+    "waiverSpendThreshold": 1000000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.5,
+    "categoryRates": [
+      { "category": "International spends", "rate": 10, "description": "10X Reward Points on all international transactions" },
+      { "category": "Travel & Dining", "rate": 5, "description": "5X Reward Points on travel and dining spends" },
+      { "category": "All other spends", "rate": 2, "description": "2 Reward Points per ₹150 on all other purchases" }
+    ],
+    "cappedCategories": [
+      { "category": "International spends (10X)", "maxPointsPerMonth": 20000 }
+    ],
+    "exclusions": ["Fuel transactions", "Wallet loading", "EMI transactions"],
+    "redemptionOptions": ["Airmiles conversion", "Gift vouchers", "Statement credit", "Product catalogue"]
+  },
+  "welcomeBenefits": [
+    { "description": "10,000 bonus Reward Points", "value": 5000, "condition": "On payment of joining fee" }
+  ],
+  "milestoneBenefits": [
+    { "spendThreshold": 500000, "period": "annual", "benefit": "10,000 bonus Reward Points", "value": 5000 },
+    { "spendThreshold": 1000000, "period": "annual", "benefit": "Additional 15,000 bonus Reward Points", "value": 7500 }
+  ],
+  "loungeAccess": {
+    "domestic": { "complimentaryVisits": "unlimited", "visitPeriod": "annual" },
+    "international": { "complimentaryVisits": "unlimited", "visitPeriod": "annual" },
+    "provider": "Priority Pass"
+  },
+  "insurance": {
+    "airAccident": "₹2,00,00,000",
+    "travelInsurance": "Up to ₹50,00,000 emergency medical cover overseas",
+    "purchaseProtection": "Up to ₹3,00,000 for 90 days"
+  },
+  "fuelSurchargeWaiver": { "percentage": 1, "maxPerMonth": 500 },
+  "foreignCurrencyMarkup": 2,
+  "additionalBenefits": [
+    "Unlimited domestic and international lounge access via Priority Pass",
+    "Metal card with premium design",
+    "24/7 global concierge services",
+    "Complimentary golf at select courses (4 rounds/quarter)",
+    "Taj Epicure membership",
+    "Airport meet and greet services"
+  ],
+  "eligibility": { "minIncome": 2400000, "salariedOnly": false, "minAge": 21 },
+  "rating": 4.3,
+  "pros": [
+    "Unlimited domestic and international lounge access",
+    "Excellent 10X rewards on international spends",
+    "Premium metal card with concierge services",
+    "Strong milestone benefits worth up to ₹12,500",
+    "Golf and Taj Epicure membership included"
+  ],
+  "cons": [
+    "High annual fee of ₹10,000",
+    "High income requirement of ₹24 LPA",
+    "International 10X rewards are capped monthly",
+    "Point value could be higher for a super-premium card"
+  ],
+  "idealFor": [
+    "High-income individuals who travel internationally frequently",
+    "Users looking for unlimited lounge access with premium perks"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    { "question": "Is this a metal card?", "answer": "Yes, the Kotak White Reserve is a premium metal card with a distinctive white design." },
+    { "question": "How does the unlimited lounge access work?", "answer": "You get a complimentary Priority Pass membership with unlimited visits to 1,300+ lounges worldwide for both domestic and international travel." },
+    { "question": "Is the annual fee waivable?", "answer": "Yes, the ₹10,000 annual fee is waived on spending ₹10,00,000 or more in the previous year." },
+    { "question": "Can I transfer points to airlines?", "answer": "Yes, Kotak Reward Points can be converted to airline miles through select transfer partners via the Kotak rewards portal." }
+  ]
+}

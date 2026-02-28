@@ -1,0 +1,76 @@
+{
+  "slug": "kotak-privy-league",
+  "name": "Kotak Privy League Signature Credit Card",
+  "issuer": "kotak",
+  "network": "visa",
+  "tier": "premium",
+  "categories": ["premium", "lounge", "rewards"],
+  "imageUrl": "/images/cards/kotak-privy-league.webp",
+  "fees": {
+    "joining": 5000,
+    "annual": 5000,
+    "renewal": 5000,
+    "waiverCondition": "Spend ₹5,00,000 or more in the previous year",
+    "waiverSpendThreshold": 500000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 4,
+    "pointValue": 0.25,
+    "categoryRates": [
+      { "category": "Travel & Dining", "rate": 8, "description": "8X Reward Points on travel and dining spends" },
+      { "category": "All other spends", "rate": 4, "description": "4 Reward Points per ₹150 on all other purchases" }
+    ],
+    "exclusions": ["Fuel transactions", "Wallet loading", "EMI transactions"],
+    "redemptionOptions": ["Gift vouchers", "Statement credit", "Airmiles conversion", "Product catalogue"]
+  },
+  "welcomeBenefits": [
+    { "description": "5,000 bonus Reward Points", "value": 1250, "condition": "On payment of joining fee" }
+  ],
+  "milestoneBenefits": [
+    { "spendThreshold": 500000, "period": "annual", "benefit": "10,000 bonus Reward Points", "value": 2500 }
+  ],
+  "loungeAccess": {
+    "domestic": { "complimentaryVisits": 12, "visitPeriod": "annual" },
+    "international": { "complimentaryVisits": 4, "visitPeriod": "annual" },
+    "provider": "Priority Pass / Dreamfolks"
+  },
+  "insurance": {
+    "airAccident": "₹1,00,00,000",
+    "travelInsurance": "Up to ₹25,00,000 emergency medical cover overseas"
+  },
+  "fuelSurchargeWaiver": { "percentage": 1, "maxPerMonth": 500 },
+  "foreignCurrencyMarkup": 2.5,
+  "additionalBenefits": [
+    "Exclusive Privy League banking benefits",
+    "Dedicated relationship manager",
+    "Priority Pass membership for lounge access",
+    "Golf privileges at select courses (4 rounds/year)",
+    "Concierge services"
+  ],
+  "eligibility": { "minIncome": 1200000, "salariedOnly": false, "minAge": 21 },
+  "rating": 4.0,
+  "pros": [
+    "Excellent lounge access with 12 domestic + 4 international visits",
+    "8X rewards on travel and dining is competitive",
+    "Privy League banking perks included",
+    "Lower foreign currency markup at 2.5%",
+    "Dedicated relationship manager"
+  ],
+  "cons": [
+    "Point value at ₹0.25 is below average for this tier",
+    "₹5,000 annual fee requires significant spend to justify",
+    "Requires Privy League banking relationship for best experience",
+    "Limited airline transfer partners"
+  ],
+  "idealFor": [
+    "Kotak Privy League customers looking for premium card benefits",
+    "Frequent travellers who need strong lounge access"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    { "question": "Do I need a Privy League account?", "answer": "While not mandatory, having a Kotak Privy League savings account enhances the card benefits and may improve approval chances. The card is primarily offered to Privy League banking customers." },
+    { "question": "How many lounge visits are included?", "answer": "You get 12 complimentary domestic and 4 international lounge visits per year through Priority Pass and Dreamfolks." },
+    { "question": "Is the annual fee waivable?", "answer": "Yes, the ₹5,000 annual fee is waived on spending ₹5,00,000 or more in the previous year." }
+  ]
+}

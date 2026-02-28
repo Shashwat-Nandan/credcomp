@@ -1,0 +1,69 @@
+{
+  "slug": "kotak-mojo-platinum",
+  "name": "Kotak Mojo Platinum Credit Card",
+  "issuer": "kotak",
+  "network": "mastercard",
+  "tier": "mid",
+  "categories": ["rewards", "entertainment", "dining"],
+  "imageUrl": "/images/cards/kotak-mojo-platinum.webp",
+  "fees": {
+    "joining": 999,
+    "annual": 999,
+    "renewal": 999,
+    "waiverCondition": "Spend ₹1,50,000 or more in the previous year",
+    "waiverSpendThreshold": 150000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.25,
+    "categoryRates": [
+      { "category": "Dining & Entertainment", "rate": 5, "description": "5X Reward Points on dining and entertainment spends" },
+      { "category": "All other spends", "rate": 2, "description": "2 Reward Points per ₹150 on all other purchases" }
+    ],
+    "exclusions": ["Fuel transactions", "Wallet loading", "EMI transactions"],
+    "redemptionOptions": ["Gift vouchers", "Statement credit", "Product catalogue"]
+  },
+  "welcomeBenefits": [
+    { "description": "1,000 bonus Reward Points on card activation", "value": 250, "condition": "On payment of joining fee" }
+  ],
+  "milestoneBenefits": [
+    { "spendThreshold": 150000, "period": "annual", "benefit": "2,000 bonus Reward Points", "value": 500 }
+  ],
+  "loungeAccess": {
+    "domestic": { "complimentaryVisits": 4, "visitPeriod": "annual" },
+    "international": { "complimentaryVisits": 0, "visitPeriod": "annual" },
+    "provider": "Mastercard Lounge Program"
+  },
+  "fuelSurchargeWaiver": { "percentage": 1, "maxPerMonth": 250 },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "5X rewards on dining and entertainment for lifestyle spenders",
+    "BookMyShow discounts on select shows",
+    "Complimentary Swiggy One membership for 3 months"
+  ],
+  "eligibility": { "minIncome": 400000, "salariedOnly": false, "minAge": 21 },
+  "rating": 3.5,
+  "pros": [
+    "Strong 5X rewards on dining and entertainment categories",
+    "Decent domestic lounge access for a mid-tier card",
+    "Reasonable annual fee that's waivable",
+    "Good for lifestyle and entertainment spenders"
+  ],
+  "cons": [
+    "Low per-point value of ₹0.25",
+    "No international lounge access",
+    "Limited redemption options compared to premium cards",
+    "Base earn rate is modest"
+  ],
+  "idealFor": [
+    "Users who frequently spend on dining and entertainment",
+    "Movie and nightlife enthusiasts looking for targeted rewards"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    { "question": "What counts as entertainment spending?", "answer": "Entertainment includes movie tickets (BookMyShow, PVR), OTT subscriptions, amusement parks, and similar leisure activities." },
+    { "question": "How do I redeem Reward Points?", "answer": "You can redeem points for gift vouchers, statement credits, or products through the Kotak rewards catalogue via net banking or the Kotak app." },
+    { "question": "Is the fee waivable?", "answer": "Yes, the ₹999 annual fee is waived if you spend ₹1,50,000 or more in the previous year." }
+  ]
+}

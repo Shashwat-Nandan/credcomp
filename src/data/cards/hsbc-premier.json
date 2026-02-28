@@ -1,0 +1,80 @@
+{
+  "slug": "hsbc-premier",
+  "name": "HSBC Premier Credit Card",
+  "issuer": "hsbc",
+  "network": "mastercard",
+  "tier": "super-premium",
+  "categories": ["travel", "premium", "lounge", "rewards"],
+  "imageUrl": "/images/cards/hsbc-premier.webp",
+  "fees": {
+    "joining": 10000,
+    "annual": 10000,
+    "renewal": 10000,
+    "waiverCondition": "Waived for HSBC Premier banking customers"
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.5,
+    "categoryRates": [
+      { "category": "Travel & International", "rate": 10, "description": "10X Reward Points on travel and international spends" },
+      { "category": "Dining", "rate": 4, "description": "4X Reward Points on dining spends" },
+      { "category": "All other spends", "rate": 2, "description": "2 Reward Points per ₹100 on all other purchases" }
+    ],
+    "exclusions": ["Fuel transactions", "Wallet loading", "EMI transactions"],
+    "redemptionOptions": ["Airmiles conversion", "Hotel bookings", "Gift vouchers", "Statement credit", "Product catalogue"]
+  },
+  "welcomeBenefits": [
+    { "description": "15,000 bonus Reward Points", "value": 7500, "condition": "On spending ₹1,00,000 within 90 days" }
+  ],
+  "milestoneBenefits": [
+    { "spendThreshold": 500000, "period": "annual", "benefit": "10,000 bonus Reward Points", "value": 5000 },
+    { "spendThreshold": 1000000, "period": "annual", "benefit": "Additional 20,000 bonus Reward Points", "value": 10000 }
+  ],
+  "loungeAccess": {
+    "domestic": { "complimentaryVisits": "unlimited", "visitPeriod": "annual" },
+    "international": { "complimentaryVisits": "unlimited", "visitPeriod": "annual" },
+    "provider": "Priority Pass"
+  },
+  "insurance": {
+    "airAccident": "₹2,00,00,000",
+    "travelInsurance": "Up to ₹1,00,00,000 comprehensive travel insurance",
+    "purchaseProtection": "Up to ₹5,00,000 for 90 days"
+  },
+  "fuelSurchargeWaiver": { "percentage": 1, "maxPerMonth": 500 },
+  "foreignCurrencyMarkup": 2,
+  "additionalBenefits": [
+    "Unlimited lounge access worldwide via Priority Pass",
+    "HSBC Premier banking relationship benefits",
+    "24/7 global concierge services",
+    "Golf privileges at select courses worldwide",
+    "Comprehensive travel insurance up to ₹1Cr",
+    "Airport meet and greet services at select airports"
+  ],
+  "eligibility": { "minIncome": 4000000, "salariedOnly": false, "minAge": 21 },
+  "rating": 4.3,
+  "pros": [
+    "Unlimited domestic and international lounge access",
+    "10X rewards on travel and international spends",
+    "Fee waived for HSBC Premier banking customers",
+    "Comprehensive ₹1Cr travel insurance",
+    "HSBC's global banking network"
+  ],
+  "cons": [
+    "Requires HSBC Premier banking relationship for best value",
+    "High income requirement of ₹40 LPA",
+    "HSBC has limited branch network in India",
+    "Point value at ₹0.50 is average for super-premium"
+  ],
+  "idealFor": [
+    "HSBC Premier customers looking for a super-premium travel card",
+    "High-net-worth individuals who travel internationally frequently"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    { "question": "Do I need an HSBC Premier account?", "answer": "While not mandatory, HSBC Premier banking customers get the annual fee waived. The card is primarily targeted at Premier relationship holders." },
+    { "question": "How does unlimited lounge access work?", "answer": "You get a Priority Pass membership with unlimited visits to 1,300+ lounges worldwide for both you and your supplementary cardholder." },
+    { "question": "Is the annual fee waivable?", "answer": "Yes, the ₹10,000 annual fee is waived for HSBC Premier banking customers. For non-Premier customers, waiver terms may apply based on spend thresholds." },
+    { "question": "Can I use HSBC's global network?", "answer": "Yes, HSBC Premier customers can access banking services across 60+ countries, making it convenient for frequent international travellers." }
+  ]
+}

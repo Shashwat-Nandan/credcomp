@@ -1,0 +1,74 @@
+{
+  "slug": "kotak-royale-signature",
+  "name": "Kotak Royale Signature Credit Card",
+  "issuer": "kotak",
+  "network": "visa",
+  "tier": "premium",
+  "categories": ["rewards", "lounge", "lifestyle"],
+  "imageUrl": "/images/cards/kotak-royale-signature.webp",
+  "fees": {
+    "joining": 2999,
+    "annual": 2999,
+    "renewal": 2999,
+    "waiverCondition": "Spend ₹3,00,000 or more in the previous year",
+    "waiverSpendThreshold": 300000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.25,
+    "categoryRates": [
+      { "category": "Travel & Dining", "rate": 5, "description": "5X Reward Points on travel and dining spends" },
+      { "category": "All other spends", "rate": 2, "description": "2 Reward Points per ₹150 on all other purchases" }
+    ],
+    "exclusions": ["Fuel transactions", "Wallet loading", "EMI transactions", "Insurance premiums"],
+    "redemptionOptions": ["Gift vouchers", "Statement credit", "Product catalogue", "Airmiles conversion"]
+  },
+  "welcomeBenefits": [
+    { "description": "3,000 bonus Reward Points", "value": 750, "condition": "On payment of joining fee" }
+  ],
+  "milestoneBenefits": [
+    { "spendThreshold": 300000, "period": "annual", "benefit": "5,000 bonus Reward Points", "value": 1250 }
+  ],
+  "loungeAccess": {
+    "domestic": { "complimentaryVisits": 8, "visitPeriod": "annual" },
+    "international": { "complimentaryVisits": 2, "visitPeriod": "annual" },
+    "provider": "Visa Signature Lounges / Dreamfolks"
+  },
+  "insurance": {
+    "airAccident": "₹50,00,000",
+    "purchaseProtection": "Up to ₹1,00,000"
+  },
+  "fuelSurchargeWaiver": { "percentage": 1, "maxPerMonth": 500 },
+  "foreignCurrencyMarkup": 3,
+  "additionalBenefits": [
+    "Visa Signature concierge services",
+    "Golf privileges at select courses",
+    "Complimentary Dineout Passport membership",
+    "Exclusive partner offers on travel and lifestyle brands"
+  ],
+  "eligibility": { "minIncome": 700000, "salariedOnly": false, "minAge": 21 },
+  "rating": 3.8,
+  "pros": [
+    "Good lounge access with 8 domestic + 2 international visits",
+    "5X rewards on travel and dining categories",
+    "Visa Signature benefits including concierge",
+    "Golf and lifestyle privileges"
+  ],
+  "cons": [
+    "Point value is low at ₹0.25 per point",
+    "Annual fee of ₹2,999 requires decent spend to justify",
+    "Limited international lounge visits compared to competitors",
+    "Base earn rate could be better for this tier"
+  ],
+  "idealFor": [
+    "Frequent travellers and diners looking for a premium Kotak card",
+    "Users who want lounge access without a super-premium fee"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    { "question": "How many lounge visits do I get?", "answer": "You get 8 complimentary domestic lounge visits and 2 international lounge visits per year via Visa Signature / Dreamfolks." },
+    { "question": "Can I convert points to air miles?", "answer": "Yes, Kotak Reward Points can be converted to select airline miles through the rewards portal, though the conversion ratio varies." },
+    { "question": "Is the annual fee waivable?", "answer": "Yes, the ₹2,999 annual fee is waived on spending ₹3,00,000 or more in the previous year." }
+  ]
+}

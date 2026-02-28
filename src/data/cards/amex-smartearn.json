@@ -1,0 +1,70 @@
+{
+  "slug": "amex-smartearn",
+  "name": "American Express SmartEarn Credit Card",
+  "issuer": "amex",
+  "network": "amex",
+  "tier": "entry",
+  "categories": ["cashback", "rewards", "no-annual-fee"],
+  "imageUrl": "/images/cards/amex-smartearn.webp",
+  "fees": {
+    "joining": 495,
+    "annual": 495,
+    "renewal": 495,
+    "waiverCondition": "Spend ₹40,000 or more in the previous year to earn bonus MR points worth more than the fee",
+    "waiverSpendThreshold": 40000
+  },
+  "rewards": {
+    "pointName": "Membership Rewards",
+    "baseEarnRate": 1,
+    "pointValue": 0.5,
+    "maxPointValue": 0.5,
+    "categoryRates": [
+      { "category": "Amazon, Flipkart, Uber", "rate": 10, "description": "10X Membership Rewards on Amazon, Flipkart, and Uber" },
+      { "category": "All online spends", "rate": 5, "description": "5X Membership Rewards on all other online spends" },
+      { "category": "Offline spends", "rate": 1, "description": "1 Membership Reward point per ₹50 on offline purchases" }
+    ],
+    "cappedCategories": [
+      { "category": "10X partner spends", "maxPointsPerMonth": 1500 }
+    ],
+    "exclusions": ["Fuel transactions", "Wallet loading", "EMI transactions", "Insurance premium payments"],
+    "redemptionOptions": ["Amazon/Flipkart vouchers", "Statement credit", "Product catalogue", "Amex travel portal"]
+  },
+  "welcomeBenefits": [
+    { "description": "500 bonus Membership Rewards points", "value": 250, "condition": "On first spend within 30 days of card issuance" }
+  ],
+  "milestoneBenefits": [
+    { "spendThreshold": 100000, "period": "annual", "benefit": "1,000 bonus MR points", "value": 500 }
+  ],
+  "fuelSurchargeWaiver": { "percentage": 1, "maxPerMonth": 200 },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "10X rewards on top e-commerce platforms (Amazon, Flipkart)",
+    "Amex Offers - exclusive merchant deals and cashback",
+    "Smart Spend summary for expense tracking",
+    "Free supplementary card"
+  ],
+  "eligibility": { "minIncome": 300000, "salariedOnly": false, "minAge": 21 },
+  "rating": 3.7,
+  "pros": [
+    "10X rewards on Amazon and Flipkart is excellent for online shoppers",
+    "5X on all online spends makes it strong for digital payments",
+    "Low annual fee of ₹495",
+    "Access to Amex Offers and merchant deals"
+  ],
+  "cons": [
+    "Low base earn rate of 1 MR/₹50 on offline spends",
+    "10X rewards are capped at 1,500 points/month",
+    "Amex acceptance is limited at some Indian merchants",
+    "No lounge access"
+  ],
+  "idealFor": [
+    "Frequent online shoppers on Amazon and Flipkart",
+    "Users looking for an affordable entry into the Amex ecosystem"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    { "question": "How does the 10X reward work?", "answer": "When you shop on Amazon, Flipkart, or Uber, you earn 10 Membership Reward points per ₹50 instead of the regular 1 point. This is capped at 1,500 bonus points per month." },
+    { "question": "Is Amex widely accepted in India?", "answer": "Amex acceptance has improved significantly but may still be limited at some smaller merchants. It works well at major retail chains, online platforms, and most restaurants." },
+    { "question": "Can I use this card for UPI payments?", "answer": "Amex cards do not support UPI payments. You can use the card for direct online payments and at POS terminals where Amex is accepted." }
+  ]
+}

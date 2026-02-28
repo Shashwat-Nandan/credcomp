@@ -1,0 +1,73 @@
+{
+  "slug": "kotak-indigo-kaching",
+  "name": "Kotak IndiGo Ka-ching 6E Credit Card",
+  "issuer": "kotak",
+  "network": "visa",
+  "tier": "mid",
+  "categories": ["travel", "rewards"],
+  "imageUrl": "/images/cards/kotak-indigo-kaching.webp",
+  "fees": {
+    "joining": 500,
+    "annual": 500,
+    "renewal": 500,
+    "waiverCondition": "Spend ₹1,50,000 or more in the previous year",
+    "waiverSpendThreshold": 150000
+  },
+  "rewards": {
+    "pointName": "6E Rewards",
+    "baseEarnRate": 1,
+    "pointValue": 1,
+    "categoryRates": [
+      { "category": "IndiGo bookings", "rate": 3, "description": "3% value back on IndiGo flight bookings" },
+      { "category": "Dining & Entertainment", "rate": 1.5, "description": "1.5% value back on dining and entertainment spends" },
+      { "category": "All other spends", "rate": 1, "description": "1% value back on all other retail purchases" }
+    ],
+    "cappedCategories": [
+      { "category": "IndiGo bookings", "maxPointsPerMonth": 3000 }
+    ],
+    "exclusions": ["Fuel transactions", "Wallet loading", "EMI transactions"],
+    "redemptionOptions": ["IndiGo flight bookings", "IndiGo add-ons and upgrades"]
+  },
+  "welcomeBenefits": [
+    { "description": "IndiGo voucher worth ₹500", "value": 500, "condition": "On payment of joining fee" }
+  ],
+  "milestoneBenefits": [
+    { "spendThreshold": 150000, "period": "annual", "benefit": "IndiGo voucher worth ₹1,000", "value": 1000 }
+  ],
+  "loungeAccess": {
+    "domestic": { "complimentaryVisits": 2, "visitPeriod": "annual" },
+    "international": { "complimentaryVisits": 0, "visitPeriod": "annual" },
+    "provider": "Visa Lounge Program"
+  },
+  "fuelSurchargeWaiver": { "percentage": 1, "maxPerMonth": 200 },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "Earn 6E Rewards redeemable on IndiGo flights",
+    "Priority check-in on IndiGo flights",
+    "Complimentary meal voucher on IndiGo for spends above ₹50,000/quarter"
+  ],
+  "eligibility": { "minIncome": 350000, "salariedOnly": false, "minAge": 21 },
+  "rating": 3.5,
+  "pros": [
+    "Good value for frequent IndiGo flyers with 3% back on bookings",
+    "Rewards directly usable for IndiGo flights",
+    "Low annual fee that's easily waivable",
+    "Priority check-in benefit adds convenience"
+  ],
+  "cons": [
+    "Rewards locked to IndiGo ecosystem only",
+    "Low value for non-IndiGo spends at just 1%",
+    "Minimal lounge access with only 2 domestic visits",
+    "No international lounge access"
+  ],
+  "idealFor": [
+    "Frequent IndiGo flyers looking to earn free flights",
+    "Domestic travellers who prefer IndiGo airlines"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    { "question": "How do I redeem 6E Rewards?", "answer": "You can redeem 6E Rewards directly on the IndiGo website or app for flight bookings, seat upgrades, and add-on services." },
+    { "question": "Can I use the card on other airlines?", "answer": "Yes, you can use the card anywhere Visa is accepted, but the higher reward rate of 3% applies only on IndiGo bookings." },
+    { "question": "Is the annual fee waivable?", "answer": "Yes, the ₹500 annual fee is waived on spending ₹1,50,000 or more in the previous year." }
+  ]
+}

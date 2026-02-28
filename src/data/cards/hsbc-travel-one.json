@@ -1,0 +1,77 @@
+{
+  "slug": "hsbc-travel-one",
+  "name": "HSBC Travel One Credit Card",
+  "issuer": "hsbc",
+  "network": "visa",
+  "tier": "premium",
+  "categories": ["travel", "rewards", "lounge"],
+  "imageUrl": "/images/cards/hsbc-travel-one.webp",
+  "fees": {
+    "joining": 2000,
+    "annual": 2000,
+    "renewal": 2000,
+    "waiverCondition": "Spend ₹4,00,000 or more in the previous year",
+    "waiverSpendThreshold": 400000
+  },
+  "rewards": {
+    "pointName": "Travel Reward Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.5,
+    "categoryRates": [
+      { "category": "International spends", "rate": 8, "description": "8X Reward Points on all international transactions" },
+      { "category": "Domestic travel", "rate": 4, "description": "4X Reward Points on domestic travel bookings" },
+      { "category": "All other spends", "rate": 2, "description": "2 Reward Points per ₹100 on all other purchases" }
+    ],
+    "exclusions": ["Fuel transactions", "Wallet loading", "EMI transactions"],
+    "redemptionOptions": ["Travel bookings via HSBC portal", "Airmiles conversion", "Gift vouchers", "Statement credit"]
+  },
+  "welcomeBenefits": [
+    { "description": "5,000 Travel Reward Points", "value": 2500, "condition": "On spending ₹25,000 within 60 days" }
+  ],
+  "milestoneBenefits": [
+    { "spendThreshold": 300000, "period": "annual", "benefit": "5,000 bonus Travel Reward Points", "value": 2500 },
+    { "spendThreshold": 500000, "period": "annual", "benefit": "Additional 7,500 bonus Travel Reward Points", "value": 3750 }
+  ],
+  "loungeAccess": {
+    "domestic": { "complimentaryVisits": 8, "visitPeriod": "annual" },
+    "international": { "complimentaryVisits": 4, "visitPeriod": "annual" },
+    "provider": "Visa / Dreamfolks"
+  },
+  "insurance": {
+    "airAccident": "₹50,00,000",
+    "travelInsurance": "Up to ₹25,00,000 emergency medical cover overseas"
+  },
+  "fuelSurchargeWaiver": { "percentage": 1, "maxPerMonth": 500 },
+  "foreignCurrencyMarkup": 2,
+  "additionalBenefits": [
+    "8X rewards on international spends - among the best",
+    "Low foreign currency markup of 2%",
+    "HSBC's global banking network and support",
+    "Travel insurance coverage included"
+  ],
+  "eligibility": { "minIncome": 800000, "salariedOnly": false, "minAge": 21 },
+  "rating": 4.0,
+  "pros": [
+    "Excellent 8X rewards on international transactions",
+    "Low foreign currency markup at 2%",
+    "Good lounge access (8 domestic + 4 international)",
+    "HSBC's strong global presence and customer service",
+    "Decent milestone benefits"
+  ],
+  "cons": [
+    "HSBC has limited branch network in India",
+    "Annual fee of ₹2,000 requires decent spend",
+    "Base earn rate is average",
+    "Travel-focused card offers less value for non-travellers"
+  ],
+  "idealFor": [
+    "Frequent international travellers who want strong rewards on foreign spend",
+    "HSBC banking customers looking for a travel-focused credit card"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    { "question": "How do Travel Reward Points work?", "answer": "You earn TRPs on every spend, with accelerated earning on international and travel spends. Points can be redeemed for travel bookings, airmiles, vouchers, or statement credits." },
+    { "question": "Is HSBC widely available in India?", "answer": "HSBC has a presence in major Indian cities but has a limited branch network compared to domestic banks. Most services are available online and through the HSBC app." },
+    { "question": "Is the annual fee waivable?", "answer": "Yes, the ₹2,000 annual fee is waived on spending ₹4,00,000 or more in the previous year." }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "sc-ultimate",
+  "name": "Standard Chartered Ultimate Credit Card",
+  "issuer": "sc",
+  "network": "visa",
+  "tier": "super-premium",
+  "categories": ["travel", "premium", "lounge", "rewards"],
+  "imageUrl": "/images/cards/sc-ultimate.webp",
+  "fees": {
+    "joining": 5000,
+    "annual": 5000,
+    "renewal": 5000,
+    "waiverCondition": "Spend ₹5,00,000 or more in the previous year",
+    "waiverSpendThreshold": 500000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 5,
+    "pointValue": 0.5,
+    "categoryRates": [
+      { "category": "All spends", "rate": 5, "description": "5X Reward Points on all retail purchases" }
+    ],
+    "exclusions": ["Fuel transactions", "Wallet loading", "EMI transactions", "Insurance premium payments"],
+    "redemptionOptions": ["Airline mile transfers", "Hotel point transfers", "Gift vouchers", "Statement credit", "Product catalogue"]
+  },
+  "welcomeBenefits": [
+    { "description": "7,500 bonus Reward Points", "value": 3750, "condition": "On spending ₹50,000 within 60 days" }
+  ],
+  "milestoneBenefits": [
+    { "spendThreshold": 300000, "period": "annual", "benefit": "5,000 bonus Reward Points", "value": 2500 },
+    { "spendThreshold": 600000, "period": "annual", "benefit": "Additional 10,000 bonus Reward Points", "value": 5000 }
+  ],
+  "loungeAccess": {
+    "domestic": { "complimentaryVisits": "unlimited", "visitPeriod": "annual" },
+    "international": { "complimentaryVisits": 6, "visitPeriod": "annual" },
+    "provider": "Priority Pass / Visa Infinite"
+  },
+  "insurance": {
+    "airAccident": "₹1,00,00,000",
+    "travelInsurance": "Up to ₹50,00,000 emergency medical cover overseas",
+    "purchaseProtection": "Up to ₹3,00,000 for 90 days"
+  },
+  "fuelSurchargeWaiver": { "percentage": 1, "maxPerMonth": 500 },
+  "foreignCurrencyMarkup": 2,
+  "additionalBenefits": [
+    "Flat 5X rewards on ALL spends - no category restrictions",
+    "Transfer points to airline and hotel partners",
+    "Priority Pass membership for lounge access",
+    "24/7 concierge services",
+    "Golf privileges at select courses",
+    "Low foreign currency markup of 2%"
+  ],
+  "eligibility": { "minIncome": 2400000, "salariedOnly": false, "minAge": 21 },
+  "rating": 4.2,
+  "pros": [
+    "Flat 5X rewards on ALL spends with no category restrictions",
+    "Unlimited domestic lounge access",
+    "Points transferable to airline and hotel partners",
+    "Simple reward structure - no need to track categories",
+    "Low foreign currency markup of 2%"
+  ],
+  "cons": [
+    "Annual fee of ₹5,000 (waivable on ₹5L spend)",
+    "Per-point value of ₹0.50 could be higher",
+    "StanC has limited branch presence in India",
+    "6 international lounge visits may not suffice for frequent travellers"
+  ],
+  "idealFor": [
+    "Users who want consistently high rewards without tracking spend categories",
+    "Travellers looking for strong lounge access and airline mile transfers"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    { "question": "What makes the Ultimate card unique?", "answer": "The standout feature is the flat 5X reward rate on ALL retail purchases - no category restrictions or caps on base rewards. Most cards offer high multipliers only on specific categories." },
+    { "question": "Which airlines can I transfer points to?", "answer": "StanC Ultimate points can be transferred to select airline and hotel partners. Check the SC Rewards 360 portal for the current partner list and transfer ratios." },
+    { "question": "Is the annual fee waivable?", "answer": "Yes, the ₹5,000 annual fee is waived on spending ₹5,00,000 or more in the previous year." },
+    { "question": "How does lounge access work?", "answer": "You get unlimited domestic lounge access and 6 international lounge visits per year via Priority Pass and Visa Infinite lounge programs." }
+  ]
+}

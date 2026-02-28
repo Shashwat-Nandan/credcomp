@@ -1,0 +1,67 @@
+{
+  "slug": "yes-paisasave",
+  "name": "Yes Bank PaisaSave Credit Card",
+  "issuer": "yes",
+  "network": "visa",
+  "tier": "entry",
+  "categories": ["cashback", "no-annual-fee"],
+  "imageUrl": "/images/cards/yes-paisasave.webp",
+  "fees": {
+    "joining": 0,
+    "annual": 0,
+    "renewal": 499,
+    "waiverCondition": "First year free; renewal ₹499 waived on ₹1,00,000 annual spend",
+    "waiverSpendThreshold": 100000
+  },
+  "rewards": {
+    "pointName": "Cashback",
+    "baseEarnRate": 1,
+    "pointValue": 1,
+    "categoryRates": [
+      { "category": "Online spends", "rate": 2, "description": "2% cashback on all online purchases" },
+      { "category": "Offline spends", "rate": 1, "description": "1% cashback on all offline retail purchases" }
+    ],
+    "cappedCategories": [
+      { "category": "Online spends (2%)", "maxPointsPerMonth": 1000 }
+    ],
+    "exclusions": ["Fuel transactions", "Wallet loading", "EMI transactions", "Rent payments"],
+    "redemptionOptions": ["Direct cashback to statement"]
+  },
+  "welcomeBenefits": [
+    { "description": "Zero joining fee - no welcome benefit", "condition": "Card issuance" }
+  ],
+  "milestoneBenefits": [
+    { "spendThreshold": 100000, "period": "annual", "benefit": "Renewal fee waiver", "value": 499 }
+  ],
+  "fuelSurchargeWaiver": { "percentage": 1, "maxPerMonth": 200 },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "Simple cashback model - no points to manage",
+    "First year completely free",
+    "2% cashback on all online spends"
+  ],
+  "eligibility": { "minIncome": 250000, "salariedOnly": false, "minAge": 21 },
+  "rating": 3.3,
+  "pros": [
+    "First year free with no joining fee",
+    "Simple 2% cashback on online spends is easy to understand",
+    "Direct cashback - no complex redemption needed",
+    "Low income requirement of ₹2.5 LPA"
+  ],
+  "cons": [
+    "Online cashback capped at ₹1,000/month",
+    "Offline cashback of just 1% is low",
+    "No lounge access",
+    "Yes Bank's limited brand appeal compared to larger banks"
+  ],
+  "idealFor": [
+    "First-time credit card users wanting a simple cashback card",
+    "Online shoppers looking for a no-fee cashback card"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    { "question": "Is this card really free?", "answer": "The first year is free with zero joining fee. From the second year, a ₹499 renewal fee applies, which is waived if you spend ₹1,00,000 or more in the previous year." },
+    { "question": "How is cashback credited?", "answer": "Cashback is automatically credited to your statement within 1-2 billing cycles. No manual redemption needed." },
+    { "question": "Is 2% cashback on everything online?", "answer": "2% cashback applies on most online transactions but is capped at ₹1,000 per month. Exclusions like wallet loading, EMI, and rent payments apply." }
+  ]
+}

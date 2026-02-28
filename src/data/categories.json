@@ -6,5 +6,8 @@
   { "slug": "lifestyle", "name": "Lifestyle", "description": "Cards for dining, shopping, and entertainment" },
   { "slug": "fuel", "name": "Fuel", "description": "Best cards for fuel surcharge waivers" },
   { "slug": "lounge", "name": "Lounge Access", "description": "Cards with airport lounge access" },
-  { "slug": "no-annual-fee", "name": "No Annual Fee", "description": "Cards with zero or waivable annual fees" }
+  { "slug": "no-annual-fee", "name": "No Annual Fee", "description": "Cards with zero or waivable annual fees" },
+  { "slug": "dining", "name": "Dining", "description": "Best cards for restaurant and food delivery rewards" },
+  { "slug": "shopping", "name": "Shopping", "description": "Cards with the best rewards on online and offline shopping" },
+  { "slug": "entertainment", "name": "Entertainment", "description": "Cards for movies, OTT, and entertainment spends" }
 ]

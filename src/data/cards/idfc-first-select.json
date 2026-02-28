@@ -1,0 +1,79 @@
+{
+  "slug": "idfc-first-select",
+  "name": "IDFC FIRST Select Credit Card",
+  "issuer": "idfc",
+  "network": "visa",
+  "tier": "premium",
+  "categories": ["rewards", "lounge", "lifestyle"],
+  "imageUrl": "/images/cards/idfc-first-select.webp",
+  "fees": {
+    "joining": 2999,
+    "annual": 2999,
+    "renewal": 2999,
+    "waiverCondition": "Spend ₹3,00,000 or more in the previous year",
+    "waiverSpendThreshold": 300000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 1,
+    "pointValue": 0.25,
+    "categoryRates": [
+      { "category": "Select categories (via app)", "rate": 10, "description": "10X Reward Points on select categories chosen via IDFC FIRST app" },
+      { "category": "Travel & Dining", "rate": 4, "description": "4X Reward Points on travel and dining spends" },
+      { "category": "All other spends", "rate": 1, "description": "1 Reward Point per ₹100 on all other purchases" }
+    ],
+    "cappedCategories": [
+      { "category": "Select categories (10X)", "maxPointsPerMonth": 10000 }
+    ],
+    "exclusions": ["Fuel transactions", "Wallet loading", "EMI transactions", "Rent payments"],
+    "redemptionOptions": ["Gift vouchers", "Statement credit", "Product catalogue", "Flight bookings"]
+  },
+  "welcomeBenefits": [
+    { "description": "3,000 bonus Reward Points", "value": 750, "condition": "On payment of joining fee" }
+  ],
+  "milestoneBenefits": [
+    { "spendThreshold": 200000, "period": "annual", "benefit": "3,000 bonus Reward Points", "value": 750 },
+    { "spendThreshold": 400000, "period": "annual", "benefit": "5,000 bonus Reward Points + fee waiver", "value": 1250 }
+  ],
+  "loungeAccess": {
+    "domestic": { "complimentaryVisits": 8, "visitPeriod": "annual" },
+    "international": { "complimentaryVisits": 4, "visitPeriod": "annual" },
+    "provider": "Visa / Dreamfolks"
+  },
+  "insurance": {
+    "airAccident": "₹50,00,000",
+    "purchaseProtection": "Up to ₹1,00,000"
+  },
+  "fuelSurchargeWaiver": { "percentage": 1, "maxPerMonth": 400 },
+  "foreignCurrencyMarkup": 2.5,
+  "additionalBenefits": [
+    "10X rewards on select categories customizable via app",
+    "Never-expiring reward points",
+    "Low interest rate on revolving credit",
+    "Complimentary Dineout Passport membership"
+  ],
+  "eligibility": { "minIncome": 800000, "salariedOnly": false, "minAge": 21 },
+  "rating": 4.0,
+  "pros": [
+    "10X rewards on customizable categories is very flexible",
+    "Good lounge access with 8 domestic + 4 international visits",
+    "Never-expiring reward points",
+    "IDFC FIRST's low interest rate if you revolve credit"
+  ],
+  "cons": [
+    "Low per-point value at ₹0.25",
+    "10X rewards are capped at 10,000 points/month",
+    "IDFC FIRST has a smaller branch/ATM network",
+    "Annual fee of ₹2,999 needs decent spend to justify"
+  ],
+  "idealFor": [
+    "Users who value customizable reward categories",
+    "IDFC FIRST Bank customers looking for a premium card"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    { "question": "How do I select reward categories?", "answer": "You can choose and change your accelerated reward categories through the IDFC FIRST Bank mobile app. Changes take effect from the next billing cycle." },
+    { "question": "Do reward points expire?", "answer": "No, IDFC FIRST Select reward points never expire as long as your card account is active." },
+    { "question": "Is the annual fee waivable?", "answer": "Yes, the ₹2,999 annual fee is waived on spending ₹3,00,000 or more in the previous year." }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "yes-marquee",
+  "name": "Yes Bank Marquee Credit Card",
+  "issuer": "yes",
+  "network": "visa",
+  "tier": "premium",
+  "categories": ["rewards", "lifestyle", "lounge"],
+  "imageUrl": "/images/cards/yes-marquee.webp",
+  "fees": {
+    "joining": 2500,
+    "annual": 2500,
+    "renewal": 2500,
+    "waiverCondition": "Spend ₹3,00,000 or more in the previous year",
+    "waiverSpendThreshold": 300000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.25,
+    "categoryRates": [
+      { "category": "Dining & Entertainment", "rate": 5, "description": "5X Reward Points on dining and entertainment spends" },
+      { "category": "All other spends", "rate": 2, "description": "2 Reward Points per ₹100 on all other purchases" }
+    ],
+    "exclusions": ["Fuel transactions", "Wallet loading", "EMI transactions", "Rent payments"],
+    "redemptionOptions": ["Gift vouchers", "Statement credit", "Product catalogue", "Airmiles conversion"]
+  },
+  "welcomeBenefits": [
+    { "description": "5,000 bonus Reward Points", "value": 1250, "condition": "On spending ₹25,000 within 60 days" }
+  ],
+  "milestoneBenefits": [
+    { "spendThreshold": 200000, "period": "annual", "benefit": "3,000 bonus Reward Points", "value": 750 },
+    { "spendThreshold": 400000, "period": "annual", "benefit": "Additional 5,000 bonus Reward Points", "value": 1250 }
+  ],
+  "loungeAccess": {
+    "domestic": { "complimentaryVisits": 8, "visitPeriod": "annual" },
+    "international": { "complimentaryVisits": 2, "visitPeriod": "annual" },
+    "provider": "Visa / Dreamfolks"
+  },
+  "insurance": {
+    "airAccident": "₹50,00,000",
+    "purchaseProtection": "Up to ₹1,00,000"
+  },
+  "fuelSurchargeWaiver": { "percentage": 1, "maxPerMonth": 400 },
+  "foreignCurrencyMarkup": 3,
+  "additionalBenefits": [
+    "5X rewards on dining and entertainment",
+    "Visa Signature benefits and offers",
+    "Complimentary Dineout Passport membership",
+    "Golf privileges at select courses"
+  ],
+  "eligibility": { "minIncome": 600000, "salariedOnly": false, "minAge": 21 },
+  "rating": 3.6,
+  "pros": [
+    "Good 5X rewards on dining and entertainment",
+    "Decent lounge access with 8 domestic + 2 international",
+    "Visa Signature lifestyle benefits included",
+    "Reasonable annual fee for a premium card"
+  ],
+  "cons": [
+    "Low per-point value at ₹0.25",
+    "Yes Bank's brand perception has been impacted in recent years",
+    "Limited international lounge access",
+    "Foreign currency markup of 3% is on the higher side"
+  ],
+  "idealFor": [
+    "Yes Bank customers looking for a premium lifestyle card",
+    "Frequent diners who can leverage 5X rewards on dining"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    { "question": "Is Yes Bank stable now?", "answer": "Yes, after the RBI-led restructuring in 2020, Yes Bank has stabilized operations and continues to function as a normal scheduled commercial bank with deposit insurance protection." },
+    { "question": "How many lounge visits are included?", "answer": "You get 8 complimentary domestic and 2 international lounge visits per year via Visa / Dreamfolks." },
+    { "question": "Is the annual fee waivable?", "answer": "Yes, the ₹2,500 annual fee is waived on spending ₹3,00,000 or more in the previous year." }
+  ]
+}

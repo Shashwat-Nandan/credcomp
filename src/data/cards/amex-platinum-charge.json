@@ -1,0 +1,86 @@
+{
+  "slug": "amex-platinum-charge",
+  "name": "American Express Platinum Charge Card",
+  "issuer": "amex",
+  "network": "amex",
+  "tier": "super-premium",
+  "categories": ["travel", "premium", "lounge"],
+  "imageUrl": "/images/cards/amex-platinum-charge.webp",
+  "fees": {
+    "joining": 60000,
+    "annual": 60000,
+    "renewal": 60000
+  },
+  "rewards": {
+    "pointName": "Membership Rewards",
+    "baseEarnRate": 1,
+    "pointValue": 1,
+    "maxPointValue": 1,
+    "categoryRates": [
+      { "category": "Travel", "rate": 5, "description": "5 MR points per ₹100 on travel bookings" },
+      { "category": "International spends", "rate": 3, "description": "3 MR points per ₹100 on international transactions" },
+      { "category": "All other spends", "rate": 1, "description": "1 MR point per ₹50 on all other purchases" }
+    ],
+    "exclusions": ["Fuel transactions", "Wallet loading", "Insurance premiums"],
+    "redemptionOptions": ["Airline mile transfers (1:1 ratio)", "Hotel point transfers", "Amex travel bookings", "Gift vouchers", "Statement credit"]
+  },
+  "welcomeBenefits": [
+    { "description": "50,000 bonus MR points on spending ₹1,90,000 in first 90 days", "value": 50000, "condition": "Spend ₹1,90,000 within 90 days of card issuance" }
+  ],
+  "milestoneBenefits": [
+    { "spendThreshold": 1900000, "period": "annual", "benefit": "Domestic companion flight ticket (on ₹50,000+ booking)", "value": 25000 },
+    { "spendThreshold": 3000000, "period": "annual", "benefit": "International companion flight ticket", "value": 50000 }
+  ],
+  "loungeAccess": {
+    "domestic": { "complimentaryVisits": "unlimited", "visitPeriod": "annual" },
+    "international": { "complimentaryVisits": "unlimited", "visitPeriod": "annual" },
+    "provider": "Priority Pass + Amex Centurion Lounges"
+  },
+  "insurance": {
+    "airAccident": "₹3,00,00,000",
+    "travelInsurance": "Up to ₹1,00,00,000 comprehensive travel insurance",
+    "purchaseProtection": "Up to ₹10,00,000 for 90 days"
+  },
+  "fuelSurchargeWaiver": { "percentage": 1, "maxPerMonth": 500 },
+  "foreignCurrencyMarkup": 0,
+  "additionalBenefits": [
+    "Zero foreign currency markup - best in class",
+    "Access to exclusive Centurion Lounges worldwide",
+    "Complimentary Marriott Bonvoy Gold Elite status",
+    "Complimentary Hilton Honors Gold status",
+    "Fine Hotels & Resorts (FHR) program with room upgrades and benefits",
+    "₹50,000 Taj voucher annually",
+    "Companion flight tickets on milestone spends",
+    "Metal card with premium packaging",
+    "24/7 global Platinum concierge",
+    "Hotel & flight booking credits"
+  ],
+  "eligibility": { "minIncome": 5000000, "salariedOnly": false, "minAge": 21 },
+  "rating": 4.6,
+  "pros": [
+    "Zero foreign currency markup - unmatched for international spends",
+    "Unlimited lounge access including Centurion Lounges",
+    "MR points transferable 1:1 to multiple airline programs",
+    "Companion flight tickets on milestone spends",
+    "Complimentary Marriott Gold & Hilton Gold status",
+    "₹50,000 Taj voucher annually"
+  ],
+  "cons": [
+    "Very high annual fee of ₹60,000 with no waiver",
+    "Extremely high income requirement",
+    "Amex acceptance limited at many Indian merchants",
+    "Charge card - full balance due each month (no revolving credit)"
+  ],
+  "idealFor": [
+    "Ultra-high-net-worth individuals who travel internationally frequently",
+    "Luxury hotel enthusiasts who value hotel status and concierge services",
+    "Users making significant international spends who benefit from 0% FX markup"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    { "question": "What is a charge card vs credit card?", "answer": "Unlike a credit card, a charge card requires you to pay the full balance each month - there's no option to carry a balance or pay minimum due. This also means there's no pre-set spending limit." },
+    { "question": "What are Centurion Lounges?", "answer": "Centurion Lounges are Amex's own premium airport lounges available in select cities worldwide (mostly US). They offer premium food, drinks, spa services, and are considered among the best airport lounges globally." },
+    { "question": "How does the companion flight ticket work?", "answer": "On spending ₹19L in a year, you get a complimentary domestic companion ticket on bookings of ₹50,000+. On ₹30L spend, you get an international companion ticket. These are booked through Amex travel." },
+    { "question": "Is the ₹60,000 fee worth it?", "answer": "For frequent international travellers, the 0% FX markup alone can save ₹30,000-50,000+ annually. Combined with the Taj voucher (₹50,000), hotel statuses, and companion flights, heavy users can extract significant value." }
+  ]
+}

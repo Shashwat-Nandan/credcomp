@@ -1,0 +1,69 @@
+{
+  "slug": "rbl-maxima-plus",
+  "name": "RBL Maxima Plus Credit Card",
+  "issuer": "rbl",
+  "network": "mastercard",
+  "tier": "mid",
+  "categories": ["rewards", "lifestyle"],
+  "imageUrl": "/images/cards/rbl-maxima-plus.webp",
+  "fees": {
+    "joining": 750,
+    "annual": 750,
+    "renewal": 750,
+    "waiverCondition": "Spend ₹1,50,000 or more in the previous year",
+    "waiverSpendThreshold": 150000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.25,
+    "categoryRates": [
+      { "category": "Dining & Entertainment", "rate": 4, "description": "4X Reward Points on dining and entertainment spends" },
+      { "category": "All other spends", "rate": 2, "description": "2 Reward Points per ₹100 on all other purchases" }
+    ],
+    "exclusions": ["Fuel transactions", "Wallet loading", "EMI transactions"],
+    "redemptionOptions": ["Gift vouchers", "Statement credit", "Product catalogue"]
+  },
+  "welcomeBenefits": [
+    { "description": "1,000 bonus Reward Points", "value": 250, "condition": "On payment of joining fee" }
+  ],
+  "milestoneBenefits": [
+    { "spendThreshold": 150000, "period": "annual", "benefit": "2,000 bonus Reward Points", "value": 500 }
+  ],
+  "loungeAccess": {
+    "domestic": { "complimentaryVisits": 4, "visitPeriod": "annual" },
+    "international": { "complimentaryVisits": 0, "visitPeriod": "annual" },
+    "provider": "Mastercard Lounge Program"
+  },
+  "fuelSurchargeWaiver": { "percentage": 1, "maxPerMonth": 250 },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "4X rewards on dining and entertainment",
+    "Complimentary movie tickets (Buy 1 Get 1) on BookMyShow",
+    "Fuel surcharge waiver at all fuel stations"
+  ],
+  "eligibility": { "minIncome": 400000, "salariedOnly": false, "minAge": 21 },
+  "rating": 3.5,
+  "pros": [
+    "Good accelerated rewards on dining and entertainment",
+    "BookMyShow Buy 1 Get 1 movie benefit",
+    "Decent domestic lounge access for a mid-tier card",
+    "Reasonable annual fee that's easily waivable"
+  ],
+  "cons": [
+    "Low per-point value at ₹0.25",
+    "No international lounge access",
+    "RBL has limited branch network",
+    "Limited redemption options compared to larger banks"
+  ],
+  "idealFor": [
+    "Movie and dining enthusiasts looking for targeted rewards",
+    "Users who want a mid-tier card with decent lifestyle benefits"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    { "question": "How does the BookMyShow offer work?", "answer": "You get Buy 1 Get 1 free movie tickets on BookMyShow, typically limited to 1 transaction per month. Terms may vary - check the RBL rewards portal for current details." },
+    { "question": "Is RBL a safe bank for credit cards?", "answer": "Yes, RBL Bank is a scheduled commercial bank regulated by RBI. Their credit cards come with standard security features and fraud protection." },
+    { "question": "Is the annual fee waivable?", "answer": "Yes, the ₹750 annual fee is waived on spending ₹1,50,000 or more in the previous year." }
+  ]
+}

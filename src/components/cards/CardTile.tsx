@@ -1,23 +1,28 @@
 import Link from "next/link";
 import { CreditCard } from "@/types";
-import { formatCurrency, getIssuerDisplayName } from "@/lib/utils";
+import { formatCurrency, getIssuerDisplayName, getIssuerGradient } from "@/lib/utils";
 import { NETWORK_LABELS, TIER_LABELS } from "@/lib/constants";
 import { Badge } from "@/components/ui/Badge";
 import { StarRating } from "@/components/ui/StarRating";
 
 export function CardTile({ card }: { card: CreditCard }) {
+  const [from, to] = getIssuerGradient(card.issuer);
+
   return (
     <Link
       href={`/cards/${card.slug}`}
       className="group flex flex-col rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:border-[var(--color-accent)]/30 hover:shadow-md"
     >
       {/* Card image placeholder */}
-      <div className="mb-4 flex h-40 items-center justify-center rounded-lg bg-gradient-to-br from-gray-100 to-gray-50">
-        <div className="text-center">
-          <div className="text-2xl font-bold text-[var(--color-primary)]">
+      <div
+        className="mb-4 flex h-40 items-center justify-center rounded-lg"
+        style={{ background: `linear-gradient(to bottom right, ${from}, ${to})` }}
+      >
+        <div className="text-center text-white">
+          <div className="text-2xl font-bold drop-shadow-sm">
             {card.name.split(" ").slice(-1)[0]}
           </div>
-          <div className="mt-1 text-xs text-gray-400">
+          <div className="mt-1 text-xs opacity-75">
             {getIssuerDisplayName(card.issuer)}
           </div>
         </div>

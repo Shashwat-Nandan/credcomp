@@ -1,0 +1,68 @@
+{
+  "slug": "sc-digismart",
+  "name": "Standard Chartered DigiSmart Credit Card",
+  "issuer": "sc",
+  "network": "visa",
+  "tier": "entry",
+  "categories": ["cashback", "no-annual-fee"],
+  "imageUrl": "/images/cards/sc-digismart.webp",
+  "fees": {
+    "joining": 0,
+    "annual": 0,
+    "renewal": 0
+  },
+  "rewards": {
+    "pointName": "Cashback",
+    "baseEarnRate": 1,
+    "pointValue": 1,
+    "categoryRates": [
+      { "category": "EMI transactions", "rate": 5, "description": "5% cashback on EMI transactions converted at POS or online" },
+      { "category": "Online spends", "rate": 2, "description": "2% cashback on all online purchases" },
+      { "category": "All other spends", "rate": 1, "description": "1% cashback on all other retail purchases" }
+    ],
+    "cappedCategories": [
+      { "category": "EMI transactions (5%)", "maxPointsPerMonth": 1000 },
+      { "category": "Online spends (2%)", "maxPointsPerMonth": 500 }
+    ],
+    "exclusions": ["Fuel transactions", "Wallet loading", "Rent payments"],
+    "redemptionOptions": ["Direct cashback to statement"]
+  },
+  "welcomeBenefits": [
+    { "description": "Lifetime free card - no welcome benefit", "condition": "Card issuance" }
+  ],
+  "milestoneBenefits": [
+    { "spendThreshold": 100000, "period": "annual", "benefit": "₹500 bonus cashback", "value": 500 }
+  ],
+  "fuelSurchargeWaiver": { "percentage": 1, "maxPerMonth": 200 },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "5% cashback on EMI transactions is unique",
+    "Lifetime free - no joining or annual fees",
+    "Quick digital application process",
+    "Instant EMI conversion at POS"
+  ],
+  "eligibility": { "minIncome": 300000, "salariedOnly": false, "minAge": 21 },
+  "rating": 3.4,
+  "pros": [
+    "Lifetime free with zero fees",
+    "Unique 5% cashback on EMI transactions",
+    "2% cashback on online spends is solid for a free card",
+    "Simple cashback model with no complex points"
+  ],
+  "cons": [
+    "EMI and online cashback caps are low",
+    "No lounge access",
+    "Standard Chartered has limited branch network",
+    "1% offline cashback is below average"
+  ],
+  "idealFor": [
+    "Users who frequently convert purchases to EMI",
+    "Budget-conscious users wanting a no-fee card with online cashback"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    { "question": "How does the 5% EMI cashback work?", "answer": "When you convert a purchase to EMI (either at POS or post-purchase via the app), you earn 5% cashback on the transaction value, capped at ₹1,000 per month." },
+    { "question": "Is there really no annual fee?", "answer": "Yes, the DigiSmart is a lifetime free card with no joining, annual, or renewal fees." },
+    { "question": "How is cashback credited?", "answer": "Cashback is automatically credited to your card statement within 1-2 billing cycles." }
+  ]
+}

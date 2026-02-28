@@ -1,0 +1,77 @@
+{
+  "slug": "rbl-world-safari",
+  "name": "RBL World Safari Credit Card",
+  "issuer": "rbl",
+  "network": "mastercard",
+  "tier": "premium",
+  "categories": ["travel", "lounge", "rewards"],
+  "imageUrl": "/images/cards/rbl-world-safari.webp",
+  "fees": {
+    "joining": 3000,
+    "annual": 3000,
+    "renewal": 3000,
+    "waiverCondition": "Spend ₹5,00,000 or more in the previous year",
+    "waiverSpendThreshold": 500000
+  },
+  "rewards": {
+    "pointName": "Reward Points",
+    "baseEarnRate": 2,
+    "pointValue": 0.5,
+    "categoryRates": [
+      { "category": "International spends", "rate": 6, "description": "6X Reward Points on all international transactions" },
+      { "category": "Travel", "rate": 4, "description": "4X Reward Points on domestic travel bookings" },
+      { "category": "All other spends", "rate": 2, "description": "2 Reward Points per ₹100 on all other purchases" }
+    ],
+    "exclusions": ["Fuel transactions", "Wallet loading", "EMI transactions"],
+    "redemptionOptions": ["Airmiles conversion", "Gift vouchers", "Statement credit", "Product catalogue"]
+  },
+  "welcomeBenefits": [
+    { "description": "5,000 bonus Reward Points", "value": 2500, "condition": "On payment of joining fee" }
+  ],
+  "milestoneBenefits": [
+    { "spendThreshold": 300000, "period": "annual", "benefit": "5,000 bonus Reward Points", "value": 2500 },
+    { "spendThreshold": 600000, "period": "annual", "benefit": "Additional 8,000 bonus Reward Points", "value": 4000 }
+  ],
+  "loungeAccess": {
+    "domestic": { "complimentaryVisits": 12, "visitPeriod": "annual" },
+    "international": { "complimentaryVisits": 4, "visitPeriod": "annual" },
+    "provider": "Priority Pass"
+  },
+  "insurance": {
+    "airAccident": "₹1,00,00,000",
+    "travelInsurance": "Up to ₹50,00,000 emergency medical cover overseas"
+  },
+  "fuelSurchargeWaiver": { "percentage": 1, "maxPerMonth": 500 },
+  "foreignCurrencyMarkup": 2,
+  "additionalBenefits": [
+    "Priority Pass membership for international lounge access",
+    "6X rewards on international spends - great for travellers",
+    "Golf privileges at select courses",
+    "Concierge services for travel and lifestyle needs"
+  ],
+  "eligibility": { "minIncome": 1200000, "salariedOnly": false, "minAge": 21 },
+  "rating": 4.0,
+  "pros": [
+    "Excellent lounge access with 12 domestic + 4 international visits",
+    "Strong 6X rewards on international transactions",
+    "Low foreign currency markup of 2%",
+    "Priority Pass membership included",
+    "Good milestone benefits"
+  ],
+  "cons": [
+    "Annual fee of ₹3,000 requires decent spend to justify",
+    "RBL has limited physical presence compared to top banks",
+    "Point value could be higher for this price tier",
+    "Limited airline transfer partners"
+  ],
+  "idealFor": [
+    "Frequent international travellers seeking strong lounge access",
+    "Users who spend heavily on international transactions"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    { "question": "How many lounge visits are included?", "answer": "You get 12 complimentary domestic and 4 international lounge visits per year via Priority Pass." },
+    { "question": "Is the foreign currency markup competitive?", "answer": "Yes, at 2% the markup is among the lower options in this segment, making it good for international travel and online foreign purchases." },
+    { "question": "Is the annual fee waivable?", "answer": "Yes, the ₹3,000 annual fee is waived on spending ₹5,00,000 or more in the previous year." }
+  ]
+}

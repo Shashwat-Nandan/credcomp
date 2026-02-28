@@ -1,0 +1,68 @@
+{
+  "slug": "rbl-play",
+  "name": "RBL Play Credit Card",
+  "issuer": "rbl",
+  "network": "mastercard",
+  "tier": "entry",
+  "categories": ["entertainment", "cashback", "no-annual-fee"],
+  "imageUrl": "/images/cards/rbl-play.webp",
+  "fees": {
+    "joining": 500,
+    "annual": 500,
+    "renewal": 500,
+    "waiverCondition": "Spend ₹1,00,000 or more in the previous year",
+    "waiverSpendThreshold": 100000
+  },
+  "rewards": {
+    "pointName": "Cashback",
+    "baseEarnRate": 1,
+    "pointValue": 1,
+    "categoryRates": [
+      { "category": "OTT platforms", "rate": 5, "description": "5% cashback on Netflix, Hotstar, Spotify, YouTube Premium, and other OTT platforms" },
+      { "category": "Online spends", "rate": 2, "description": "2% cashback on all online purchases" },
+      { "category": "All other spends", "rate": 1, "description": "1% cashback on all other retail purchases" }
+    ],
+    "cappedCategories": [
+      { "category": "OTT platforms (5%)", "maxPointsPerMonth": 500 }
+    ],
+    "exclusions": ["Fuel transactions", "Wallet loading", "EMI transactions", "Rent payments"],
+    "redemptionOptions": ["Direct cashback to statement", "Gift vouchers"]
+  },
+  "welcomeBenefits": [
+    { "description": "3-month complimentary OTT subscription (select platform)", "value": 500, "condition": "On card activation" }
+  ],
+  "milestoneBenefits": [
+    { "spendThreshold": 100000, "period": "annual", "benefit": "Annual fee waiver + ₹500 OTT voucher", "value": 1000 }
+  ],
+  "fuelSurchargeWaiver": { "percentage": 1, "maxPerMonth": 200 },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "5% cashback on OTT subscriptions (Netflix, Hotstar, Spotify, etc.)",
+    "Complimentary OTT subscription on card activation",
+    "Direct cashback model - no points to manage"
+  ],
+  "eligibility": { "minIncome": 300000, "salariedOnly": false, "minAge": 21 },
+  "rating": 3.4,
+  "pros": [
+    "5% cashback on OTT platforms is unique and useful",
+    "Direct cashback model - no complex point calculations",
+    "2% on all online spends is decent for an entry card",
+    "Low annual fee that's easily waivable"
+  ],
+  "cons": [
+    "OTT cashback capped at ₹500/month",
+    "No lounge access",
+    "Limited additional benefits beyond cashback",
+    "RBL has smaller customer support network"
+  ],
+  "idealFor": [
+    "OTT and streaming enthusiasts who subscribe to multiple platforms",
+    "Young users who spend primarily online and on entertainment"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    { "question": "Which OTT platforms qualify for 5% cashback?", "answer": "Popular platforms like Netflix, Disney+ Hotstar, Amazon Prime Video, Spotify, YouTube Premium, and similar streaming services qualify. The exact list may be updated periodically." },
+    { "question": "How is cashback credited?", "answer": "Cashback is credited directly to your card statement, typically within 1-2 billing cycles." },
+    { "question": "Is the annual fee waivable?", "answer": "Yes, the ₹500 annual fee is waived on spending ₹1,00,000 or more in the previous year." }
+  ]
+}

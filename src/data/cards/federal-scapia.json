@@ -1,0 +1,75 @@
+{
+  "slug": "federal-scapia",
+  "name": "Federal Bank Scapia Credit Card",
+  "issuer": "federal",
+  "network": "visa",
+  "tier": "mid",
+  "categories": ["travel", "no-annual-fee"],
+  "imageUrl": "/images/cards/federal-scapia.webp",
+  "fees": {
+    "joining": 0,
+    "annual": 0,
+    "renewal": 0
+  },
+  "rewards": {
+    "pointName": "Scapia Coins",
+    "baseEarnRate": 1,
+    "pointValue": 1,
+    "categoryRates": [
+      { "category": "Travel via Scapia app", "rate": 10, "description": "10% value back on travel bookings made through the Scapia app" },
+      { "category": "All other spends", "rate": 1, "description": "1% value back in Scapia Coins on all other purchases" }
+    ],
+    "cappedCategories": [
+      { "category": "Travel via Scapia app (10%)", "maxPointsPerMonth": 2000 }
+    ],
+    "exclusions": ["Fuel transactions", "Wallet loading", "EMI transactions", "Rent payments"],
+    "redemptionOptions": ["Travel bookings via Scapia app", "Statement credit"]
+  },
+  "welcomeBenefits": [
+    { "description": "Lifetime free card - no welcome benefit needed", "condition": "Card issuance" }
+  ],
+  "milestoneBenefits": [
+    { "spendThreshold": 200000, "period": "annual", "benefit": "2,000 bonus Scapia Coins", "value": 2000 }
+  ],
+  "loungeAccess": {
+    "domestic": { "complimentaryVisits": 4, "visitPeriod": "annual" },
+    "international": { "complimentaryVisits": 1, "visitPeriod": "annual" },
+    "provider": "Visa / Dreamfolks"
+  },
+  "fuelSurchargeWaiver": { "percentage": 1, "maxPerMonth": 200 },
+  "foreignCurrencyMarkup": 0,
+  "additionalBenefits": [
+    "Zero foreign currency markup - best for international spends",
+    "10% value back on travel via Scapia app",
+    "Lifetime free - no joining or annual fees ever",
+    "1 Scapia Coin = ₹1 (no devaluation)",
+    "Quick digital application and instant card issuance"
+  ],
+  "eligibility": { "minIncome": 300000, "salariedOnly": false, "minAge": 21 },
+  "rating": 4.0,
+  "pros": [
+    "Zero foreign currency markup - unmatched at this price point",
+    "Lifetime free with no hidden charges",
+    "10% value back on travel via Scapia app",
+    "1:1 coin-to-rupee value with no devaluation",
+    "Lounge access on a free card is rare"
+  ],
+  "cons": [
+    "10% travel cashback capped at ₹2,000/month",
+    "Travel rewards locked to Scapia app bookings",
+    "Federal Bank/Scapia is a newer entrant, less established",
+    "Base earn rate of 1% is average"
+  ],
+  "idealFor": [
+    "International travellers looking for zero FX markup on a free card",
+    "Budget travellers who want to maximize travel rewards without fees",
+    "First-time card users wanting a no-cost travel card"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    { "question": "What is Scapia?", "answer": "Scapia is a travel-focused fintech that partners with Federal Bank to issue credit cards. They offer a travel booking platform where cardholders earn enhanced rewards." },
+    { "question": "Is the zero FX markup really zero?", "answer": "Yes, there is absolutely no foreign currency markup on international transactions, making it one of very few cards in India offering this benefit, especially on a free card." },
+    { "question": "Will there ever be an annual fee?", "answer": "Scapia positions this as a lifetime free card with no joining, annual, or renewal fees. However, terms can change - check the latest offer details." },
+    { "question": "How do Scapia Coins work?", "answer": "1 Scapia Coin equals ₹1. You earn coins on all spends (1% base, 10% on Scapia travel). Coins can be used for future travel bookings on the Scapia app or as statement credits." }
+  ]
+}

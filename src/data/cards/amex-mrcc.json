@@ -1,0 +1,75 @@
+{
+  "slug": "amex-mrcc",
+  "name": "American Express Membership Rewards Credit Card",
+  "issuer": "amex",
+  "network": "amex",
+  "tier": "mid",
+  "categories": ["rewards", "travel"],
+  "imageUrl": "/images/cards/amex-mrcc.webp",
+  "fees": {
+    "joining": 1000,
+    "annual": 1000,
+    "renewal": 1000,
+    "waiverCondition": "Spend ₹1,50,000 in the previous year to earn 4,500 bonus MR points (worth more than fee)",
+    "waiverSpendThreshold": 150000
+  },
+  "rewards": {
+    "pointName": "Membership Rewards",
+    "baseEarnRate": 1,
+    "pointValue": 0.3,
+    "maxPointValue": 0.5,
+    "categoryRates": [
+      { "category": "Select partners (18 MR/₹200)", "rate": 4.5, "description": "18 MR points on every ₹200 spent at select partner merchants" },
+      { "category": "All other spends", "rate": 1, "description": "1 MR point per ₹50 spent on all other purchases" }
+    ],
+    "exclusions": ["Fuel transactions", "Wallet loading", "EMI transactions", "Insurance premium payments", "Government/tax payments"],
+    "redemptionOptions": ["Amex travel bookings", "Gift vouchers (Amazon, Flipkart, Tanishq)", "Statement credit", "Product catalogue", "Airline mile transfers"]
+  },
+  "welcomeBenefits": [
+    { "description": "4,000 bonus MR points on spending ₹20,000 in first 90 days", "value": 1200, "condition": "Spend ₹20,000 within 90 days of card issuance" }
+  ],
+  "milestoneBenefits": [
+    { "spendThreshold": 150000, "period": "annual", "benefit": "4,500 bonus MR points", "value": 1350 },
+    { "spendThreshold": 300000, "period": "annual", "benefit": "Additional 3,000 bonus MR points", "value": 900 }
+  ],
+  "loungeAccess": {
+    "domestic": { "complimentaryVisits": 4, "visitPeriod": "annual" },
+    "international": { "complimentaryVisits": 0, "visitPeriod": "annual" },
+    "provider": "Amex Lounge Program"
+  },
+  "fuelSurchargeWaiver": { "percentage": 1, "maxPerMonth": 250 },
+  "foreignCurrencyMarkup": 3.5,
+  "additionalBenefits": [
+    "18 MR on ₹200 at select partners including dining and shopping",
+    "Amex Offers - rotating deals with statement credits",
+    "MR points transferable to airline miles (Delta SkyMiles, etc.)",
+    "Free supplementary card",
+    "Global customer service"
+  ],
+  "eligibility": { "minIncome": 600000, "salariedOnly": false, "minAge": 21 },
+  "rating": 3.9,
+  "pros": [
+    "Excellent accelerated rewards at partner merchants (18 MR/₹200)",
+    "MR points transferable to airline miles for higher value",
+    "Amex Offers provide regular statement credits",
+    "Good milestone benefits that offset annual fee",
+    "Strong global customer service"
+  ],
+  "cons": [
+    "Base earn rate of 1 MR/₹50 is modest",
+    "Amex acceptance limited at some Indian merchants",
+    "No international lounge access",
+    "Point value varies widely based on redemption method"
+  ],
+  "idealFor": [
+    "Users who frequently shop at Amex partner merchants",
+    "Those who want to accumulate airline miles through credit card spend"
+  ],
+  "lastUpdated": "2026-02-27",
+  "faqs": [
+    { "question": "What are the select partner merchants?", "answer": "Partners rotate but typically include popular dining chains, department stores, and online platforms. Check the Amex India website for the current partner list." },
+    { "question": "Can I transfer MR points to airlines?", "answer": "Yes, MRCC points can be transferred to airline partners like Delta SkyMiles, though the transfer ratios vary. Check the MR portal for current options." },
+    { "question": "How do Amex Offers work?", "answer": "Amex Offers are personalized deals that appear in your Amex app. When you enroll in an offer and shop at that merchant with your card, you get a statement credit or bonus MR points automatically." },
+    { "question": "Is the annual fee effectively free?", "answer": "While the ₹1,000 fee isn't directly waived, spending ₹1,50,000 earns you 4,500 bonus MR points (worth ₹1,350+), effectively more than covering the fee." }
+  ]
+}
