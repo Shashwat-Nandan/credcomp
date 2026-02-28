@@ -198,13 +198,21 @@ export function CardDetail({ card, relatedSlugs }: { card: CreditCard; relatedSl
           <div className="mt-3 grid grid-cols-2 gap-4 sm:grid-cols-3">
             <div className="rounded-lg border border-gray-200 p-4">
               <div className="text-xs text-gray-500">Domestic</div>
-              <div className="mt-1 text-lg font-semibold">{card.loungeAccess.domestic.complimentaryVisits}</div>
-              <div className="text-xs text-gray-400">per {card.loungeAccess.domestic.visitPeriod}</div>
+              <div className="mt-1 text-lg font-semibold">
+                {card.loungeAccess.domestic.complimentaryVisits === -1 ? "Unlimited" : card.loungeAccess.domestic.complimentaryVisits}
+              </div>
+              {card.loungeAccess.domestic.complimentaryVisits !== -1 && (
+                <div className="text-xs text-gray-400">per {card.loungeAccess.domestic.visitPeriod}</div>
+              )}
             </div>
             <div className="rounded-lg border border-gray-200 p-4">
               <div className="text-xs text-gray-500">International</div>
-              <div className="mt-1 text-lg font-semibold">{card.loungeAccess.international.complimentaryVisits}</div>
-              <div className="text-xs text-gray-400">per {card.loungeAccess.international.visitPeriod}</div>
+              <div className="mt-1 text-lg font-semibold">
+                {card.loungeAccess.international.complimentaryVisits === -1 ? "Unlimited" : card.loungeAccess.international.complimentaryVisits}
+              </div>
+              {card.loungeAccess.international.complimentaryVisits !== -1 && (
+                <div className="text-xs text-gray-400">per {card.loungeAccess.international.visitPeriod}</div>
+              )}
             </div>
             <div className="rounded-lg border border-gray-200 p-4">
               <div className="text-xs text-gray-500">Provider</div>
