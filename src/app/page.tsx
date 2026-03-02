@@ -46,8 +46,14 @@ export default function HomePage() {
         </div>
         <div className="mt-6 flex flex-wrap justify-center gap-3">
           <Link
-            href="/cards"
+            href="/eligibility"
             className="rounded-lg bg-[var(--color-accent)] px-5 py-2.5 text-sm font-medium text-white hover:bg-[var(--color-accent-light)] transition-colors"
+          >
+            Check Eligibility
+          </Link>
+          <Link
+            href="/cards"
+            className="rounded-lg border border-white/30 px-5 py-2.5 text-sm font-medium text-white hover:bg-white/10 transition-colors"
           >
             Browse All Cards
           </Link>
@@ -98,12 +104,18 @@ export default function HomePage() {
           Not sure which card is right for you?
         </h2>
         <p className="mx-auto mt-2 max-w-lg text-gray-500">
-          Use our comparison tool to evaluate up to 3 cards side-by-side, or calculate your potential rewards based on your spending.
+          Check your eligibility in under a minute, compare cards side-by-side, or calculate your potential rewards.
         </p>
         <div className="mt-6 flex flex-wrap justify-center gap-3">
           <Link
-            href="/compare"
+            href="/eligibility"
             className="inline-flex rounded-lg bg-[var(--color-accent)] px-6 py-3 font-medium text-white hover:bg-[var(--color-accent-light)] transition-colors"
+          >
+            Check Eligibility
+          </Link>
+          <Link
+            href="/compare"
+            className="inline-flex rounded-lg border border-[var(--color-accent)] px-6 py-3 font-medium text-[var(--color-accent)] hover:bg-[var(--color-accent)]/5 transition-colors"
           >
             Compare Cards
           </Link>

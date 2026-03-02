@@ -38,6 +38,24 @@
 - [x] Error handling (404 page, notFound() for invalid slugs, generateStaticParams)
 - [x] Final QA — build passes, 120 static pages generated
 
+## Phase 5: Eligibility Checker with Account Aggregator Integration
+
+### Core Eligibility Checker
+- [ ] 1. Create eligibility types (src/types/eligibility.ts)
+- [ ] 2. Create eligibility matching logic (src/lib/eligibility.ts)
+- [ ] 3. Build multi-step eligibility form component
+- [ ] 4. Build eligibility results component
+- [ ] 5. Create eligibility page (src/app/eligibility/page.tsx)
+
+### Account Aggregator Integration
+- [ ] 6. Build AA consent flow UI component
+- [ ] 7. Create AA service module (src/lib/aa-service.ts)
+- [ ] 8. Enhanced eligibility with AA verified data
+
+### Navigation & Polish
+- [ ] 9. Add "Check Eligibility" to nav and home page CTAs
+- [ ] 10. Build and verify everything works
+
 ## Build fixes applied
 - Added `export const dynamic = "force-static"` to robots.ts and sitemap.ts for static export
 - Refactored /cards page: moved searchParams filtering to client component (CardsPageContent)

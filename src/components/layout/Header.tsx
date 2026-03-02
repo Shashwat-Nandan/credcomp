@@ -28,14 +28,14 @@ export function Header() {
           <Link href="/calculator" className="text-sm font-medium text-gray-600 hover:text-[var(--color-primary)]">
             Calculator
           </Link>
+          <Link href="/eligibility" className="text-sm font-medium text-[var(--color-accent)] hover:text-[var(--color-accent-light)]">
+            Check Eligibility
+          </Link>
           <Link href="/categories/travel" className="text-sm font-medium text-gray-600 hover:text-[var(--color-primary)]">
             Travel
           </Link>
           <Link href="/categories/cashback" className="text-sm font-medium text-gray-600 hover:text-[var(--color-primary)]">
             Cashback
-          </Link>
-          <Link href="/categories/rewards" className="text-sm font-medium text-gray-600 hover:text-[var(--color-primary)]">
-            Rewards
           </Link>
         </div>
 
@@ -69,14 +69,14 @@ export function Header() {
             <Link href="/calculator" className="text-sm font-medium text-gray-600" onClick={() => setMobileOpen(false)}>
               Rewards Calculator
             </Link>
+            <Link href="/eligibility" className="text-sm font-medium text-[var(--color-accent)]" onClick={() => setMobileOpen(false)}>
+              Check Eligibility
+            </Link>
             <Link href="/categories/travel" className="text-sm font-medium text-gray-600" onClick={() => setMobileOpen(false)}>
               Travel Cards
             </Link>
             <Link href="/categories/cashback" className="text-sm font-medium text-gray-600" onClick={() => setMobileOpen(false)}>
               Cashback Cards
-            </Link>
-            <Link href="/categories/rewards" className="text-sm font-medium text-gray-600" onClick={() => setMobileOpen(false)}>
-              Rewards Cards
             </Link>
             <Link href="/categories/premium" className="text-sm font-medium text-gray-600" onClick={() => setMobileOpen(false)}>
               Premium Cards

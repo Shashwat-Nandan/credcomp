@@ -47,6 +47,9 @@ export function Footer() {
               <li>
                 <Link href="/calculator" className="text-sm hover:text-white">Rewards Calculator</Link>
               </li>
+              <li>
+                <Link href="/eligibility" className="text-sm hover:text-white">Check Eligibility</Link>
+              </li>
             </ul>
           </div>
           <div>
