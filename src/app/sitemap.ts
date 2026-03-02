@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/cards`, lastModified: new Date(), changeFrequency: "weekly" as const, priority: 0.9 },
     { url: `${SITE_URL}/compare`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${SITE_URL}/calculator`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${SITE_URL}/eligibility`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
   ];
 
   const cardPages = cardSlugs.map((slug) => ({
